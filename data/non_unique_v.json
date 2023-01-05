@@ -1,0 +1,4462 @@
+[
+    {
+        "name": "react",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js",
+        "index": 2,
+        "unique_v": [],
+        "global_v": [
+            "React"
+        ]
+    },
+    {
+        "name": "bootstrap",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js",
+        "index": 4,
+        "unique_v": [],
+        "global_v": [
+            "uidEvent",
+            "bootstrap"
+        ]
+    },
+    {
+        "name": "twitter-bootstrap",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js",
+        "index": 5,
+        "unique_v": [],
+        "global_v": [
+            "uidEvent",
+            "bootstrap"
+        ]
+    },
+    {
+        "name": "d3",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.0/d3.min.js",
+        "index": 7,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "three.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.148.0/three.min.js",
+        "index": 9,
+        "unique_v": [],
+        "global_v": [
+            "THREE",
+            "__THREE__"
+        ]
+    },
+    {
+        "name": "angular-loader",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-loader/1.8.3/angular-loader.min.js",
+        "index": 22,
+        "unique_v": [],
+        "global_v": [
+            "angular"
+        ]
+    },
+    {
+        "name": "angular.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js",
+        "index": 30,
+        "unique_v": [],
+        "global_v": [
+            "angular"
+        ]
+    },
+    {
+        "name": "socket.io",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js",
+        "index": 34,
+        "unique_v": [],
+        "global_v": [
+            "io"
+        ]
+    },
+    {
+        "name": "jquery",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js",
+        "index": 35,
+        "unique_v": [],
+        "global_v": [
+            "$",
+            "jQuery"
+        ]
+    },
+    {
+        "name": "jquery-compat",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js",
+        "index": 36,
+        "unique_v": [],
+        "global_v": [
+            "$",
+            "jQuery"
+        ]
+    },
+    {
+        "name": "lodash.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js",
+        "index": 44,
+        "unique_v": [],
+        "global_v": [
+            "_"
+        ]
+    },
+    {
+        "name": "moment.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js",
+        "index": 45,
+        "unique_v": [],
+        "global_v": [
+            "moment"
+        ]
+    },
+    {
+        "name": "babel-polyfill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.12.1/polyfill.min.js",
+        "index": 58,
+        "unique_v": [],
+        "global_v": [
+            "__core-js_shared__",
+            "core",
+            "setImmediate",
+            "clearImmediate",
+            "regeneratorRuntime",
+            "_babelPolyfill"
+        ]
+    },
+    {
+        "name": "video.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video.min.js",
+        "index": 65,
+        "unique_v": [],
+        "global_v": [
+            "vttjs",
+            "WebVTT",
+            "videojs"
+        ]
+    },
+    {
+        "name": "phaser",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js",
+        "index": 69,
+        "unique_v": [],
+        "global_v": [
+            "Phaser"
+        ]
+    },
+    {
+        "name": "immutable",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/immutable/4.2.1/immutable.min.js",
+        "index": 70,
+        "unique_v": [],
+        "global_v": [
+            "Immutable"
+        ]
+    },
+    {
+        "name": "gulp",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/gulp/3.8.5/gulp.min.js",
+        "index": 73,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "microsoft-signalr",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.0/signalr.min.js",
+        "index": 76,
+        "unique_v": [],
+        "global_v": [
+            "t",
+            "e",
+            "signalR"
+        ]
+    },
+    {
+        "name": "marked",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.5/marked.min.js",
+        "index": 81,
+        "unique_v": [],
+        "global_v": [
+            "marked"
+        ]
+    },
+    {
+        "name": "bodymovin",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.0/lottie.min.js",
+        "index": 86,
+        "unique_v": [],
+        "global_v": [
+            "bodymovin",
+            "lottie"
+        ]
+    },
+    {
+        "name": "lottie-web",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.0/lottie.min.js",
+        "index": 87,
+        "unique_v": [],
+        "global_v": [
+            "bodymovin",
+            "lottie"
+        ]
+    },
+    {
+        "name": "underscore.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-min.js",
+        "index": 92,
+        "unique_v": [],
+        "global_v": [
+            "_"
+        ]
+    },
+    {
+        "name": "xls",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/xls/1.0.0/xls.min.js",
+        "index": 99,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "html2canvas",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js",
+        "index": 103,
+        "unique_v": [],
+        "global_v": [
+            "html2canvas"
+        ]
+    },
+    {
+        "name": "cheerio",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cheerio/0.22.0/lib/index.js",
+        "index": 105,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "Sortable",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js",
+        "index": 110,
+        "unique_v": [],
+        "global_v": [
+            "Sortable"
+        ]
+    },
+    {
+        "name": "ember.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ember.js/4.9.3/ember.debug.js",
+        "index": 129,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "aspnet-signalr",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/aspnet-signalr/1.0.27/signalr.min.js",
+        "index": 136,
+        "unique_v": [],
+        "global_v": [
+            "signalR"
+        ]
+    },
+    {
+        "name": "hammer.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js",
+        "index": 137,
+        "unique_v": [],
+        "global_v": [
+            "Hammer"
+        ]
+    },
+    {
+        "name": "ramda",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ramda/0.28.0/ramda.min.js",
+        "index": 138,
+        "unique_v": [],
+        "global_v": [
+            "R"
+        ]
+    },
+    {
+        "name": "sweetalert",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js",
+        "index": 143,
+        "unique_v": [],
+        "global_v": [
+            "setImmediate",
+            "clearImmediate",
+            "swal",
+            "sweetAlert"
+        ]
+    },
+    {
+        "name": "highlight.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js",
+        "index": 144,
+        "unique_v": [],
+        "global_v": [
+            "hljs"
+        ]
+    },
+    {
+        "name": "bluebird",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.7.2/bluebird.min.js",
+        "index": 157,
+        "unique_v": [],
+        "global_v": [
+            "P"
+        ]
+    },
+    {
+        "name": "core-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/core-js/3.27.0/minified.js",
+        "index": 177,
+        "unique_v": [],
+        "global_v": [
+            "clearImmediate",
+            "setImmediate"
+        ]
+    },
+    {
+        "name": "velocity",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js",
+        "index": 195,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "inferno",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/inferno/8.0.5/inferno.min.js",
+        "index": 216,
+        "unique_v": [],
+        "global_v": [
+            "Inferno"
+        ]
+    },
+    {
+        "name": "inferno-create-class",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/inferno-create-class/8.0.5/inferno-create-class.min.js",
+        "index": 218,
+        "unique_v": [],
+        "global_v": [
+            "Inferno"
+        ]
+    },
+    {
+        "name": "inferno-create-element",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/inferno-create-element/8.0.5/inferno-create-element.min.js",
+        "index": 219,
+        "unique_v": [],
+        "global_v": [
+            "Inferno"
+        ]
+    },
+    {
+        "name": "inferno-hyperscript",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/inferno-hyperscript/8.0.5/inferno-hyperscript.min.js",
+        "index": 220,
+        "unique_v": [],
+        "global_v": [
+            "Inferno"
+        ]
+    },
+    {
+        "name": "inferno-shared",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/inferno-shared/8.0.5/inferno-shared.min.js",
+        "index": 225,
+        "unique_v": [],
+        "global_v": [
+            "Inferno"
+        ]
+    },
+    {
+        "name": "inferno-vnode-flags",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/inferno-vnode-flags/8.0.5/inferno-vnode-flags.min.js",
+        "index": 227,
+        "unique_v": [],
+        "global_v": [
+            "Inferno"
+        ]
+    },
+    {
+        "name": "inferno-component",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/inferno-component/7.4.11/inferno-component.min.js",
+        "index": 239,
+        "unique_v": [],
+        "global_v": [
+            "Inferno"
+        ]
+    },
+    {
+        "name": "inferno-devtools",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/inferno-devtools/7.4.11/inferno-devtools.min.js",
+        "index": 240,
+        "unique_v": [],
+        "global_v": [
+            "Inferno"
+        ]
+    },
+    {
+        "name": "flatpickr",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js",
+        "index": 245,
+        "unique_v": [],
+        "global_v": [
+            "flatpickr"
+        ]
+    },
+    {
+        "name": "masonry",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js",
+        "index": 247,
+        "unique_v": [],
+        "global_v": [
+            "jQueryBridget",
+            "EvEmitter",
+            "getSize",
+            "matchesSelector",
+            "fizzyUIUtils",
+            "Outlayer",
+            "Masonry"
+        ]
+    },
+    {
+        "name": "parallax",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js",
+        "index": 248,
+        "unique_v": [],
+        "global_v": [
+            "Parallax"
+        ]
+    },
+    {
+        "name": "zepto",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js",
+        "index": 249,
+        "unique_v": [],
+        "global_v": [
+            "Zepto",
+            "$"
+        ]
+    },
+    {
+        "name": "recompose",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/recompose/0.30.0/Recompose.min.js",
+        "index": 251,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "wangeditor5",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/wangeditor5/5.1.23/index.js",
+        "index": 254,
+        "unique_v": [],
+        "global_v": [
+            "wangEditor",
+            "Prism"
+        ]
+    },
+    {
+        "name": "xterm",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/xterm/3.14.5/xterm.min.js",
+        "index": 266,
+        "unique_v": [],
+        "global_v": [
+            "Terminal"
+        ]
+    },
+    {
+        "name": "emotion-core",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/emotion-core/11.0.0/core.umd.min.js",
+        "index": 269,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "css-layout",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/css-layout/1.1.1/css-layout.min.js",
+        "index": 280,
+        "unique_v": [],
+        "global_v": [
+            "computeLayout"
+        ]
+    },
+    {
+        "name": "wangEditor",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/wangEditor/10.0.13/wangEditor.min.js",
+        "index": 291,
+        "unique_v": [],
+        "global_v": [
+            "wangEditor"
+        ]
+    },
+    {
+        "name": "uuid",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js",
+        "index": 304,
+        "unique_v": [],
+        "global_v": [
+            "uuid"
+        ]
+    },
+    {
+        "name": "require.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js",
+        "index": 305,
+        "unique_v": [],
+        "global_v": [
+            "requirejs",
+            "require",
+            "define"
+        ]
+    },
+    {
+        "name": "showdown",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js",
+        "index": 308,
+        "unique_v": [],
+        "global_v": [
+            "showdown"
+        ]
+    },
+    {
+        "name": "jimp",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jimp/0.16.2/jimp.min.js",
+        "index": 311,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "systemjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/systemjs/6.13.0/system.min.js",
+        "index": 313,
+        "unique_v": [],
+        "global_v": [
+            "System"
+        ]
+    },
+    {
+        "name": "hls.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.2.9/hls.min.js",
+        "index": 314,
+        "unique_v": [],
+        "global_v": [
+            "Hls"
+        ]
+    },
+    {
+        "name": "crypto-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js",
+        "index": 326,
+        "unique_v": [],
+        "global_v": [
+            "CryptoJS"
+        ]
+    },
+    {
+        "name": "respond.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js",
+        "index": 328,
+        "unique_v": [],
+        "global_v": [
+            "respond"
+        ]
+    },
+    {
+        "name": "highcharts",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/highcharts/10.3.2/highcharts.js",
+        "index": 342,
+        "unique_v": [],
+        "global_v": [
+            "Highcharts"
+        ]
+    },
+    {
+        "name": "raphael",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js",
+        "index": 347,
+        "unique_v": [],
+        "global_v": [
+            "Raphael"
+        ]
+    },
+    {
+        "name": "prism",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js",
+        "index": 354,
+        "unique_v": [],
+        "global_v": [
+            "Prism"
+        ]
+    },
+    {
+        "name": "mousetrap",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.5/mousetrap.min.js",
+        "index": 365,
+        "unique_v": [],
+        "global_v": [
+            "Mousetrap"
+        ]
+    },
+    {
+        "name": "dompurify",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.4.1/purify.min.js",
+        "index": 378,
+        "unique_v": [],
+        "global_v": [
+            "DOMPurify"
+        ]
+    },
+    {
+        "name": "jsoneditor",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.9.2/jsoneditor.min.js",
+        "index": 379,
+        "unique_v": [],
+        "global_v": [
+            "ace",
+            "JSONEditor"
+        ]
+    },
+    {
+        "name": "knockout",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.js",
+        "index": 382,
+        "unique_v": [],
+        "global_v": [
+            "ko"
+        ]
+    },
+    {
+        "name": "html5shiv",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js",
+        "index": 384,
+        "unique_v": [],
+        "global_v": [
+            "html5"
+        ]
+    },
+    {
+        "name": "trianglify",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/trianglify/4.1.0/trianglify.min.js",
+        "index": 386,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "highmaps",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/highmaps/6.0.3/highmaps.js",
+        "index": 389,
+        "unique_v": [],
+        "global_v": [
+            "Highcharts"
+        ]
+    },
+    {
+        "name": "highstock",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/highstock/6.0.3/highstock.js",
+        "index": 390,
+        "unique_v": [],
+        "global_v": [
+            "Highcharts"
+        ]
+    },
+    {
+        "name": "cesium",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cesium/1.100.0/Cesium.js",
+        "index": 392,
+        "unique_v": [],
+        "global_v": [
+            "Cesium",
+            "__extends",
+            "__assign",
+            "__rest",
+            "__decorate",
+            "__param",
+            "__metadata",
+            "__awaiter",
+            "__generator",
+            "__exportStar",
+            "__createBinding",
+            "__values",
+            "__read",
+            "__spread",
+            "__spreadArrays",
+            "__spreadArray",
+            "__await",
+            "__asyncGenerator",
+            "__asyncDelegator",
+            "__asyncValues",
+            "__makeTemplateObject",
+            "__importStar",
+            "__importDefault",
+            "__classPrivateFieldGet",
+            "__classPrivateFieldSet",
+            "__classPrivateFieldIn",
+            "protobuf"
+        ]
+    },
+    {
+        "name": "svg.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js",
+        "index": 400,
+        "unique_v": [],
+        "global_v": [
+            "SVG"
+        ]
+    },
+    {
+        "name": "react-sortable-hoc",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/react-sortable-hoc/1.11.0/react-sortable-hoc.min.js",
+        "index": 407,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "wow",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js",
+        "index": 410,
+        "unique_v": [],
+        "global_v": [
+            "WOW"
+        ]
+    },
+    {
+        "name": "sinon.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/sinon.js/15.0.1/sinon.min.js",
+        "index": 417,
+        "unique_v": [],
+        "global_v": [
+            "sinon"
+        ]
+    },
+    {
+        "name": "qrcodejs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js",
+        "index": 418,
+        "unique_v": [],
+        "global_v": [
+            "QRCode"
+        ]
+    },
+    {
+        "name": "acorn",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/acorn/8.8.1/acorn.min.js",
+        "index": 430,
+        "unique_v": [],
+        "global_v": [
+            "acorn"
+        ]
+    },
+    {
+        "name": "jquery_lazyload",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/lazyload.min.js",
+        "index": 439,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "jquery.imagesloaded",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js",
+        "index": 443,
+        "unique_v": [],
+        "global_v": [
+            "EvEmitter",
+            "imagesLoaded"
+        ]
+    },
+    {
+        "name": "jquery.perfect-scrollbar",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.5/perfect-scrollbar.min.js",
+        "index": 444,
+        "unique_v": [],
+        "global_v": [
+            "PerfectScrollbar"
+        ]
+    },
+    {
+        "name": "perfect-scrollbar",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/perfect-scrollbar/1.5.5/perfect-scrollbar.min.js",
+        "index": 445,
+        "unique_v": [],
+        "global_v": [
+            "PerfectScrollbar"
+        ]
+    },
+    {
+        "name": "protobufjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/protobufjs/7.1.2/protobuf.js",
+        "index": 450,
+        "unique_v": [],
+        "global_v": [
+            "protobuf"
+        ]
+    },
+    {
+        "name": "konva",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/konva/8.3.14/konva.min.js",
+        "index": 457,
+        "unique_v": [],
+        "global_v": [
+            "Konva"
+        ]
+    },
+    {
+        "name": "json2",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/json2/20160511/json2.min.js",
+        "index": 464,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "tween.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js",
+        "index": 469,
+        "unique_v": [],
+        "global_v": [
+            "TWEEN"
+        ]
+    },
+    {
+        "name": "brain",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/brain/0.6.3/brain.min.js",
+        "index": 474,
+        "unique_v": [],
+        "global_v": [
+            "brain"
+        ]
+    },
+    {
+        "name": "satellizer",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/satellizer/0.15.4/satellizer.min.js",
+        "index": 478,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "vis",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js",
+        "index": 482,
+        "unique_v": [],
+        "global_v": [
+            "__core-js_shared__",
+            "Hammer",
+            "vis"
+        ]
+    },
+    {
+        "name": "Ladda",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/ladda.min.js",
+        "index": 494,
+        "unique_v": [],
+        "global_v": [
+            "Ladda"
+        ]
+    },
+    {
+        "name": "EaselJS",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/EaselJS/1.0.2/easeljs.min.js",
+        "index": 502,
+        "unique_v": [],
+        "global_v": [
+            "createjs"
+        ]
+    },
+    {
+        "name": "acorn-walk",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/acorn-walk/8.2.0/walk.js",
+        "index": 506,
+        "unique_v": [],
+        "global_v": [
+            "acorn"
+        ]
+    },
+    {
+        "name": "js-sequence-diagrams",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/2.0.0/sequence-diagram-min.js",
+        "index": 518,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "es5-shim",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.6.7/es5-shim.min.js",
+        "index": 533,
+        "unique_v": [],
+        "global_v": [
+            "returnExports"
+        ]
+    },
+    {
+        "name": "lunr.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js",
+        "index": 534,
+        "unique_v": [],
+        "global_v": [
+            "lunr"
+        ]
+    },
+    {
+        "name": "bootstrap-datetimepicker",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/6.2.10/js/tempus-dominus.js",
+        "index": 538,
+        "unique_v": [],
+        "global_v": [
+            "tempusDominus"
+        ]
+    },
+    {
+        "name": "tempus-dominus",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tempus-dominus/6.2.10/js/tempus-dominus.js",
+        "index": 539,
+        "unique_v": [],
+        "global_v": [
+            "tempusDominus"
+        ]
+    },
+    {
+        "name": "vanilla-lazyload",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/17.8.3/lazyload.min.js",
+        "index": 545,
+        "unique_v": [],
+        "global_v": [
+            "LazyLoad"
+        ]
+    },
+    {
+        "name": "swipe",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/swipe/2.0.0/swipe.min.js",
+        "index": 550,
+        "unique_v": [],
+        "global_v": [
+            "Swipe"
+        ]
+    },
+    {
+        "name": "jquery-noty",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery-noty/3.1.4/jquery.noty.min.js",
+        "index": 555,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "sentry-browser",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/sentry-browser/6.19.7/bundle.min.js",
+        "index": 556,
+        "unique_v": [],
+        "global_v": [
+            "Sentry"
+        ]
+    },
+    {
+        "name": "wysihtml5",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/wysihtml5/0.3.0/wysihtml5.min.js",
+        "index": 572,
+        "unique_v": [],
+        "global_v": [
+            "wysihtml5",
+            "Base",
+            "rangy"
+        ]
+    },
+    {
+        "name": "keymaster",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/keymaster/1.6.1/keymaster.min.js",
+        "index": 594,
+        "unique_v": [],
+        "global_v": [
+            "key"
+        ]
+    },
+    {
+        "name": "sizzle",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/sizzle/2.3.9/sizzle.min.js",
+        "index": 602,
+        "unique_v": [],
+        "global_v": [
+            "Sizzle"
+        ]
+    },
+    {
+        "name": "crossfilter",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js",
+        "index": 604,
+        "unique_v": [],
+        "global_v": [
+            "crossfilter"
+        ]
+    },
+    {
+        "name": "esprima",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/esprima/4.0.0/esprima.min.js",
+        "index": 607,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "bounce.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bounce.js/0.8.2/bounce.min.js",
+        "index": 613,
+        "unique_v": [],
+        "global_v": [
+            "Bounce"
+        ]
+    },
+    {
+        "name": "auto-animate",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/auto-animate/1.0.0-pre-alpha.3/index.min.js",
+        "index": 615,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ethers",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.min.js",
+        "index": 617,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "snap.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/snap.js/1.9.3/snap.min.js",
+        "index": 618,
+        "unique_v": [],
+        "global_v": [
+            "Snap"
+        ]
+    },
+    {
+        "name": "chance",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/chance/1.1.9/chance.min.js",
+        "index": 620,
+        "unique_v": [],
+        "global_v": [
+            "Chance",
+            "chance"
+        ]
+    },
+    {
+        "name": "qrcode",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.5.1/qrcode.js",
+        "index": 621,
+        "unique_v": [],
+        "global_v": [
+            "QRCode"
+        ]
+    },
+    {
+        "name": "ractive",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ractive/1.4.1/ractive.min.js",
+        "index": 637,
+        "unique_v": [],
+        "global_v": [
+            "Ractive"
+        ]
+    },
+    {
+        "name": "ractive.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ractive.js/0.3.7/ractive.min.js",
+        "index": 645,
+        "unique_v": [],
+        "global_v": [
+            "Ractive"
+        ]
+    },
+    {
+        "name": "to-markdown",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/to-markdown/7.1.1/to-markdown.min.js",
+        "index": 647,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ckeditor",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.20.1/ckeditor.js",
+        "index": 652,
+        "unique_v": [],
+        "global_v": [
+            "CKEDITOR"
+        ]
+    },
+    {
+        "name": "react-autosuggest",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/react-autosuggest/10.0.4/autosuggest.min.js",
+        "index": 654,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "animateplus",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/animateplus/2.1.1/animateplus.min.js",
+        "index": 655,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "lightgallery",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js",
+        "index": 663,
+        "unique_v": [],
+        "global_v": [
+            "lightGallery"
+        ]
+    },
+    {
+        "name": "seamless-immutable",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/seamless-immutable/7.1.4/seamless-immutable.production.min.js",
+        "index": 697,
+        "unique_v": [],
+        "global_v": [
+            "Immutable"
+        ]
+    },
+    {
+        "name": "bootstrap-switch",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.5/js/bootstrap-switch.min.js",
+        "index": 706,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "smooth-scroll",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js",
+        "index": 715,
+        "unique_v": [],
+        "global_v": [
+            "SmoothScroll"
+        ]
+    },
+    {
+        "name": "tabulator",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tabulator/5.4.3/js/tabulator.min.js",
+        "index": 717,
+        "unique_v": [],
+        "global_v": [
+            "Tabulator"
+        ]
+    },
+    {
+        "name": "tabulator-tables",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tabulator-tables/5.4.3/js/tabulator.min.js",
+        "index": 718,
+        "unique_v": [],
+        "global_v": [
+            "Tabulator"
+        ]
+    },
+    {
+        "name": "tui-image-editor",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tui-image-editor/3.15.3/tui-image-editor.min.js",
+        "index": 719,
+        "unique_v": [],
+        "global_v": [
+            "tui",
+            "fabric"
+        ]
+    },
+    {
+        "name": "evil-icons",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/evil-icons/1.10.1/evil-icons.min.js",
+        "index": 740,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "tui-chart",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tui-chart/3.11.3/tui-chart.min.js",
+        "index": 752,
+        "unique_v": [],
+        "global_v": [
+            "tui"
+        ]
+    },
+    {
+        "name": "js-xss",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/js-xss/0.3.3/xss.min.js",
+        "index": 760,
+        "unique_v": [],
+        "global_v": [
+            "filterCSS",
+            "filterXSS"
+        ]
+    },
+    {
+        "name": "tinycolor",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.5.1/tinycolor.min.js",
+        "index": 850,
+        "unique_v": [],
+        "global_v": [
+            "tinycolor"
+        ]
+    },
+    {
+        "name": "react-quill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/react-quill/1.3.5/react-quill.min.js",
+        "index": 856,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "pako",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js",
+        "index": 863,
+        "unique_v": [],
+        "global_v": [
+            "pako"
+        ]
+    },
+    {
+        "name": "alertify.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.11/alertify.min.js",
+        "index": 868,
+        "unique_v": [],
+        "global_v": [
+            "alertify"
+        ]
+    },
+    {
+        "name": "html-minifier",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/html-minifier/4.0.0/htmlminifier.min.js",
+        "index": 881,
+        "unique_v": [],
+        "global_v": [
+            "require"
+        ]
+    },
+    {
+        "name": "blueimp-md5",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js",
+        "index": 887,
+        "unique_v": [],
+        "global_v": [
+            "md5"
+        ]
+    },
+    {
+        "name": "gl-matrix",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/3.4.2/gl-matrix-min.js",
+        "index": 888,
+        "unique_v": [],
+        "global_v": [
+            "glMatrix"
+        ]
+    },
+    {
+        "name": "headjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js",
+        "index": 894,
+        "unique_v": [],
+        "global_v": [
+            "head"
+        ]
+    },
+    {
+        "name": "antv-x6",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/antv-x6/3.0.0/index.js",
+        "index": 898,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "yui",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/yui/3.18.1/yui/yui-min.js",
+        "index": 920,
+        "unique_v": [],
+        "global_v": [
+            "YUI"
+        ]
+    },
+    {
+        "name": "lite-youtube-embed",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.2.0/lite-yt-embed.js",
+        "index": 924,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "SoundJS",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/SoundJS/1.0.2/soundjs.min.js",
+        "index": 931,
+        "unique_v": [],
+        "global_v": [
+            "createjs"
+        ]
+    },
+    {
+        "name": "pubsub-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/pubsub-js/1.9.4/pubsub.min.js",
+        "index": 933,
+        "unique_v": [],
+        "global_v": [
+            "PubSub"
+        ]
+    },
+    {
+        "name": "webcomponentsjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.7.0/webcomponents-loader.js",
+        "index": 934,
+        "unique_v": [],
+        "global_v": [
+            "WebComponents"
+        ]
+    },
+    {
+        "name": "vue-meta",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vue-meta/2.4.0/vue-meta.cjs.js",
+        "index": 939,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "gifshot",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/gifshot/0.4.5/gifshot.min.js",
+        "index": 953,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "device.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/device.js/0.10.1/device.min.js",
+        "index": 962,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "rsvp",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/rsvp/4.8.5/rsvp.min.js",
+        "index": 972,
+        "unique_v": [],
+        "global_v": [
+            "RSVP"
+        ]
+    },
+    {
+        "name": "canvas-nest.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js",
+        "index": 977,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "pnotify",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/pnotify/5.1.2/pnotify.js",
+        "index": 982,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "recorderjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/recorderjs/0.1.0/recorder.min.js",
+        "index": 983,
+        "unique_v": [],
+        "global_v": [
+            "Recorder"
+        ]
+    },
+    {
+        "name": "tarekraafat-autocomplete.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tarekraafat-autocomplete.js/10.2.7/autoComplete.min.js",
+        "index": 1001,
+        "unique_v": [],
+        "global_v": [
+            "e",
+            "t",
+            "autoComplete"
+        ]
+    },
+    {
+        "name": "polyglot.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/polyglot.js/2.4.1/polyglot.min.js",
+        "index": 1017,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "web-animations",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.2/web-animations.min.js",
+        "index": 1024,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "iamdustan-smoothscroll",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/iamdustan-smoothscroll/0.4.3/smoothscroll.min.js",
+        "index": 1026,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "wysihtml",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/wysihtml/0.5.5/wysihtml.min.js",
+        "index": 1046,
+        "unique_v": [],
+        "global_v": [
+            "wysihtml5",
+            "Base",
+            "rangy"
+        ]
+    },
+    {
+        "name": "webrtc-adapter",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/8.2.0/adapter.js",
+        "index": 1059,
+        "unique_v": [],
+        "global_v": [
+            "adapter"
+        ]
+    },
+    {
+        "name": "zuck.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/zuck.js/1.6.0/zuck.min.js",
+        "index": 1060,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "json-editor",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/json-editor/2.8.0/jsoneditor.js",
+        "index": 1061,
+        "unique_v": [],
+        "global_v": [
+            "regeneratorRuntime",
+            "JSONEditor"
+        ]
+    },
+    {
+        "name": "d3-cloud",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js",
+        "index": 1069,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "tweenjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tweenjs/1.0.2/tweenjs.min.js",
+        "index": 1071,
+        "unique_v": [],
+        "global_v": [
+            "createjs"
+        ]
+    },
+    {
+        "name": "rainbow",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/rainbow/2.1.7/js/rainbow.min.js",
+        "index": 1074,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "voca",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/voca/1.4.0/voca.min.js",
+        "index": 1093,
+        "unique_v": [],
+        "global_v": [
+            "v"
+        ]
+    },
+    {
+        "name": "xregexp",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/xregexp/3.2.0/xregexp-all.min.js",
+        "index": 1095,
+        "unique_v": [],
+        "global_v": [
+            "XRegExp"
+        ]
+    },
+    {
+        "name": "EventEmitter",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/EventEmitter/5.2.8/EventEmitter.min.js",
+        "index": 1105,
+        "unique_v": [],
+        "global_v": [
+            "EventEmitter"
+        ]
+    },
+    {
+        "name": "stampit",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/stampit/4.3.1/stampit.umd.min.js",
+        "index": 1108,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ngInfiniteScroll",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ngInfiniteScroll/1.3.4/ng-infinite-scroll.min.js",
+        "index": 1117,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "reqwest",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/reqwest/2.0.5/reqwest.min.js",
+        "index": 1144,
+        "unique_v": [],
+        "global_v": [
+            "reqwest"
+        ]
+    },
+    {
+        "name": "ng-table",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ng-table/3.1.0/ng-table.min.js",
+        "index": 1153,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "simple-statistics",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/simple-statistics/7.8.0/simple-statistics.min.js",
+        "index": 1158,
+        "unique_v": [],
+        "global_v": [
+            "ss"
+        ]
+    },
+    {
+        "name": "embla-carousel",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/embla-carousel/3.0.13/index.js",
+        "index": 1174,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "dimple",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/dimple/2.3.0/dimple.latest.min.js",
+        "index": 1177,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "web-socket-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/web-socket-js/1.0.0/web_socket.min.js",
+        "index": 1179,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ace",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ace/1.14.0/ace.js",
+        "index": 1180,
+        "unique_v": [],
+        "global_v": [
+            "define",
+            "require",
+            "ace"
+        ]
+    },
+    {
+        "name": "flipclock",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.10.7/flipclock.min.js",
+        "index": 1183,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "platform",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/platform/1.3.6/platform.min.js",
+        "index": 1186,
+        "unique_v": [],
+        "global_v": [
+            "platform"
+        ]
+    },
+    {
+        "name": "PreloadJS",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/PreloadJS/1.0.1/preloadjs.min.js",
+        "index": 1190,
+        "unique_v": [],
+        "global_v": [
+            "createjs",
+            "JSON3"
+        ]
+    },
+    {
+        "name": "cookieconsent",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.js",
+        "index": 1208,
+        "unique_v": [],
+        "global_v": [
+            "cookieconsent"
+        ]
+    },
+    {
+        "name": "cookieconsent2",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js",
+        "index": 1209,
+        "unique_v": [],
+        "global_v": [
+            "cookieconsent"
+        ]
+    },
+    {
+        "name": "jquery-ujs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery-ujs/1.2.3/rails.min.js",
+        "index": 1211,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "swing",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/swing/4.3.0/swing.js",
+        "index": 1219,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "jsfeat",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jsfeat/0.0.8/jsfeat-min.js",
+        "index": 1222,
+        "unique_v": [],
+        "global_v": [
+            "jsfeat"
+        ]
+    },
+    {
+        "name": "jQuery.mmenu",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/9.2.3/mmenu.js",
+        "index": 1224,
+        "unique_v": [],
+        "global_v": [
+            "Mmenu"
+        ]
+    },
+    {
+        "name": "mmenu-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/mmenu-js/9.2.3/mmenu.js",
+        "index": 1225,
+        "unique_v": [],
+        "global_v": [
+            "Mmenu"
+        ]
+    },
+    {
+        "name": "validate-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/validate-js/2.0.1/validate.min.js",
+        "index": 1232,
+        "unique_v": [],
+        "global_v": [
+            "FormValidator"
+        ]
+    },
+    {
+        "name": "griddle-react",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/griddle-react/1.13.1/Griddle.min.js",
+        "index": 1236,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "libphonenumber-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/libphonenumber-js/1.10.15/libphonenumber-js.min.js",
+        "index": 1242,
+        "unique_v": [],
+        "global_v": [
+            "libphonenumber"
+        ]
+    },
+    {
+        "name": "cuid",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cuid/2.1.6/browser-cuid.min.js",
+        "index": 1254,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ngStorage",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.11/ngStorage.min.js",
+        "index": 1260,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "easyXDM",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/easyXDM/2.4.20/easyXDM.min.js",
+        "index": 1270,
+        "unique_v": [],
+        "global_v": [
+            "easyXDM"
+        ]
+    },
+    {
+        "name": "d3-shape",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-shape/1.2.0/d3-shape.min.js",
+        "index": 1275,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "side-comments",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/side-comments/0.0.1/side-comments.min.js",
+        "index": 1281,
+        "unique_v": [],
+        "global_v": [
+            "require"
+        ]
+    },
+    {
+        "name": "later",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/later/1.2.0/later.min.js",
+        "index": 1282,
+        "unique_v": [],
+        "global_v": [
+            "later"
+        ]
+    },
+    {
+        "name": "loglevel",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/loglevel/1.8.1/loglevel.min.js",
+        "index": 1288,
+        "unique_v": [],
+        "global_v": [
+            "log"
+        ]
+    },
+    {
+        "name": "expect",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/expect/1.20.2/expect.min.js",
+        "index": 1296,
+        "unique_v": [],
+        "global_v": [
+            "expect"
+        ]
+    },
+    {
+        "name": "blissfuljs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/blissfuljs/1.0.6/bliss.min.js",
+        "index": 1302,
+        "unique_v": [],
+        "global_v": [
+            "Bliss",
+            "$",
+            "$$"
+        ]
+    },
+    {
+        "name": "Uniform.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/Uniform.js/4.3.0/js/jquery.uniform.bundled.js",
+        "index": 1316,
+        "unique_v": [],
+        "global_v": [
+            "$",
+            "jQuery"
+        ]
+    },
+    {
+        "name": "p2.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/p2.js/0.7.1/p2.min.js",
+        "index": 1317,
+        "unique_v": [],
+        "global_v": [
+            "p2"
+        ]
+    },
+    {
+        "name": "psd.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/psd.js/3.4.0/psd.min.js",
+        "index": 1326,
+        "unique_v": [],
+        "global_v": [
+            "require"
+        ]
+    },
+    {
+        "name": "livescript",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/livescript/1.6.1/livescript-min.js",
+        "index": 1351,
+        "unique_v": [],
+        "global_v": [
+            "require"
+        ]
+    },
+    {
+        "name": "Clamp.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/Clamp.js/0.5.1/clamp.min.js",
+        "index": 1365,
+        "unique_v": [],
+        "global_v": [
+            "$clamp"
+        ]
+    },
+    {
+        "name": "bootstrap-sweetalert",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js",
+        "index": 1384,
+        "unique_v": [],
+        "global_v": [
+            "swal",
+            "sweetAlert"
+        ]
+    },
+    {
+        "name": "ismobilejs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ismobilejs/1.1.0/isMobile.min.js",
+        "index": 1385,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "promise-polyfill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/promise-polyfill/8.2.3/polyfill.min.js",
+        "index": 1390,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "cutjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cutjs/0.5.0/cut.web.min.js",
+        "index": 1392,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "expect.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/expect.js/0.3.1/index.min.js",
+        "index": 1393,
+        "unique_v": [],
+        "global_v": [
+            "expect"
+        ]
+    },
+    {
+        "name": "rangy",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/rangy/1.3.1/rangy-core.min.js",
+        "index": 1394,
+        "unique_v": [],
+        "global_v": [
+            "rangy"
+        ]
+    },
+    {
+        "name": "react-cookie",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/react-cookie/4.0.3/react-cookie.min.js",
+        "index": 1406,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "strman",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/strman/2.0.0/strman.js",
+        "index": 1408,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "folktale",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/folktale/2.3.1/folktale.min.js",
+        "index": 1437,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "vis-network",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/standalone/umd/vis-network.min.js",
+        "index": 1444,
+        "unique_v": [],
+        "global_v": [
+            "vis",
+            "regeneratorRuntime"
+        ]
+    },
+    {
+        "name": "js-url",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/js-url/2.6.2/url.min.js",
+        "index": 1447,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "leapjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/leapjs/1.1.0/leap.min.js",
+        "index": 1452,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "backbone-localstorage.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/2.0.2/backbone.localStorage-min.js",
+        "index": 1453,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "sprintf",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/sprintf/1.1.2/sprintf.min.js",
+        "index": 1460,
+        "unique_v": [],
+        "global_v": [
+            "sprintf",
+            "vsprintf"
+        ]
+    },
+    {
+        "name": "tauCharts",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tauCharts/2.7.4/tauCharts.min.js",
+        "index": 1461,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "should.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/should.js/13.2.3/should.min.js",
+        "index": 1462,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "jquery-url-parser",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js",
+        "index": 1466,
+        "unique_v": [],
+        "global_v": [
+            "purl"
+        ]
+    },
+    {
+        "name": "purl",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/purl/2.3.1/purl.min.js",
+        "index": 1467,
+        "unique_v": [],
+        "global_v": [
+            "purl"
+        ]
+    },
+    {
+        "name": "rot.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/rot.js/2.1.4/rot.min.js",
+        "index": 1471,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ifvisible",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ifvisible/2.0.10/ifvisible.min.js",
+        "index": 1472,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "pnp-logging",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/pnp-logging/1.3.11/logging.es5.umd.min.js",
+        "index": 1475,
+        "unique_v": [],
+        "global_v": [
+            "pnp"
+        ]
+    },
+    {
+        "name": "pnp-common",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/pnp-common/1.3.11/common.es5.umd.min.js",
+        "index": 1479,
+        "unique_v": [],
+        "global_v": [
+            "pnp"
+        ]
+    },
+    {
+        "name": "pnp-config-store",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/pnp-config-store/1.3.11/config-store.es5.umd.min.js",
+        "index": 1480,
+        "unique_v": [],
+        "global_v": [
+            "pnp"
+        ]
+    },
+    {
+        "name": "pnp-pnpjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/pnp-pnpjs/2.15.0/pnp.min.js",
+        "index": 1482,
+        "unique_v": [],
+        "global_v": [
+            "pnp"
+        ]
+    },
+    {
+        "name": "multiple-select",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/multiple-select/1.5.1/multiple-select.min.js",
+        "index": 1505,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "event-source-polyfill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/event-source-polyfill/0.0.9/eventsource.min.js",
+        "index": 1506,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "minigrid",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/minigrid/3.1.0/minigrid.min.js",
+        "index": 1513,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "vue-toasted",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vue-toasted/1.1.28/vue-toasted.min.js",
+        "index": 1519,
+        "unique_v": [],
+        "global_v": [
+            "Hammer",
+            "default"
+        ]
+    },
+    {
+        "name": "AlertifyJS",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.min.js",
+        "index": 1520,
+        "unique_v": [],
+        "global_v": [
+            "alertify"
+        ]
+    },
+    {
+        "name": "Cookies.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.2.3/cookies.min.js",
+        "index": 1521,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "vivid",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vivid/1.0.10/vivid-icons.min.js",
+        "index": 1534,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "selectivizr",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js",
+        "index": 1538,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "reflect-metadata",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/reflect-metadata/0.1.13/Reflect.min.js",
+        "index": 1545,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "mapbox.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/mapbox.js/3.3.1/mapbox.js",
+        "index": 1547,
+        "unique_v": [],
+        "global_v": [
+            "L"
+        ]
+    },
+    {
+        "name": "store2",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/store2/2.14.2/store2.min.js",
+        "index": 1549,
+        "unique_v": [],
+        "global_v": [
+            "store"
+        ]
+    },
+    {
+        "name": "devexpress-gantt",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/devexpress-gantt/4.1.39/dx-gantt.min.js",
+        "index": 1586,
+        "unique_v": [],
+        "global_v": [
+            "DevExpress"
+        ]
+    },
+    {
+        "name": "devextreme",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/devextreme/22.2.3/js/dx.all.js",
+        "index": 1587,
+        "unique_v": [],
+        "global_v": [
+            "DevExpress"
+        ]
+    },
+    {
+        "name": "devexpress-diagram",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/devexpress-diagram/2.1.67/dx-diagram.min.js",
+        "index": 1588,
+        "unique_v": [],
+        "global_v": [
+            "DevExpress"
+        ]
+    },
+    {
+        "name": "polymaps",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/polymaps/2.5.1/polymaps.min.js",
+        "index": 1636,
+        "unique_v": [],
+        "global_v": [
+            "org"
+        ]
+    },
+    {
+        "name": "downloadjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js",
+        "index": 1643,
+        "unique_v": [],
+        "global_v": [
+            "download"
+        ]
+    },
+    {
+        "name": "jStorage",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jStorage/0.4.12/jstorage.min.js",
+        "index": 1646,
+        "unique_v": [],
+        "global_v": [
+            "$"
+        ]
+    },
+    {
+        "name": "cell",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cell/1.2.0/cell.min.js",
+        "index": 1649,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "roll-call",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/roll-call/0.7.1/rollcall.min.js",
+        "index": 1653,
+        "unique_v": [],
+        "global_v": [
+            "WebComponents",
+            "HTMLImports"
+        ]
+    },
+    {
+        "name": "monkberry",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/monkberry/4.0.8/monkberry.min.js",
+        "index": 1684,
+        "unique_v": [],
+        "global_v": [
+            "Monkberry"
+        ]
+    },
+    {
+        "name": "backbone.paginator",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/backbone.paginator/2.0.8/backbone.paginator.min.js",
+        "index": 1701,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "deb.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/deb.js/0.0.2/deb.min.js",
+        "index": 1712,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "upng-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/upng-js/2.1.0/UPNG.min.js",
+        "index": 1715,
+        "unique_v": [],
+        "global_v": [
+            "UPNG"
+        ]
+    },
+    {
+        "name": "queue-async",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.2.0/queue.min.js",
+        "index": 1718,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "selection-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/selection-js/2.1.1/selection.min.js",
+        "index": 1720,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-queue",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-queue/3.0.7/d3-queue.min.js",
+        "index": 1724,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "rambda",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/rambda/7.4.0/rambda.umd.js",
+        "index": 1750,
+        "unique_v": [],
+        "global_v": [
+            "R"
+        ]
+    },
+    {
+        "name": "lazyload",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/lazyload/2.0.3/lazyload-min.js",
+        "index": 1753,
+        "unique_v": [],
+        "global_v": [
+            "LazyLoad"
+        ]
+    },
+    {
+        "name": "seedrandom",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js",
+        "index": 1759,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "shariff",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/shariff/3.2.0/shariff.min.js",
+        "index": 1776,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "numeric",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js",
+        "index": 1781,
+        "unique_v": [],
+        "global_v": [
+            "numeric"
+        ]
+    },
+    {
+        "name": "jquery.panzoom",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery.panzoom/4.0.0/panzoom.min.js",
+        "index": 1790,
+        "unique_v": [],
+        "global_v": [
+            "Panzoom"
+        ]
+    },
+    {
+        "name": "angular-bootstrap-datetimepicker",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-bootstrap-datetimepicker/4.0.1/js/datetimepicker.min.js",
+        "index": 1805,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "pjax",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/pjax/0.2.8/pjax.min.js",
+        "index": 1808,
+        "unique_v": [],
+        "global_v": [
+            "Pjax"
+        ]
+    },
+    {
+        "name": "js-marker-clusterer",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/js-marker-clusterer/1.0.0/markerclusterer_compiled.js",
+        "index": 1813,
+        "unique_v": [],
+        "global_v": [
+            "MarkerClusterer"
+        ]
+    },
+    {
+        "name": "fuzzyset.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/fuzzyset.js/1.0.5/fuzzyset.min.js",
+        "index": 1814,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "sortable",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js",
+        "index": 1818,
+        "unique_v": [],
+        "global_v": [
+            "Sortable"
+        ]
+    },
+    {
+        "name": "html5media",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/html5media/1.2.0/html5media.min.js",
+        "index": 1823,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "crossfilter2",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/crossfilter2/1.5.4/crossfilter.min.js",
+        "index": 1825,
+        "unique_v": [],
+        "global_v": [
+            "crossfilter"
+        ]
+    },
+    {
+        "name": "ladda-bootstrap",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ladda-bootstrap/0.9.4/ladda.min.js",
+        "index": 1826,
+        "unique_v": [],
+        "global_v": [
+            "Ladda"
+        ]
+    },
+    {
+        "name": "phaser-ce",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/phaser-ce/2.20.0/phaser.min.js",
+        "index": 1832,
+        "unique_v": [],
+        "global_v": [
+            "p2",
+            "PIXI",
+            "Phaser"
+        ]
+    },
+    {
+        "name": "stretchy",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/stretchy/2.0.1/stretchy.min.js",
+        "index": 1843,
+        "unique_v": [],
+        "global_v": [
+            "Stretchy"
+        ]
+    },
+    {
+        "name": "HTML5Notification",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/HTML5Notification/3.0.0/Notification.min.js",
+        "index": 1855,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "template_js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/template_js/2.3.0/template.min.js",
+        "index": 1860,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "google-libphonenumber",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/google-libphonenumber/3.2.31/libphonenumber.js",
+        "index": 1870,
+        "unique_v": [],
+        "global_v": [
+            "libphonenumber"
+        ]
+    },
+    {
+        "name": "d3-tip",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js",
+        "index": 1886,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "setImmediate",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/setImmediate/1.0.5/setImmediate.min.js",
+        "index": 1893,
+        "unique_v": [],
+        "global_v": [
+            "setImmediate",
+            "clearImmediate"
+        ]
+    },
+    {
+        "name": "aurora.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/aurora.js/0.4.2/aurora.min.js",
+        "index": 1894,
+        "unique_v": [],
+        "global_v": [
+            "AV"
+        ]
+    },
+    {
+        "name": "bottleneck",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bottleneck/2.19.4/bottleneck.min.js",
+        "index": 1895,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "document-register-element",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/document-register-element/1.14.10/document-register-element.js",
+        "index": 1914,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "cookie.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cookie.js/1.4.1/cookie.min.js",
+        "index": 1917,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "Selectivity.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/Selectivity.js/3.0.6/selectivity-full.min.js",
+        "index": 1919,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "tv4",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tv4/1.3.0/tv4.min.js",
+        "index": 1920,
+        "unique_v": [],
+        "global_v": [
+            "tv4"
+        ]
+    },
+    {
+        "name": "PKI.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/PKI.js/1.2.1/x509_simpl.min.js",
+        "index": 1926,
+        "unique_v": [],
+        "global_v": [
+            "org"
+        ]
+    },
+    {
+        "name": "classlist",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/classlist/1.2.20180112/classList.min.js",
+        "index": 1931,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "path.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/path.js/0.8.4/path.min.js",
+        "index": 1935,
+        "unique_v": [],
+        "global_v": [
+            "Path"
+        ]
+    },
+    {
+        "name": "d3-force",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-force/2.1.1/d3-force.min.js",
+        "index": 1939,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "redux-little-router",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/redux-little-router/15.1.1/redux-little-router.min.js",
+        "index": 1958,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "emblem",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/emblem/0.12.0/emblem.min.js",
+        "index": 1971,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "vis-timeline",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vis-timeline/7.7.0/vis-timeline-graph2d.min.js",
+        "index": 1978,
+        "unique_v": [],
+        "global_v": [
+            "vis",
+            "regeneratorRuntime",
+            "filterCSS",
+            "filterXSS"
+        ]
+    },
+    {
+        "name": "json3",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/json3/3.3.3/json3.min.js",
+        "index": 1986,
+        "unique_v": [],
+        "global_v": [
+            "JSON3"
+        ]
+    },
+    {
+        "name": "tslib",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tslib/2.4.1/tslib.min.js",
+        "index": 1988,
+        "unique_v": [],
+        "global_v": [
+            "__param",
+            "__asyncValues",
+            "__values",
+            "__classPrivateFieldSet",
+            "__assign",
+            "__await",
+            "__awaiter",
+            "__importStar",
+            "__spread",
+            "__createBinding",
+            "__decorate",
+            "__asyncDelegator",
+            "__exportStar",
+            "__classPrivateFieldGet",
+            "__extends",
+            "__spreadArray",
+            "__metadata",
+            "__makeTemplateObject",
+            "__read",
+            "__classPrivateFieldIn",
+            "__rest",
+            "__asyncGenerator",
+            "__generator",
+            "__importDefault",
+            "__spreadArrays"
+        ]
+    },
+    {
+        "name": "simple-ajax-uploader",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/simple-ajax-uploader/2.6.7/SimpleAjaxUploader.min.js",
+        "index": 2020,
+        "unique_v": [],
+        "global_v": [
+            "ss"
+        ]
+    },
+    {
+        "name": "shadydom",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/shadydom/1.10.0/shadydom.min.js",
+        "index": 2022,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "husl",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/husl/6.0.4/husl.min.js",
+        "index": 2023,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "github-buttons",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/github-buttons/2.22.1/buttons.min.js",
+        "index": 2047,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "webcomponents-template-polyfill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/webcomponents-template-polyfill/1.5.0/template.min.js",
+        "index": 2058,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "dio",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/dio/9.1.0/dio.min.js",
+        "index": 2074,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "vue2-filters",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vue2-filters/0.14.0/vue2-filters.min.js",
+        "index": 2080,
+        "unique_v": [],
+        "global_v": [
+            "default"
+        ]
+    },
+    {
+        "name": "simplelightbox",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.11.0/simple-lightbox.min.js",
+        "index": 2082,
+        "unique_v": [],
+        "global_v": [
+            "SimpleLightbox"
+        ]
+    },
+    {
+        "name": "d3-geo-projection",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/3.0.0/d3-geo-projection.min.js",
+        "index": 2084,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "postscribe",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/postscribe/2.0.8/postscribe.min.js",
+        "index": 2089,
+        "unique_v": [],
+        "global_v": [
+            "postscribe"
+        ]
+    },
+    {
+        "name": "d3-geo",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-geo/1.9.1/d3-geo.min.js",
+        "index": 2110,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "dom4",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/dom4/2.1.6/dom4.js",
+        "index": 2111,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "domready",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/domready/1.0.8/ready.min.js",
+        "index": 2130,
+        "unique_v": [],
+        "global_v": [
+            "domready"
+        ]
+    },
+    {
+        "name": "egjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/egjs/2.0.0/eg.min.js",
+        "index": 2133,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "shopify-buy",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/shopify-buy/0.7.1/shopify-buy.umd.min.js",
+        "index": 2136,
+        "unique_v": [],
+        "global_v": [
+            "ShopifyBuy"
+        ]
+    },
+    {
+        "name": "proxy-polyfill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/proxy-polyfill/0.3.2/proxy.min.js",
+        "index": 2138,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "numbro",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/numbro/2.0.5/numbro.min.js",
+        "index": 2147,
+        "unique_v": [],
+        "global_v": [
+            "numbro"
+        ]
+    },
+    {
+        "name": "jquery.ripples",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.6.2/jquery.ripples.min.js",
+        "index": 2150,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "swipejs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/swipejs/2.3.1/swipe.min.js",
+        "index": 2169,
+        "unique_v": [],
+        "global_v": [
+            "Swipe"
+        ]
+    },
+    {
+        "name": "graingert-wow",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.2/wow.min.js",
+        "index": 2180,
+        "unique_v": [],
+        "global_v": [
+            "WOW"
+        ]
+    },
+    {
+        "name": "timezone-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/timezone-js/2.0.4/date.min.js",
+        "index": 2184,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "string_score",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/string_score/0.1.22/string_score.min.js",
+        "index": 2195,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "matreshka",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/matreshka/2.3.1/matreshka.min.js",
+        "index": 2199,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "microevent",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/microevent/1.0.0/microevent.js",
+        "index": 2203,
+        "unique_v": [],
+        "global_v": [
+            "MicroEvent"
+        ]
+    },
+    {
+        "name": "response.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/response.js/0.10.1/response.min.js",
+        "index": 2205,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ieBetter.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ieBetter.js/1.0.3/ieBetter-min.js",
+        "index": 2220,
+        "unique_v": [],
+        "global_v": [
+            "Sizzle"
+        ]
+    },
+    {
+        "name": "opus-recorder",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/opus-recorder/8.0.5/recorder.min.js",
+        "index": 2223,
+        "unique_v": [],
+        "global_v": [
+            "Recorder"
+        ]
+    },
+    {
+        "name": "codeflask",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/codeflask/1.4.1/codeflask.min.js",
+        "index": 2225,
+        "unique_v": [],
+        "global_v": [
+            "Prism",
+            "CodeFlask"
+        ]
+    },
+    {
+        "name": "CodeFlask.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/CodeFlask.js/1.4.1/codeflask.min.js",
+        "index": 2226,
+        "unique_v": [],
+        "global_v": [
+            "Prism",
+            "CodeFlask"
+        ]
+    },
+    {
+        "name": "d3-hierarchy",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-hierarchy/1.1.5/d3-hierarchy.min.js",
+        "index": 2238,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "ember-i18n",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ember-i18n/5.3.0/i18n.min.js",
+        "index": 2243,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "photo-editor",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/photo-editor/1.2.0/js/main.js",
+        "index": 2245,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "url-search-params",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/url-search-params/1.1.0/url-search-params.js",
+        "index": 2257,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "xhook",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/xhook/1.4.9/xhook.min.js",
+        "index": 2258,
+        "unique_v": [],
+        "global_v": [
+            "xhook"
+        ]
+    },
+    {
+        "name": "rem",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/rem/1.3.4/js/rem.min.js",
+        "index": 2294,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "lie",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/lie/3.3.0/lie.min.js",
+        "index": 2296,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "txt.wav",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/txt.wav/1.0.5/js/txt.wav.min.js",
+        "index": 2310,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "svgxuse",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/svgxuse/1.2.6/svgxuse.min.js",
+        "index": 2314,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "angular-spinner",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-spinner/1.0.1/angular-spinner.min.js",
+        "index": 2321,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "smoothscroll",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js",
+        "index": 2326,
+        "unique_v": [],
+        "global_v": [
+            "SmoothScroll"
+        ]
+    },
+    {
+        "name": "engine.io-client",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/engine.io-client/3.5.3/engine.io.min.js",
+        "index": 2329,
+        "unique_v": [],
+        "global_v": [
+            "eio"
+        ]
+    },
+    {
+        "name": "JavaScript-autoComplete",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js",
+        "index": 2330,
+        "unique_v": [],
+        "global_v": [
+            "autoComplete"
+        ]
+    },
+    {
+        "name": "native-promise-only",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/native-promise-only/0.8.1/npo.js",
+        "index": 2343,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "fullcalendar-scheduler",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/fullcalendar-scheduler/4.2.0/scheduler.min.js",
+        "index": 2358,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-annotation",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js",
+        "index": 2364,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "es6-shim",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.7/es6-shim.min.js",
+        "index": 2374,
+        "unique_v": [],
+        "global_v": [
+            "returnExports"
+        ]
+    },
+    {
+        "name": "weblas",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/weblas/0.9.1/weblas.js",
+        "index": 2377,
+        "unique_v": [],
+        "global_v": [
+            "weblas"
+        ]
+    },
+    {
+        "name": "leaflet-locatecontrol",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.79.0/L.Control.Locate.min.js",
+        "index": 2396,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "datalib",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/datalib/1.9.3/datalib.min.js",
+        "index": 2402,
+        "unique_v": [],
+        "global_v": [
+            "dl"
+        ]
+    },
+    {
+        "name": "jquery-csv",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.21/jquery.csv.min.js",
+        "index": 2414,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "template7",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/template7/1.4.1/template7.min.js",
+        "index": 2423,
+        "unique_v": [],
+        "global_v": [
+            "Template7"
+        ]
+    },
+    {
+        "name": "vue-form",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vue-form/4.10.1/vue-form.min.js",
+        "index": 2446,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "neo-async",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/neo-async/2.6.1/async.min.js",
+        "index": 2459,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "keen-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/keen-js/6.0.0/keen.umd.min.js",
+        "index": 2481,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "DisplayJS",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/DisplayJS/2.3.0/display.min.js",
+        "index": 2484,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "polythene",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/polythene/1.7.4/polythene-standalone.js",
+        "index": 2488,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "signet",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/signet/0.4.8/signet.min.js",
+        "index": 2491,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "lodash-fp",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/lodash-fp/0.10.4/lodash-fp.min.js",
+        "index": 2522,
+        "unique_v": [],
+        "global_v": [
+            "_"
+        ]
+    },
+    {
+        "name": "random-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/random-js/2.0.0/random.min.js",
+        "index": 2540,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "socket.io-stream",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/socket.io-stream/0.9.1/socket.io-stream.min.js",
+        "index": 2553,
+        "unique_v": [],
+        "global_v": [
+            "ss"
+        ]
+    },
+    {
+        "name": "breezejs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/breezejs/2.1.1/breeze.min.js",
+        "index": 2554,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-ease",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-ease/3.0.0/d3-ease.min.js",
+        "index": 2555,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "alertifyjs-alertify.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/alertifyjs-alertify.js/1.0.11/js/alertify.js",
+        "index": 2563,
+        "unique_v": [],
+        "global_v": [
+            "alertify"
+        ]
+    },
+    {
+        "name": "loading-attribute-polyfill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/loading-attribute-polyfill/1.5.4/loading-attribute-polyfill.min.js",
+        "index": 2568,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "chibi",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/chibi/3.0.9/chibi-min.js",
+        "index": 2586,
+        "unique_v": [],
+        "global_v": [
+            "$"
+        ]
+    },
+    {
+        "name": "d3-sankey",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-sankey/0.12.3/d3-sankey.min.js",
+        "index": 2595,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "webtorrent-component",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/webtorrent-component/1.0.2/webtorrent-component.min.js",
+        "index": 2597,
+        "unique_v": [],
+        "global_v": [
+            "WebComponents",
+            "HTMLImports"
+        ]
+    },
+    {
+        "name": "FastActive",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/FastActive/1.0.1/FastActive.min.js",
+        "index": 2608,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "minicart",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/minicart/3.0.6/minicart.min.js",
+        "index": 2628,
+        "unique_v": [],
+        "global_v": [
+            "paypal"
+        ]
+    },
+    {
+        "name": "jsurl",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jsurl/2.3.4/url.min.js",
+        "index": 2647,
+        "unique_v": [],
+        "global_v": [
+            "Url"
+        ]
+    },
+    {
+        "name": "d3-format",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-format/1.3.0/d3-format.min.js",
+        "index": 2649,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "swiped-events",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/swiped-events/1.1.7/swiped-events.min.js",
+        "index": 2656,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "onfire.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/onfire.js/2.0.0/onfire.min.js",
+        "index": 2660,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "jquery-cropper",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery-cropper/1.0.1/jquery-cropper.min.js",
+        "index": 2669,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "custom-elements",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/custom-elements/1.5.1/custom-elements.min.js",
+        "index": 2683,
+        "unique_v": [],
+        "global_v": [
+            "__CE_installPolyfill"
+        ]
+    },
+    {
+        "name": "jsuites",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jsuites/4.17.7/jsuites.js",
+        "index": 2692,
+        "unique_v": [],
+        "global_v": [
+            "jSuites"
+        ]
+    },
+    {
+        "name": "d3-selection",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-selection/2.0.0/d3-selection.min.js",
+        "index": 2693,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "mailgun.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/mailgun.js/5.0.3/mailgun.min.js",
+        "index": 2696,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "shoestring",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/shoestring/2.0.1/shoestring.min.js",
+        "index": 2698,
+        "unique_v": [],
+        "global_v": [
+            "shoestring",
+            "$"
+        ]
+    },
+    {
+        "name": "plaid",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/plaid/9.0.0/plaid.js",
+        "index": 2714,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "console-polyfill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/console-polyfill/0.3.0/index.min.js",
+        "index": 2717,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "maple.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/maple.js/1.5.0/maple.min.js",
+        "index": 2736,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "augment.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/augment.js/1.0.0/augment.min.js",
+        "index": 2737,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "chart.piecelabel.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/chart.piecelabel.js/0.15.0/Chart.PieceLabel.min.js",
+        "index": 2740,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "Base64",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/Base64/1.1.0/base64.min.js",
+        "index": 2746,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "tonic",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tonic/13.3.6/index.js",
+        "index": 2768,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "leaflet-editable",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/leaflet-editable/1.2.0/Leaflet.Editable.min.js",
+        "index": 2770,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-array",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-array/1.2.2/d3-array.min.js",
+        "index": 2775,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "amcharts",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/amcharts/3.21.15/amcharts.js",
+        "index": 2783,
+        "unique_v": [],
+        "global_v": [
+            "AmCharts"
+        ]
+    },
+    {
+        "name": "leaflet-polylinedecorator",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/leaflet-polylinedecorator/1.5.1/leaflet.polylineDecorator.min.js",
+        "index": 2854,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "twix.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/twix.js/1.3.0/twix.min.js",
+        "index": 2859,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "spritespin",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/spritespin/4.0.10/spritespin.min.js",
+        "index": 2861,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "vtt.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vtt.js/0.13.0/vtt.min.js",
+        "index": 2872,
+        "unique_v": [],
+        "global_v": [
+            "WebVTT"
+        ]
+    },
+    {
+        "name": "d3-interpolate",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-interpolate/3.0.0/d3-interpolate.min.js",
+        "index": 2874,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "backbone-pageable",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/backbone-pageable/1.4.8/backbone-pageable.min.js",
+        "index": 2894,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "object-observe",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/object-observe/0.2.6/object-observe.min.js",
+        "index": 2895,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "leaflet-minimap",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.js",
+        "index": 2941,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-color",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-color/1.2.1/d3-color.min.js",
+        "index": 2947,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "d3-dsv",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-dsv/3.0.0/d3-dsv.min.js",
+        "index": 2953,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "MutationObserver.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/MutationObserver.js/0.3.7/mutationobserver.min.js",
+        "index": 2959,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "string-format",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/string-format/1.0.0/string-format.min.js",
+        "index": 2964,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-zoom",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-zoom/2.0.0/d3-zoom.min.js",
+        "index": 2972,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "superdom",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/superdom/1.3.0/superdom.min.js",
+        "index": 2990,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "mistic100-Bootstrap-Confirmation",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/mistic100-Bootstrap-Confirmation/4.2.0/bootstrap-confirmation.min.js",
+        "index": 3001,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ie8",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ie8/0.8.1/ie8.js",
+        "index": 3018,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "highlightjs-line-numbers.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js",
+        "index": 3044,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "multiselect",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/multiselect/2.5.6/js/multiselect.min.js",
+        "index": 3045,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "rusha",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/rusha/0.8.13/rusha.min.js",
+        "index": 3090,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "node-uuid",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/node-uuid/1.4.8/uuid.min.js",
+        "index": 3103,
+        "unique_v": [],
+        "global_v": [
+            "uuid"
+        ]
+    },
+    {
+        "name": "ZzFX",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ZzFX/2.29/ZzFX.micro.js",
+        "index": 3112,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "require-jquery",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/require-jquery/0.25.0/require-jquery.min.js",
+        "index": 3125,
+        "unique_v": [],
+        "global_v": [
+            "requirejs",
+            "require",
+            "define",
+            "$",
+            "jQuery"
+        ]
+    },
+    {
+        "name": "jquery.event.move",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery.event.move/2.0.1/jquery.event.move.js",
+        "index": 3127,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-time-format",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-time-format/2.1.1/d3-time-format.min.js",
+        "index": 3133,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "bootstrap-show-password",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-show-password/1.2.0/bootstrap-show-password.min.js",
+        "index": 3135,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "js-sha1",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js",
+        "index": 3138,
+        "unique_v": [],
+        "global_v": [
+            "sha1"
+        ]
+    },
+    {
+        "name": "d3-drag",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-drag/2.0.0/d3-drag.min.js",
+        "index": 3149,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "urljs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/urljs/2.7.0/url.min.js",
+        "index": 3153,
+        "unique_v": [],
+        "global_v": [
+            "_typeof2",
+            "_typeof",
+            "Url"
+        ]
+    },
+    {
+        "name": "diva.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/diva.js/6.0.1/js/diva.min.js",
+        "index": 3168,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "loStorage.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/loStorage.js/2.0.3/loStorage.min.js",
+        "index": 3174,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "behaviortree",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/behaviortree/2.0.5/btree-complete.min.js",
+        "index": 3178,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "jquery.iframetracker",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery.iframetracker/2.0.0/jquery.iframetracker.min.js",
+        "index": 3187,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "vue-disqus",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vue-disqus/5.1.0/vue-disqus.js",
+        "index": 3195,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-voronoi",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-voronoi/1.1.2/d3-voronoi.min.js",
+        "index": 3203,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "then-request",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/then-request/6.0.1/request.min.js",
+        "index": 3208,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "yairEO-validator",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/yairEO-validator/3.4.0/validator.min.js",
+        "index": 3233,
+        "unique_v": [],
+        "global_v": [
+            "FormValidator"
+        ]
+    },
+    {
+        "name": "d3-time",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-time/1.0.8/d3-time.min.js",
+        "index": 3244,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "buy-button-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/buy-button-js/2.2.1/buybutton.min.js",
+        "index": 3250,
+        "unique_v": [],
+        "global_v": [
+            "ShopifyBuy"
+        ]
+    },
+    {
+        "name": "rantjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/rantjs/1.0.6/rant.min.js",
+        "index": 3253,
+        "unique_v": [],
+        "global_v": [
+            "require"
+        ]
+    },
+    {
+        "name": "floating.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/floating.js/2.7.3/floating.js",
+        "index": 3260,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "citation-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/citation-js/0.6.4/citation.min.js",
+        "index": 3264,
+        "unique_v": [],
+        "global_v": [
+            "clearImmediate",
+            "setImmediate",
+            "regeneratorRuntime",
+            "require"
+        ]
+    },
+    {
+        "name": "eddy",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/eddy/0.7.0/eddy.dom.js",
+        "index": 3265,
+        "unique_v": [],
+        "global_v": [
+            "Class"
+        ]
+    },
+    {
+        "name": "datalist-polyfill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/datalist-polyfill/1.25.0/datalist-polyfill.min.js",
+        "index": 3269,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "weather",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/weather/0.0.3/weather.min.js",
+        "index": 3270,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "bootstrap-cookie-alert",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-cookie-alert/1.2.1/cookiealert.js",
+        "index": 3281,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "OverlappingMarkerSpiderfier-Leaflet",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js",
+        "index": 3287,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "vocalizer",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vocalizer/1.0.0/vocalizer.min.js",
+        "index": 3289,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "bootstrap-without-jquery",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-without-jquery/0.6.1/bootstrap3/bootstrap-without-jquery.min.js",
+        "index": 3296,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "timepicker",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js",
+        "index": 3310,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "rambdax",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/rambdax/9.0.0/rambdax.umd.js",
+        "index": 3312,
+        "unique_v": [],
+        "global_v": [
+            "R"
+        ]
+    },
+    {
+        "name": "micromustache",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/micromustache/8.0.1/micromustache.min.js",
+        "index": 3331,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "sails.io.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/sails.io.js/1.2.1/sails.io.min.js",
+        "index": 3343,
+        "unique_v": [],
+        "global_v": [
+            "io"
+        ]
+    },
+    {
+        "name": "d3-path",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-path/1.0.5/d3-path.min.js",
+        "index": 3350,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "castjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/castjs/5.2.0/cast.min.js",
+        "index": 3353,
+        "unique_v": [],
+        "global_v": [
+            "a"
+        ]
+    },
+    {
+        "name": "videojs-hotkeys",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/videojs-hotkeys/0.2.28/videojs.hotkeys.min.js",
+        "index": 3357,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "es7-shim",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/es7-shim/6.0.0/es7-shim.min.js",
+        "index": 3371,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-transition",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-transition/3.0.0/d3-transition.min.js",
+        "index": 3386,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "SimpleLightbox",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js",
+        "index": 3400,
+        "unique_v": [],
+        "global_v": [
+            "SimpleLightbox"
+        ]
+    },
+    {
+        "name": "cinnamon.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cinnamon.js/1.0.6/cinnamon.min.js",
+        "index": 3401,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "es6-tween",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/es6-tween/5.5.11/Tween.min.js",
+        "index": 3402,
+        "unique_v": [],
+        "global_v": [
+            "TWEEN"
+        ]
+    },
+    {
+        "name": "d3-axis",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-axis/2.1.0/d3-axis.min.js",
+        "index": 3405,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "console.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/console.js/1.0.0/console.min.js",
+        "index": 3416,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-quadtree",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-quadtree/3.0.0/d3-quadtree.min.js",
+        "index": 3417,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-hexbin",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-hexbin/0.2.2/d3-hexbin.min.js",
+        "index": 3421,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "Jouele",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/Jouele/3.0.5/jouele.js",
+        "index": 3436,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "knockout-es5",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/knockout-es5/0.4.6/knockout-es5.min.js",
+        "index": 3438,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-timer",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-timer/3.0.0/d3-timer.min.js",
+        "index": 3473,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "markerclustererplus",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/markerclustererplus/2.1.4/markerclusterer.min.js",
+        "index": 3479,
+        "unique_v": [],
+        "global_v": [
+            "ClusterIcon",
+            "Cluster",
+            "MarkerClusterer"
+        ]
+    },
+    {
+        "name": "angular-retina",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-retina/0.3.13/angular-retina.min.js",
+        "index": 3542,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "dna.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/dna.js/1.9.5/dna.min.js",
+        "index": 3550,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-brush",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-brush/2.1.0/d3-brush.min.js",
+        "index": 3554,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-random",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-random/3.0.0/d3-random.min.js",
+        "index": 3585,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-collection",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-collection/1.0.7/d3-collection.min.js",
+        "index": 3599,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "Leaflet.Spin",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/Leaflet.Spin/1.1.2/leaflet.spin.min.js",
+        "index": 3604,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-chord",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-chord/3.0.0/d3-chord.min.js",
+        "index": 3605,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "d3-request",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-request/1.0.6/d3-request.min.js",
+        "index": 3613,
+        "unique_v": [],
+        "global_v": [
+            "d3"
+        ]
+    },
+    {
+        "name": "promiz",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/promiz/1.0.6/promiz.min.js",
+        "index": 3622,
+        "unique_v": [],
+        "global_v": [
+            "global"
+        ]
+    },
+    {
+        "name": "hammer-time",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/hammer-time/1.1.0/hammer-time.min.js",
+        "index": 3631,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "jquery.basictable",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jquery.basictable/2.0.1/jquery.basictable.min.js",
+        "index": 3632,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "typeis",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/typeis/1.1.2/typeis.min.js",
+        "index": 3633,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "interactive-data-display",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/interactive-data-display/1.5.38/idd.min.js",
+        "index": 3644,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ammaps",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ammaps/3.21.15/ammap.js",
+        "index": 3660,
+        "unique_v": [],
+        "global_v": [
+            "AmCharts"
+        ]
+    },
+    {
+        "name": "range.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/range.js/1.1.0/range.min.js",
+        "index": 3676,
+        "unique_v": [],
+        "global_v": [
+            "range"
+        ]
+    },
+    {
+        "name": "authy-form-helpers",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/authy-form-helpers/2.3/form.authy.min.js",
+        "index": 3679,
+        "unique_v": [],
+        "global_v": [
+            "Authy"
+        ]
+    },
+    {
+        "name": "authy-forms.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/authy-forms.js/2.2/form.authy.min.js",
+        "index": 3681,
+        "unique_v": [],
+        "global_v": [
+            "Authy"
+        ]
+    },
+    {
+        "name": "d3-composite-projections",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-composite-projections/1.3.2/d3-composite-projections.min.js",
+        "index": 3683,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "egjs-agent",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/egjs-agent/2.4.3/agent.min.js",
+        "index": 3687,
+        "unique_v": [],
+        "global_v": [
+            "eg"
+        ]
+    },
+    {
+        "name": "tui-date-picker",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tui-date-picker/4.3.2/tui-date-picker.min.js",
+        "index": 3693,
+        "unique_v": [],
+        "global_v": [
+            "tui"
+        ]
+    },
+    {
+        "name": "d3-polygon",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-polygon/3.0.0/d3-polygon.min.js",
+        "index": 3705,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "gd-sprest",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/7.3.5/gd-sprest.min.js",
+        "index": 3723,
+        "unique_v": [],
+        "global_v": [
+            "$REST"
+        ]
+    },
+    {
+        "name": "d3-dispatch",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3-dispatch/3.0.0/d3-dispatch.min.js",
+        "index": 3762,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "tui-code-snippet",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/tui-code-snippet/2.3.2/tui-code-snippet.js",
+        "index": 3772,
+        "unique_v": [],
+        "global_v": [
+            "tui"
+        ]
+    },
+    {
+        "name": "dash-shaka-playback",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/dash-shaka-playback/3.0.2/dash-shaka-playback.min.js",
+        "index": 3773,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "vis-data",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vis-data/7.1.4/dist/umd.js",
+        "index": 3782,
+        "unique_v": [],
+        "global_v": [
+            "vis",
+            "regeneratorRuntime"
+        ]
+    },
+    {
+        "name": "sopa",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/sopa/1.0/stopcensorship.min.js",
+        "index": 3802,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "cytoscape-panzoom",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cytoscape-panzoom/2.5.3/cytoscape-panzoom.min.js",
+        "index": 3820,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "set-iframe-height",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/set-iframe-height/2.1.1/set-iframe-height-parent-min.js",
+        "index": 3826,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "es-class",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/es-class/2.0.0/es-class.js",
+        "index": 3837,
+        "unique_v": [],
+        "global_v": [
+            "Class"
+        ]
+    },
+    {
+        "name": "js-data-http",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/js-data-http/3.0.1/js-data-http.min.js",
+        "index": 3840,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ember-dialog",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ember-dialog/3.0.0/ember.dialog.min.js",
+        "index": 3848,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "qoopido.demand",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/qoopido.demand/8.0.2/demand.js",
+        "index": 3857,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "blob-polyfill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/blob-polyfill/7.0.20220408/Blob.min.js",
+        "index": 3858,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "corysimmons-selectivizr2",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/corysimmons-selectivizr2/1.0.9/selectivizr2.min.js",
+        "index": 3862,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "minifill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/minifill/0.0.4/minifill.min.js",
+        "index": 3867,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "cookies-monster",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/cookies-monster/0.1.4/cookies-monster.js",
+        "index": 3870,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "hexo-generator-searchdb",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js",
+        "index": 3872,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "taskforce",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/taskforce/1.0/widget.min.js",
+        "index": 3877,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "egjs-component",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/egjs-component/3.0.3/component.min.js",
+        "index": 3882,
+        "unique_v": [],
+        "global_v": [
+            "Component"
+        ]
+    },
+    {
+        "name": "soundplayer-widget",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/soundplayer-widget/0.4.2/soundplayer-widget.min.js",
+        "index": 3888,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "jblocks",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/jblocks/1.1.0/index.min.js",
+        "index": 3906,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "chrono",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/chrono/1.0.5/chrono.min.js",
+        "index": 3910,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "broadcastchannel-polyfill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/broadcastchannel-polyfill/1.0.1/index.js",
+        "index": 3934,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "query-result",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/query-result/1.0.4/query-result.js",
+        "index": 3952,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "egjs-jquery-transform",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/egjs-jquery-transform/2.0.0/transform.min.js",
+        "index": 3962,
+        "unique_v": [],
+        "global_v": [
+            "eg"
+        ]
+    },
+    {
+        "name": "sprite-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/sprite-js/0.1.1/sprite.min.js",
+        "index": 3974,
+        "unique_v": [],
+        "global_v": [
+            "Sprite"
+        ]
+    },
+    {
+        "name": "PubSub",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/PubSub/4.0.0/PubSub.umd.min.js",
+        "index": 3977,
+        "unique_v": [],
+        "global_v": [
+            "PubSub"
+        ]
+    },
+    {
+        "name": "clamp-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/clamp-js/0.7.0/clamp.js",
+        "index": 3983,
+        "unique_v": [],
+        "global_v": [
+            "$clamp"
+        ]
+    },
+    {
+        "name": "datatables.net-dt",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/datatables.net-dt/2.1.1/js/dataTables.dataTables.min.js",
+        "index": 3984,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "devextreme-quill",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/devextreme-quill/1.6.1/dx-quill.min.js",
+        "index": 3985,
+        "unique_v": [],
+        "global_v": [
+            "DevExpress"
+        ]
+    },
+    {
+        "name": "symfonyCollectionJs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/symfonyCollectionJs/4.3.1/symfonyCollectionJs.min.js",
+        "index": 3994,
+        "unique_v": [],
+        "global_v": [
+            "returnExports"
+        ]
+    },
+    {
+        "name": "monkberry-standalone",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/monkberry-standalone/4.0.8/monkberry.min.js",
+        "index": 4007,
+        "unique_v": [],
+        "global_v": [
+            "core",
+            "__core-js_shared__",
+            "Monkberry"
+        ]
+    },
+    {
+        "name": "webpack-cesium",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/webpack-cesium/1.37.0/webpack.cesium.js",
+        "index": 4012,
+        "unique_v": [],
+        "global_v": [
+            "module",
+            "protobuf",
+            "Cesium"
+        ]
+    },
+    {
+        "name": "egjs-rotate",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/egjs-rotate/2.1.0/rotate.min.js",
+        "index": 4020,
+        "unique_v": [],
+        "global_v": [
+            "eg"
+        ]
+    },
+    {
+        "name": "konamimojisplosion",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/konamimojisplosion/0.5.2/global.js",
+        "index": 4027,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "lodash-compat",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.10.2/lodash.min.js",
+        "index": 4030,
+        "unique_v": [],
+        "global_v": [
+            "_"
+        ]
+    },
+    {
+        "name": "ready.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ready.js/0.1.2/ready.min.js",
+        "index": 4037,
+        "unique_v": [],
+        "global_v": [
+            "ready"
+        ]
+    },
+    {
+        "name": "pipes-core",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/pipes-core/0.8.4/pipes.core.min.js",
+        "index": 4063,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "qoopido.nucleus",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/qoopido.nucleus/3.2.15/base.js",
+        "index": 4065,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "gyrejs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/gyrejs/0.6.5/gyrejs.min.js",
+        "index": 4077,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "next-theme-pjax",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js",
+        "index": 4081,
+        "unique_v": [],
+        "global_v": [
+            "Pjax"
+        ]
+    },
+    {
+        "name": "vquery",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/vquery/5.0.1/v.min.js",
+        "index": 4085,
+        "unique_v": [],
+        "global_v": [
+            "v"
+        ]
+    },
+    {
+        "name": "custom-elements-builder",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/1.0.3/ceb.min.js",
+        "index": 4089,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "a-happy-tyler",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/a-happy-tyler/1.0.89/happy.js",
+        "index": 4102,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "umbrella",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/umbrella/0.0.0/umbrella.min.js",
+        "index": 4133,
+        "unique_v": [],
+        "global_v": [
+            "u"
+        ]
+    },
+    {
+        "name": "devextreme-showdown",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/devextreme-showdown/1.0.1/showdown.js",
+        "index": 4150,
+        "unique_v": [],
+        "global_v": [
+            "showdown"
+        ]
+    },
+    {
+        "name": "natsort",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/natsort/2.0.3/natsort.min.js",
+        "index": 4155,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "upb",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/upb/2.0.0/upb.min.js",
+        "index": 4161,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "arkane-connect",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/arkane-connect/1.27.0/connect.js",
+        "index": 4167,
+        "unique_v": [],
+        "global_v": [
+            "ArkaneConnect"
+        ]
+    },
+    {
+        "name": "britecharts",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/britecharts/3.0.0/cdn/bundle/britecharts.cdn.min.js",
+        "index": 4183,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "domtastic",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/domtastic/0.15.11/domtastic.min.js",
+        "index": 4219,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "hi-sven",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/hi-sven/1.29.0/index.js",
+        "index": 4226,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "hi-sven-git",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/hi-sven-git/1.29.0/index.js",
+        "index": 4227,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "legojs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/legojs/1.0.0/lego.min.js",
+        "index": 4233,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "loadermest.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/loadermest.js/2.0.30/loadermest.min.js",
+        "index": 4237,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "oj.AceEditor",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/oj.AceEditor/0.0.6/oj.AceEditor.min.js",
+        "index": 4240,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "oj.JSFiddle",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/oj.JSFiddle/0.0.1/oj.JSFiddle.min.js",
+        "index": 4242,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "oj.markdown",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/oj.markdown/0.2.10/oj.markdown.min.js",
+        "index": 4243,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "oj.TwitterButton",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/oj.TwitterButton/0.0.4/oj.TwitterButton.min.js",
+        "index": 4245,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "oj.YouTubeVideo",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/oj.YouTubeVideo/0.0.1/oj.YouTubeVideo.min.js",
+        "index": 4246,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "venly-connect",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/venly-connect/1.40.0/connect.js",
+        "index": 4257,
+        "unique_v": [],
+        "global_v": [
+            "VenlyConnect"
+        ]
+    },
+    {
+        "name": "datejs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js",
+        "index": 4283,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "evil.js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/evil.js/42/evil.min.js",
+        "index": 4289,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "ext-core",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/ext-core/3.1.0/ext-core.min.js",
+        "index": 4290,
+        "unique_v": [],
+        "global_v": [
+            "Ext",
+            "id"
+        ]
+    },
+    {
+        "name": "extjs",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js",
+        "index": 4291,
+        "unique_v": [],
+        "global_v": [
+            "Ext",
+            "id"
+        ]
+    },
+    {
+        "name": "paypaljsbuttons",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/paypaljsbuttons/2.0.1/paypal-button.min.js",
+        "index": 4321,
+        "unique_v": [],
+        "global_v": [
+            "paypal"
+        ]
+    },
+    {
+        "name": "probtn",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/probtn/1.0.1/includepb.min.js",
+        "index": 4324,
+        "unique_v": [],
+        "global_v": [
+            "$",
+            "jQuery"
+        ]
+    },
+    {
+        "name": "string-fn",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/string-fn/3.0.2/webVersion.js",
+        "index": 4331,
+        "unique_v": [],
+        "global_v": []
+    },
+    {
+        "name": "transformation-matrix-js",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/transformation-matrix-js/2.7.2/matrix.min.js",
+        "index": 4339,
+        "unique_v": [],
+        "global_v": [
+            "Matrix"
+        ]
+    },
+    {
+        "name": "unslider",
+        "latest": "https://cdnjs.cloudflare.com/ajax/libs/unslider/2.0.3/js/unslider-min.js",
+        "index": 4342,
+        "unique_v": [],
+        "global_v": []
+    }
+]
