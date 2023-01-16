@@ -1,0 +1,741 @@
+1673875027028	geckodriver	INFO	Listening on 127.0.0.1:45693
+1673875027532	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37829" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemSQVMq"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.622389) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.622389) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=0.623115) [GFX1-]: glxtest: process failed (received signal 11)
+1673875028184	Marionette	INFO	Marionette enabled
+1673875028186	Marionette	INFO	Listening on port 37105
+Read port: 37105
+WebDriver BiDi listening on ws://127.0.0.1:37829
+1673875028308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemSQVMq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37829/devtools/browser/5c42ad1e-3784-4475-b1c2-3441777ec1f4
+1673875055325	Marionette	INFO	Stopped listening on port 37105
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673875355580	geckodriver	INFO	Listening on 127.0.0.1:49873
+1673875356086	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36319" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehDT6nf"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.751094) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.751094) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=0.751567) [GFX1-]: glxtest: process failed (received signal 11)
+1673875356876	Marionette	INFO	Marionette enabled
+1673875356879	Marionette	INFO	Listening on port 44763
+Read port: 44763
+WebDriver BiDi listening on ws://127.0.0.1:36319
+1673875357106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehDT6nf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36319/devtools/browser/0da50756-f066-4657-b341-b3f46547832a
+1673875402897	Marionette	INFO	Stopped listening on port 44763
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673875732551	geckodriver	INFO	Listening on 127.0.0.1:35143
+1673875733056	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletKdo0F"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.647972) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.647972) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=0.648789) [GFX1-]: glxtest: process failed (received signal 11)
+1673875733733	Marionette	INFO	Marionette enabled
+1673875733735	Marionette	INFO	Listening on port 34507
+Read port: 34507
+WebDriver BiDi listening on ws://127.0.0.1:37103
+1673875733838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletKdo0F/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37103/devtools/browser/b521e084-293f-414f-9501-5156bc04b572
+1673875744767	Marionette	INFO	Stopped listening on port 34507
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673875887711	geckodriver	INFO	Listening on 127.0.0.1:38505
+1673875888216	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33987" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevjssUb"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.779259) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.779259) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=0.779756) [GFX1-]: glxtest: process failed (received signal 11)
+1673875889031	Marionette	INFO	Marionette enabled
+1673875889034	Marionette	INFO	Listening on port 40083
+Read port: 40083
+WebDriver BiDi listening on ws://127.0.0.1:33987
+1673875889199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevjssUb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33987/devtools/browser/6de6b8dc-272e-46ef-aaef-13652b0e2aa7
+1673875902368	Marionette	INFO	Stopped listening on port 40083
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673876042775	geckodriver	INFO	Listening on 127.0.0.1:34043
+1673876043281	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50887" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5X8ZvC"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.624322) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.624322) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=0.625117) [GFX1-]: glxtest: process failed (received signal 11)
+1673876043945	Marionette	INFO	Marionette enabled
+1673876043948	Marionette	INFO	Listening on port 33605
+Read port: 33605
+WebDriver BiDi listening on ws://127.0.0.1:50887
+1673876044049	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5X8ZvC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50887/devtools/browser/07357262-3119-4df4-99a8-62855562a07b
+1673876046505	Marionette	INFO	Stopped listening on port 33605
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/quicksuggest Signature failed  TypeError: NetworkError: Network request failed
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1673876415031	geckodriver	INFO	Listening on 127.0.0.1:39503
+1673876415540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46061" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2x27AR"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.547141) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.547141) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=0.547724) [GFX1-]: glxtest: process failed (received signal 11)
+1673876416129	Marionette	INFO	Marionette enabled
+1673876416131	Marionette	INFO	Listening on port 39027
+Read port: 39027
+WebDriver BiDi listening on ws://127.0.0.1:46061
+1673876416238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2x27AR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46061/devtools/browser/23bd9a91-464c-46c3-91d7-018959e7bd25
+1673876418541	Marionette	INFO	Stopped listening on port 39027
+console.error: services.settings: 
+  main/quicksuggest Signature failed  Error: Shutdown, aborting read-only worker requests.
+console.error: services.settings: 
+  main/query-stripping Signature failed  Error: Shutdown, aborting read-only worker requests.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1673879216094	geckodriver	INFO	Listening on 127.0.0.1:49695
+1673879216598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49679" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefk73Il"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.00375) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.00375) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.00439) [GFX1-]: glxtest: process failed (received signal 11)
+1673879217644	Marionette	INFO	Marionette enabled
+1673879217647	Marionette	INFO	Listening on port 35935
+Read port: 35935
+WebDriver BiDi listening on ws://127.0.0.1:49679
+1673879217798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefk73Il/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49679/devtools/browser/ae702801-2361-4783-b17b-85d93b2725e9
+1673879221190	Marionette	INFO	Stopped listening on port 35935
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1673888813332	geckodriver	INFO	Listening on 127.0.0.1:58607
+1673888813840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60981" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerhaPgk"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12973) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12973) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.13022) [GFX1-]: glxtest: process failed (received signal 11)
+1673888815029	Marionette	INFO	Marionette enabled
+1673888815033	Marionette	INFO	Listening on port 37349
+Read port: 37349
+WebDriver BiDi listening on ws://127.0.0.1:60981
+1673888815288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerhaPgk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60981/devtools/browser/dcb69fe6-79e4-46cb-8e9e-601cd490009d
+1673888819727	Marionette	INFO	Stopped listening on port 37349
+JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
+1673889661289	geckodriver	INFO	Listening on 127.0.0.1:42161
+1673889661793	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOcM8Ig"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.023) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.023) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.0235) [GFX1-]: glxtest: process failed (received signal 11)
+1673889662857	Marionette	INFO	Marionette enabled
+1673889662860	Marionette	INFO	Listening on port 41429
+Read port: 41429
+WebDriver BiDi listening on ws://127.0.0.1:57901
+1673889663018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOcM8Ig/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57901/devtools/browser/151a7888-8aa1-4e1c-897b-cec292763ba8
+1673889666866	Marionette	INFO	Stopped listening on port 41429
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1673889935443	geckodriver	INFO	Listening on 127.0.0.1:60171
+1673889935950	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41913" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHpKAEx"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18806) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18806) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.18967) [GFX1-]: glxtest: process failed (received signal 11)
+1673889937177	Marionette	INFO	Marionette enabled
+1673889937180	Marionette	INFO	Listening on port 41413
+WebDriver BiDi listening on ws://127.0.0.1:41913
+Read port: 41413
+1673889937356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHpKAEx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41913/devtools/browser/6e106436-a3e8-47a0-902e-0913c72ae7d1
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=17.7676) Exiting due to channel error.
+Exiting due to channel error.
+1673890152194	geckodriver	INFO	Listening on 127.0.0.1:41113
+1673890152692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54791" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewL1l80"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.22255) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.22255) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.22318) [GFX1-]: glxtest: process failed (received signal 11)
+1673890153956	Marionette	INFO	Marionette enabled
+1673890153959	Marionette	INFO	Listening on port 42443
+Read port: 42443
+WebDriver BiDi listening on ws://127.0.0.1:54791
+1673890154075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewL1l80/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54791/devtools/browser/3cc5a8bc-d6c1-4c49-8659-781aa0024e59
+1673890162850	Marionette	INFO	Stopped listening on port 42443
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673890190640	geckodriver	INFO	Listening on 127.0.0.1:49985
+1673890191145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60265" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTVwXRB"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.22842) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.22842) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.22929) [GFX1-]: glxtest: process failed (received signal 11)
+1673890192428	Marionette	INFO	Marionette enabled
+1673890192436	Marionette	INFO	Listening on port 33569
+Read port: 33569
+WebDriver BiDi listening on ws://127.0.0.1:60265
+1673890192600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTVwXRB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60265/devtools/browser/6379f4e4-2843-47be-8b32-faf153da75c7
+1673890194866	Marionette	INFO	Stopped listening on port 33569
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/quicksuggest Signature failed  TypeError: NetworkError: Network request failed
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1673890269369	geckodriver	INFO	Listening on 127.0.0.1:43667
+1673890269879	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56123" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHxAtUo"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15145) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15145) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.15167) [GFX1-]: glxtest: process failed (received signal 11)
+1673890271065	Marionette	INFO	Marionette enabled
+1673890271069	Marionette	INFO	Listening on port 37117
+Read port: 37117
+WebDriver BiDi listening on ws://127.0.0.1:56123
+1673890271167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHxAtUo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56123/devtools/browser/84b9bf9b-3bd1-4ce9-8c45-75fe12a66ee0
+1673890315339	Marionette	INFO	Stopped listening on port 37117
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673890345321	geckodriver	INFO	Listening on 127.0.0.1:59337
+1673890345829	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58915" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYD6wS1"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19289) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19289) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.19304) [GFX1-]: glxtest: process failed (received signal 11)
+1673890347055	Marionette	INFO	Marionette enabled
+1673890347059	Marionette	INFO	Listening on port 37117
+WebDriver BiDi listening on ws://127.0.0.1:58915
+Read port: 37117
+1673890347251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYD6wS1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58915/devtools/browser/a26c7f43-c526-4aa1-8f92-3dc7191069fa
+1673890349046	Marionette	INFO	Stopped listening on port 37117
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1673892059835	geckodriver	INFO	Listening on 127.0.0.1:41057
+1673892060342	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1bBvGW"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.28544) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.28544) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.2861) [GFX1-]: glxtest: process failed (received signal 11)
+1673892061679	Marionette	INFO	Marionette enabled
+1673892061683	Marionette	INFO	Listening on port 46193
+Read port: 46193
+WebDriver BiDi listening on ws://127.0.0.1:48977
+1673892061796	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1bBvGW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48977/devtools/browser/e1d51952-7111-46c1-90ae-6b75a5a9fc72
+1673892063614	Marionette	INFO	Stopped listening on port 46193
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1673892171550	geckodriver	INFO	Listening on 127.0.0.1:47297
+1673892172059	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXC2b15"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.16852) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.16852) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.16932) [GFX1-]: glxtest: process failed (received signal 11)
+1673892173260	Marionette	INFO	Marionette enabled
+1673892173265	Marionette	INFO	Listening on port 33675
+Read port: 33675
+WebDriver BiDi listening on ws://127.0.0.1:39223
+1673892173443	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXC2b15/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39223/devtools/browser/795f75ab-c0c8-4d78-8333-a5128c22a7f9
+Exiting due to channel error.
+Exiting due to channel error.
+1673892226165	geckodriver	INFO	Listening on 127.0.0.1:44671
+1673892226675	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39855" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehp1MLH"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.20257) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.20257) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.20312) [GFX1-]: glxtest: process failed (received signal 11)
+1673892227930	Marionette	INFO	Marionette enabled
+1673892227933	Marionette	INFO	Listening on port 37977
+Read port: 37977
+WebDriver BiDi listening on ws://127.0.0.1:39855
+1673892228034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehp1MLH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39855/devtools/browser/ee08c1c3-731e-4fcc-a20d-3c811f13a099
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1673892336630	geckodriver	INFO	Listening on 127.0.0.1:51593
+1673892337143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55589" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCOW5Z8"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17994) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17994) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.18041) [GFX1-]: glxtest: process failed (received signal 11)
+1673892338361	Marionette	INFO	Marionette enabled
+1673892338364	Marionette	INFO	Listening on port 38475
+WebDriver BiDi listening on ws://127.0.0.1:55589
+Read port: 38475
+1673892338559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCOW5Z8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55589/devtools/browser/81984189-8436-4086-b1de-6ffa529cbad9
+Handler function BrowserTabList.prototype.onCloseWindow's delayed body threw an exception: TypeError: topBrowsingContext is null
+Stack: getAllBrowsingContextsForContext@resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs:387:7
+getAllBrowsingContexts@resource://devtools/server/actors/watcher.js:151:12
+destroyTargets@resource://devtools/server/actors/watcher/target-helpers/frame-helper.js:171:36
+unwatchTargets@resource://devtools/server/actors/watcher.js:247:24
+destroy@resource://devtools/server/actors/watcher.js:174:12
+destroy@resource://devtools/shared/protocol/Pool.js:211:17
+destroy@resource://devtools/shared/protocol/Actor.js:88:11
+destroy@resource://devtools/server/actors/descriptors/tab.js:253:29
+BrowserTabList.prototype._handleActorClose@resource://devtools/server/actors/webbrowser.js:414:9
+BrowserTabList.prototype.onCloseWindow</<@resource://devtools/server/actors/webbrowser.js:663:16
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+Line: 387, column: 7
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs", 387))
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 4188: TypeError: this.toolbarButtons is undefined
+console.error: "Exception while opening the toolbox" "Error: Connection closed, pending request to server0.conn0.watcher2, type watchTargets failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nstartListening@resource://devtools/shared/commands/target/target-command.js:507:35\n" (new Error("Connection closed, pending request to server0.conn0.watcher2, type watchTargets failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nstartListening@resource://devtools/shared/commands/target/target-command.js:507:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+baseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:106:23
+destroy@resource://devtools/shared/protocol/Front.js:74:10
+destroy@resource://devtools/shared/protocol/Pool.js:211:17
+baseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:110:13
+destroy@resource://devtools/shared/protocol/Front.js:74:10
+destroy@resource://devtools/client/fronts/descriptors/descriptor-mixin.js:55:19
+destroy@resource://devtools/client/fronts/descriptors/tab.js:101:11
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+onPacket@resource://devtools/shared/protocol/Front.js:349:13
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://devtools/client/shared/WeakMapMap.js, line 73: TypeError: WeakMap key must be an object, got key
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameParent.sys.mjs, line 123: Error: Watcher Actor with ID 'server0.conn0.watcher2' can't be found.
+console.error: "Error while calling actor 'watcher's method 'watchTargets'" "topBrowsingContext is null"
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs", 387))
+JavaScript error: resource://devtools/server/devtools-server-connection.js, line 103: TypeError: this.transport is null
+1673892360728	Marionette	INFO	Stopped listening on port 38475
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/targets/window-global.js :: watch :: line 1664"  data: no]
+Stack: watch@resource://devtools/server/actors/targets/window-global.js:1664:28
+_watchDocshells@resource://devtools/server/actors/targets/window-global.js:779:28
+initialize/<@resource://devtools/server/actors/targets/window-global.js:348:42
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1664, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 1712: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+1673892994027	geckodriver	INFO	Listening on 127.0.0.1:47025
+1673892994539	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiC60ph"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18859) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18859) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.18881) [GFX1-]: glxtest: process failed (received signal 11)
+1673892995772	Marionette	INFO	Marionette enabled
+1673892995775	Marionette	INFO	Listening on port 44327
+WebDriver BiDi listening on ws://127.0.0.1:58209
+Read port: 44327
+1673892995984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiC60ph/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58209/devtools/browser/947e3ed8-2cfc-4e10-bf51-4758d2d54198
+1673892997316	Marionette	INFO	Stopped listening on port 44327
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1673893153295	geckodriver	INFO	Listening on 127.0.0.1:35133
+1673893153803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52189" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepx9SMR"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.14631) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.14631) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.14643) [GFX1-]: glxtest: process failed (received signal 11)
+1673893154976	Marionette	INFO	Marionette enabled
+1673893154979	Marionette	INFO	Listening on port 44175
+Read port: 44175
+WebDriver BiDi listening on ws://127.0.0.1:52189
+1673893155066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepx9SMR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52189/devtools/browser/75f8d674-8ef1-4949-9e18-63549c953062
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/typescript/4.9.4/typescript.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/typescript/4.9.4/typescript.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/typescript/4.9.4/typescript.min.js, line 1: unreachable code after return statement
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/6to5/3.6.5/browser.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/6to5/3.6.5/browser.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video.min.js, line 36: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/webtorrent/1.9.6/webtorrent.min.js, line 16: asm.js type error: expecting argument type declaration for 'k$845' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jasmine/4.5.0/jasmine.min.js, line 1: unreachable code after return statement
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js, line 2697: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js, line 2697: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jshint/2.13.6/jshint.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ckeditor5/35.4.0/ckeditor.min.js, line 2: unreachable code after return statement
+1673893596150	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1673893709852	Marionette	INFO	Stopped listening on port 44175
+[Parent 713075, IPC I/O Parent] WARNING: process 713162 exited on signal 9: file /build/firefox-NTSPNM/firefox-108.0.1+build1/ipc/chromium/src/base/process_util_posix.cc:256
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/websites-with-shared-credential-backends sync interrupted by shutdown
+1673893710436	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2023-01-16T18:28:30Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 997: Error: Connection is not open.
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2902: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1673896448449	geckodriver	INFO	Listening on 127.0.0.1:55475
+1673896448957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51271" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileI4yswj"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19027) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19027) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.19096) [GFX1-]: glxtest: process failed (received signal 11)
+1673896450199	Marionette	INFO	Marionette enabled
+1673896450203	Marionette	INFO	Listening on port 39073
+Read port: 39073
+WebDriver BiDi listening on ws://127.0.0.1:51271
+1673896450327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI4yswj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51271/devtools/browser/70ddb04d-eb82-41dc-8562-94652e6dd15e
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression

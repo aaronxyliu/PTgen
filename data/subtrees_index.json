@@ -1,0 +1,16 @@
+{
+    "THREE": [
+        {
+            "lib": "three.js",
+            "lib_index": 9,
+            "tree_index": 0
+        }
+    ],
+    "__THREE__": [
+        {
+            "lib": "three.js",
+            "lib_index": 9,
+            "tree_index": 1
+        }
+    ]
+}

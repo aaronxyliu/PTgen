@@ -7,7 +7,7 @@ function createObjectTree(depth_limit = 5, debug = false) {
             this.children = []
         }
     }
-
+    
     function analyzeVariable(v) {
         let v_info = {}
         if (v == undefined) {
@@ -23,7 +23,7 @@ function createObjectTree(depth_limit = 5, debug = false) {
             v_info = { dict: { 'type': 'array', 'value': v.length }, 'children': [] }
         }
         else if (typeof (v) == 'string') {
-            v_info = { dict: { 'type': 'string', 'value': v }, 'children': [] }
+            v_info = { dict: { 'type': 'string', 'value': v.slice(0, 10) }, 'children': [] }
         }
         else if (typeof (v) == 'object') {
             v_info = { dict: { 'type': 'object' }, 'children': Object.keys(v) }
@@ -40,19 +40,28 @@ function createObjectTree(depth_limit = 5, debug = false) {
     function hasSameAddr(prefix, v) {
         // Prevent loop in the object tree
         // Check whether v points to some parent variable
-        parent_v = prefix
-        _v = `${prefix}["${v}"]`
+        if (!prefix)
+            return false
+        let _v = `${prefix}["${v}"]`
         if (eval(`typeof (${_v}) != 'object' && typeof (${_v}) != 'function'`)) 
             return false
-        while (true) {
-            // Has Same Address
-            if (eval(`typeof (${parent_v}) == 'object' || typeof (${parent_v}) == 'function'`))
-                if (eval(`${parent_v} == ${_v}`))
-                    return true
-            index = parent_v.lastIndexOf('[')
-            if (index == -1)
-                break
-            parent_v = parent_v.slice(0, index)
+        if (eval(`typeof (${prefix}) == 'object' || typeof (${prefix}) == 'function'`))
+            if (eval(`${prefix} == ${_v}`))
+                return true
+        balance = 0
+        for (let p = prefix.length - 1; p >= 0; p -= 1) {        
+            if (prefix[p] == ']') {
+                balance += 1
+            }
+            else if (prefix[p] == '[') {
+                balance -= 1
+                if (balance == 0) {
+                    let parent_v = prefix.slice(0, p)
+                    if (eval(`typeof (${parent_v}) == 'object' || typeof (${parent_v}) == 'function'`))
+                        if (eval(`${parent_v} == ${_v}`))
+                            return true
+                }
+            }
         }
         return false
     }
@@ -66,7 +75,7 @@ function createObjectTree(depth_limit = 5, debug = false) {
         if (hasSameAddr(prefix, v_name)) {
             return
         }
-        v_info = {}
+        let v_info = {}
         if (debug)
             console.log(`${prefix}["${v_name}"]   depth: ${depth}`)
         eval(`v_info = analyzeVariable(${prefix}["${v_name}"]);`)
