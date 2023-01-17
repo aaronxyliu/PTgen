@@ -15,6 +15,7 @@ with open('data/result_no_error__.json', 'r') as openfile:
 
 
 MAX_DEPTH=5
+MAX_NODE=500
 
 
 service = Service(executable_path="./bin/geckodriver")
@@ -27,13 +28,13 @@ lib_cnt = 0
 subtree_cnt = 0
 
 for lib in lib_list:
-    TARGET_LIB = 'babel-polyfill'
+    TARGET_LIB = 'Mock.js'
     if lib['name'] != TARGET_LIB:
         continue
 
     
     driver.get(f"http://127.0.0.1:6543/test/{lib['index']}")
-    vlist = driver.execute_script(f'createObjectTree(depth_limit={MAX_DEPTH});')
+    vlist = driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
     #"//div[@id='obj-tree'][1]"
     WebDriverWait(driver, timeout=3).until(text_to_be_present_in_element((By.ID, "obj-tree"), '{'))
     tree_json = driver.find_element(By.ID, 'obj-tree').text
@@ -66,12 +67,12 @@ for lib in lib_list:
 driver.close()
 
 json_object = json.dumps(subtrees_index, indent=4)
-with open('data/subtrees_index.json', "w") as outfile:
+with open('data/subtrees_index_debug.json', "w") as outfile:
     outfile.write(json_object)
 
 
 # Store subtrees in seperating lines
-with open('data/subtrees.json', "w") as outfile:
+with open('data/subtrees_debug.json', "w") as outfile:
     outfile.write('[')
     for subtree in subtrees[:-1]:
         outfile.write(json.dumps(subtree) + ',\n')

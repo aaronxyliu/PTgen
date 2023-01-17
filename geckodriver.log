@@ -739,3 +739,673 @@ DevTools listening on ws://127.0.0.1:51271/devtools/browser/70ddb04d-eb82-41dc-8
 JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
 JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
 JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+1673900853823	geckodriver	INFO	Listening on 127.0.0.1:56545
+1673900854329	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51681" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewIuf4X"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19997) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19997) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.20095) [GFX1-]: glxtest: process failed (received signal 11)
+1673900855580	Marionette	INFO	Marionette enabled
+1673900855583	Marionette	INFO	Listening on port 46113
+Read port: 46113
+WebDriver BiDi listening on ws://127.0.0.1:51681
+1673900855700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewIuf4X/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51681/devtools/browser/7b147bc3-7c63-4f8b-b9d0-3726270e4352
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1673901482522	Marionette	INFO	Stopped listening on port 46113
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.error: "Unable to find target with innerWindowId:4294967304"
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 117: TypeError: replaceAll must be called with a global RegExp
+1673921652739	geckodriver	INFO	Listening on 127.0.0.1:55749
+1673921653248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38633" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXXA2MO"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18893) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18893) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.18916) [GFX1-]: glxtest: process failed (received signal 11)
+1673921654479	Marionette	INFO	Marionette enabled
+1673921654482	Marionette	INFO	Listening on port 43347
+Read port: 43347
+WebDriver BiDi listening on ws://127.0.0.1:38633
+1673921654609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXXA2MO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38633/devtools/browser/8c33a9c2-f259-428a-8cb3-a22c88227ae5
+1673921656803	Marionette	INFO	Stopped listening on port 43347
+console.error: services.settings: 
+  main/quicksuggest Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1673921735481	geckodriver	INFO	Listening on 127.0.0.1:53595
+1673921735991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40337" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexOLUcK"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17242) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17242) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.17319) [GFX1-]: glxtest: process failed (received signal 11)
+1673921737198	Marionette	INFO	Marionette enabled
+1673921737201	Marionette	INFO	Listening on port 36993
+WebDriver BiDi listening on ws://127.0.0.1:40337
+Read port: 36993
+1673921737431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexOLUcK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40337/devtools/browser/41208210-9014-4598-9980-35a1ea10beba
+1673921740009	Marionette	INFO	Stopped listening on port 36993
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1673921812855	geckodriver	INFO	Listening on 127.0.0.1:50999
+1673921813359	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40001" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIzdf1j"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13556) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13556) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.13565) [GFX1-]: glxtest: process failed (received signal 11)
+1673921814524	Marionette	INFO	Marionette enabled
+1673921814527	Marionette	INFO	Listening on port 35659
+Read port: 35659
+WebDriver BiDi listening on ws://127.0.0.1:40001
+1673921814647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1673921814959	Marionette	INFO	Stopped listening on port 39073
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIzdf1j/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40001/devtools/browser/465aecac-53d7-4970-8acd-524a4d566fa0
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/typescript/4.9.4/typescript.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/typescript/4.9.4/typescript.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/typescript/4.9.4/typescript.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/6to5/3.6.5/browser.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/6to5/3.6.5/browser.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video.min.js, line 36: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/webtorrent/1.9.6/webtorrent.min.js, line 16: asm.js type error: expecting argument type declaration for 'k$845' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jasmine/4.5.0/jasmine.min.js, line 1: unreachable code after return statement
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js, line 2697: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js, line 2697: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jshint/2.13.6/jshint.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ckeditor5/35.4.0/ckeditor.min.js, line 2: unreachable code after return statement
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1673922056195	Marionette	INFO	Stopped listening on port 35659
+[Parent 794843, IPC I/O Parent] WARNING: process 794967 exited on signal 9: file /build/firefox-NTSPNM/firefox-108.0.1+build1/ipc/chromium/src/base/process_util_posix.cc:256
+1673922056684	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2023-01-17T02:20:56Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1673922103916	geckodriver	INFO	Listening on 127.0.0.1:35205
+1673922104424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46949" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUC9sXl"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.16923) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.16923) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.17036) [GFX1-]: glxtest: process failed (received signal 11)
+1673922105645	Marionette	INFO	Marionette enabled
+1673922105649	Marionette	INFO	Listening on port 45981
+Read port: 45981
+WebDriver BiDi listening on ws://127.0.0.1:46949
+1673922105792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUC9sXl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46949/devtools/browser/78ac8aa4-8a7e-4029-a99e-40eddbcd8a72
+Exiting due to channel error.
+Exiting due to channel error.
+1673922126762	geckodriver	INFO	Listening on 127.0.0.1:48967
+1673922127271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60907" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYRMPJd"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.3679) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.3679) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.36923) [GFX1-]: glxtest: process failed (received signal 11)
+1673922128750	Marionette	INFO	Marionette enabled
+1673922128762	Marionette	INFO	Listening on port 40595
+Read port: 40595
+WebDriver BiDi listening on ws://127.0.0.1:60907
+1673922128982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYRMPJd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60907/devtools/browser/36a56747-26ff-4872-bd50-d347f1ca8cd2
+Handler function BrowserTabList.prototype.onCloseWindow's delayed body threw an exception: TypeError: topBrowsingContext is null
+Stack: getAllBrowsingContextsForContext@resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs:387:7
+getAllBrowsingContexts@resource://devtools/server/actors/watcher.js:151:12
+destroyTargets@resource://devtools/server/actors/watcher/target-helpers/frame-helper.js:171:36
+unwatchTargets@resource://devtools/server/actors/watcher.js:247:24
+destroy@resource://devtools/server/actors/watcher.js:174:12
+destroy@resource://devtools/shared/protocol/Pool.js:211:17
+destroy@resource://devtools/shared/protocol/Actor.js:88:11
+destroy@resource://devtools/server/actors/descriptors/tab.js:253:29
+BrowserTabList.prototype._handleActorClose@resource://devtools/server/actors/webbrowser.js:414:9
+BrowserTabList.prototype.onCloseWindow</<@resource://devtools/server/actors/webbrowser.js:663:16
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+Line: 387, column: 7
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs", 387))
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 4188: TypeError: this.toolbarButtons is undefined
+console.error: "Exception while opening the toolbox" "Error: Connection closed, pending request to server0.conn0.watcher2, type watchTargets failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nstartListening@resource://devtools/shared/commands/target/target-command.js:507:35\n" (new Error("Connection closed, pending request to server0.conn0.watcher2, type watchTargets failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nstartListening@resource://devtools/shared/commands/target/target-command.js:507:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+baseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:106:23
+destroy@resource://devtools/shared/protocol/Front.js:74:10
+destroy@resource://devtools/shared/protocol/Pool.js:211:17
+baseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:110:13
+destroy@resource://devtools/shared/protocol/Front.js:74:10
+destroy@resource://devtools/client/fronts/descriptors/descriptor-mixin.js:55:19
+destroy@resource://devtools/client/fronts/descriptors/tab.js:101:11
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+onPacket@resource://devtools/shared/protocol/Front.js:349:13
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://devtools/client/shared/WeakMapMap.js, line 73: TypeError: WeakMap key must be an object, got key
+Exiting due to channel error.
+Exiting due to channel error.
+1673922305201	geckodriver	INFO	Listening on 127.0.0.1:32807
+1673922305712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57891" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesclS6R"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.16039) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.16039) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.16087) [GFX1-]: glxtest: process failed (received signal 11)
+1673922306917	Marionette	INFO	Marionette enabled
+1673922306922	Marionette	INFO	Listening on port 33251
+Read port: 33251
+WebDriver BiDi listening on ws://127.0.0.1:57891
+1673922307028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesclS6R/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57891/devtools/browser/bc79fee8-5ebe-46af-b0cc-298085a28e34
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+1673922320804	Marionette	INFO	Stopped listening on port 33251
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673922324253	geckodriver	INFO	Listening on 127.0.0.1:36443
+1673922324762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4E2tbo"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12613) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12613) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.12625) [GFX1-]: glxtest: process failed (received signal 11)
+1673922325916	Marionette	INFO	Marionette enabled
+1673922325919	Marionette	INFO	Listening on port 37117
+WebDriver BiDi listening on ws://127.0.0.1:39877
+Read port: 37117
+1673922326012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4E2tbo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39877/devtools/browser/656af3d5-d011-4c4a-857c-f25a406f1492
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+1673922328773	Marionette	INFO	Stopped listening on port 37117
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
+1673922328988	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: uncaught exception: Object
+[2023-01-17T02:25:29Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1673924684391	geckodriver	INFO	Listening on 127.0.0.1:35683
+1673924684896	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45133" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile93t7Bs"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.29143) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.29143) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.29193) [GFX1-]: glxtest: process failed (received signal 11)
+1673924686236	Marionette	INFO	Marionette enabled
+1673924686239	Marionette	INFO	Listening on port 39713
+Read port: 39713
+WebDriver BiDi listening on ws://127.0.0.1:45133
+1673924686370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile93t7Bs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45133/devtools/browser/6606e9bd-d961-49c6-aac7-82572ef5e32d
+1673924696845	Marionette	INFO	Stopped listening on port 39713
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673924709818	geckodriver	INFO	Listening on 127.0.0.1:41529
+1673924710329	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58381" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3ZUJ5C"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18367) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18367) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.18386) [GFX1-]: glxtest: process failed (received signal 11)
+1673924711559	Marionette	INFO	Marionette enabled
+1673924711563	Marionette	INFO	Listening on port 45485
+WebDriver BiDi listening on ws://127.0.0.1:58381
+Read port: 45485
+1673924711742	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3ZUJ5C/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58381/devtools/browser/aa0509e7-4b08-4f9b-835e-aab3e711351a
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+1673924721936	Marionette	INFO	Stopped listening on port 45485
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673925723187	geckodriver	INFO	Listening on 127.0.0.1:39917
+1673925723696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34075" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVUxuFA"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17736) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17736) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.17779) [GFX1-]: glxtest: process failed (received signal 11)
+1673925724915	Marionette	INFO	Marionette enabled
+1673925724918	Marionette	INFO	Listening on port 46125
+WebDriver BiDi listening on ws://127.0.0.1:34075
+Read port: 46125
+1673925725096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVUxuFA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34075/devtools/browser/3be68715-f1d2-4a13-8a6f-9c3f9af74dcd
+1673925726692	Marionette	INFO	Stopped listening on port 46125
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 48: RemoteSettingsWorkerError: Remote Settings has shut down.
+1673925785863	geckodriver	INFO	Listening on 127.0.0.1:39163
+1673925786370	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37005" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFUMO53"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13776) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13776) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.13791) [GFX1-]: glxtest: process failed (received signal 11)
+1673925787536	Marionette	INFO	Marionette enabled
+1673925787539	Marionette	INFO	Listening on port 39201
+Read port: 39201
+WebDriver BiDi listening on ws://127.0.0.1:37005
+1673925787648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFUMO53/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37005/devtools/browser/21f88482-2b17-4af7-8460-d618c58f81ee
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/typescript/4.9.4/typescript.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/typescript/4.9.4/typescript.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/typescript/4.9.4/typescript.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/6to5/3.6.5/browser.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/6to5/3.6.5/browser.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video.min.js, line 36: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/webtorrent/1.9.6/webtorrent.min.js, line 16: asm.js type error: expecting argument type declaration for 'k$845' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jasmine/4.5.0/jasmine.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/gpu.js/1.10.4/gpu.min.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js, line 2697: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js, line 2697: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jshint/2.13.6/jshint.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/deeplearn/0.5.1/deeplearn.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ckeditor5/35.4.0/ckeditor.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/openpgp/4.10.10/openpgp.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/openpgp/4.10.10/openpgp.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/openpgp/4.10.10/openpgp.min.js, line 0: Successfully compiled asm.js code (total compilation time 19ms)
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: "" string literal contains an unescaped line break
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/keras-js/0.3.0/keras.js, line 19: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/keras-js/0.3.0/keras.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/keras-js/0.3.0/keras.js, line 19: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/keras-js/0.3.0/keras.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/keras-js/0.3.0/keras.js, line 19: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/keras-js/0.3.0/keras.js, line 19: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/maptalks/0.49.5/maptalks.min.js, line 6: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/maptalks/0.49.5/maptalks.min.js, line 6: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/maptalks/0.49.5/maptalks.min.js, line 6: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/maptalks/0.49.5/maptalks.min.js, line 6: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/html-gl/0.3.1/htmlgl.min.js, line 7: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/html-gl/0.3.1/htmlgl.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/html-gl/0.3.1/htmlgl.min.js, line 7: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/html-gl/0.3.1/htmlgl.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/html-gl/0.3.1/htmlgl.min.js, line 13: TypeError: this.enable is not a function
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/feature.js/1.1.3/feature.min.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/feature.js/1.1.3/feature.min.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/feature.js/1.1.3/feature.min.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/feature.js/1.1.3/feature.min.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/crafty/0.9.0/crafty-min.js, line 10: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/crafty/0.9.0/crafty-min.js, line 10: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/crafty/0.9.0/crafty-min.js, line 10: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/crafty/0.9.0/crafty-min.js, line 10: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/propel/3.3.1/propel.js, line 26628: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/propel/3.3.1/propel.js, line 4428: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/propel/3.3.1/propel.js, line 4428: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/propel/3.3.1/propel.js, line 4426: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/propel/3.3.1/propel.js, line 4426: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/propel/3.3.1/propel.js, line 4426: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/propel/3.3.1/propel.js, line 4426: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/webkit.js/0.1.0/webkit.js, line 0: Successfully compiled asm.js code (total compilation time 4011ms)
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/d3plus/2.0.2/d3plus.min.js, line 8: TypeError: e is undefined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/knockback-core-stack/0.17.2/knockback-core-stack.min.js, line 9: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 119: TypeError: BigInt value can't be serialized in JSON
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/cachep2p/0.1.6/cachep2p.min.js, line 8: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/libsodium-wrappers/0.5.4/sodium.min.js, line 0: Successfully compiled asm.js code (total compilation time 83ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/linkurious.js/1.5.1/sigma.min.js, line 3: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/linkurious.js/1.5.1/sigma.min.js, line 3: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/linkurious.js/1.5.1/sigma.min.js, line 3: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/linkurious.js/1.5.1/sigma.min.js, line 3: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/engine.io-client/3.5.3/engine.io.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/engine.io-client/3.5.3/engine.io.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/weblas/0.9.1/weblas.js, line 34: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/weblas/0.9.1/weblas.js, line 34: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/asmCrypto/2.3.2/asmcrypto.all.es5.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/asmCrypto/2.3.2/asmcrypto.all.es5.min.js, line 0: Successfully compiled asm.js code (total compilation time 11ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/asmCrypto/2.3.2/asmcrypto.all.es5.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/asmCrypto/2.3.2/asmcrypto.all.es5.min.js, line 0: Successfully compiled asm.js code (total compilation time 29ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/asmCrypto/2.3.2/asmcrypto.all.es5.min.js, line 0: Successfully compiled asm.js code (total compilation time 180ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/webtorrent-component/1.0.2/webtorrent-component.min.js, line 10: asm.js type error: initializer of exported object literal must be name of function
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 1: SyntaxError: missing ] in index expression
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jqwidgets/15.0.0/jqwidgets/jqx-all.js, line 23: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jqwidgets/15.0.0/jqwidgets/jqx-all.js, line 57: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jqwidgets/15.0.0/jqwidgets/jqx-all.js, line 81: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jqwidgets/15.0.0/jqwidgets/jqx-all.js, line 111: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jqwidgets/15.0.0/jqwidgets/jqx-all.js, line 111: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jqwidgets/15.0.0/jqwidgets/jqx-all.js, line 115: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jqwidgets/15.0.0/jqwidgets/jqx-all.js, line 23: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/canvasXpress/24.8.1/canvasXpress.min.js, line 422: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/canvasXpress/24.8.1/canvasXpress.min.js, line 422: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/canvasXpress/24.8.1/canvasXpress.min.js, line 422: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/canvasXpress/24.8.1/canvasXpress.min.js, line 422: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/canvasXpress/24.8.1/canvasXpress.min.js, line 422: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/canvasXpress/24.8.1/canvasXpress.min.js, line 422: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/canvasXpress/24.8.1/canvasXpress.min.js, line 422: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/iDevice.js/2.1.0/idevice.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/iDevice.js/2.1.0/idevice.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/js-scrypt/1.2.0/scrypt.min.js, line 0: Successfully compiled asm.js code (total compilation time 151ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/stockfish.js/10.0.2/stockfish.js, line 0: Successfully compiled asm.js code (total compilation time 425ms)
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/sentient-lang/0.0.0-beta.1/sentient.js, line 6: asm.js type error: 'STACKTOP' not found in local or asm.js module scope
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/webpack-cesium/1.37.0/webpack.cesium.js, line 1: asm.js type error: 'byteLength' is not a standard constant or typed array name
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/venly-web3-provider/0.33.0/web3-provider.js, line 0: Successfully compiled asm.js code (total compilation time 117ms)
+1673926440178	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript warning: http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1673926455200	Marionette	INFO	Stopped listening on port 39201

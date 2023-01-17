@@ -1,0 +1,23 @@
+{
+    "_XMLHttpRequest": [
+        {
+            "lib": "Mock.js",
+            "lib_index": 233,
+            "tree_index": 0
+        }
+    ],
+    "_ActiveXObject": [
+        {
+            "lib": "Mock.js",
+            "lib_index": 233,
+            "tree_index": 1
+        }
+    ],
+    "Mock": [
+        {
+            "lib": "Mock.js",
+            "lib_index": 233,
+            "tree_index": 2
+        }
+    ]
+}

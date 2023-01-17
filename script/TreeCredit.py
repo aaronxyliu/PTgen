@@ -83,6 +83,8 @@ class CreditCalculator:
                         node_dict['t'] = 5
                     case 'function':
                         node_dict['t'] = 6
+                    case 'number':
+                        node_dict['t'] = 7
             if 'value' in node_dict:
                 node_dict['v'] = node_dict.pop('value')
         if 'children' in node:

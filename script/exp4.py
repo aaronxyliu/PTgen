@@ -15,6 +15,7 @@ with open('data/result_no_error__.json', 'r') as openfile:
 
 
 MAX_DEPTH=5
+MAX_NODE=500
 
 
 service = Service(executable_path="./bin/geckodriver")
@@ -30,7 +31,7 @@ for lib in lib_list:
 
     try:
         driver.get(f"http://127.0.0.1:6543/test/{lib['index']}")
-        vlist = driver.execute_script(f'createObjectTree(depth_limit={MAX_DEPTH});')
+        vlist = driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
         #"//div[@id='obj-tree'][1]"
         WebDriverWait(driver, timeout=3).until(text_to_be_present_in_element((By.ID, "obj-tree"), '{'))
         tree_json = driver.find_element(By.ID, 'obj-tree').text
