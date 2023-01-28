@@ -15,6 +15,11 @@ connection = MySQLdb.connect(
   }
 )
 
+cursor = connection.cursor()
+# cursor.execute("CREATE TABLE jslibs (name VARCHAR(255), files JSON);")
+
+
+
 # cdnjs API manual: https://cdnjs.com/api
 
 # First, get all library list
@@ -44,9 +49,19 @@ for lib_info in all_libs['results']:
             # Only consider minified js files
             if file[-6:] == 'min.js' or file[-4:] == '.mjs':
                 files_dict[version].append(file)
+        
     
     json_str = json.dumps(files_dict)
 
+    sql = "INSERT INTO jslibs VALUES (%s, %s);"
+    val = (lib_name, json_str)
+    cursor.execute(sql, val)
+    connection.commit()
+    print(f'Insert {lib_name} into the table "jslibs"')
+
+
+
+connection.close()
 
 
 
