@@ -16,7 +16,7 @@ connection = MySQLdb.connect(
 )
 
 cursor = connection.cursor()
-# cursor.execute("CREATE TABLE jslibs (name VARCHAR(255), files JSON);")
+# cursor.execute("CREATE TABLE jslibs (name VARCHAR(255), version_num INT, file_num INT, files JSON);;")
 
 
 
@@ -36,10 +36,15 @@ for lib_info in all_libs['results']:
 
 
     files_dict = {}
+
+    version_num = 0
+    file_num = 0
     for version in version_list:
         if version[0] == '0':
             # Skip experimental versions
             continue
+        
+        version_num += 1
         
         files_dict[version] = []
         res3 = urlopen(f'https://api.cdnjs.com/libraries/{lib_name}/{version}?fields=files')
@@ -49,15 +54,17 @@ for lib_info in all_libs['results']:
             # Only consider minified js files
             if file[-6:] == 'min.js' or file[-4:] == '.mjs':
                 files_dict[version].append(file)
+                file_num += 1
         
     
     json_str = json.dumps(files_dict)
 
-    sql = "INSERT INTO jslibs VALUES (%s, %s);"
-    val = (lib_name, json_str)
+    sql = "INSERT INTO jslibs VALUES (%s, %d, %d, %s);"
+    val = (lib_name, version_num, file_num, json_str)
     cursor.execute(sql, val)
     connection.commit()
     print(f'Insert {lib_name} into the table "jslibs"')
+
 
 
 
