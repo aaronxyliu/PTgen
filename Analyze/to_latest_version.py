@@ -17,39 +17,68 @@ connection = MySQLdb.connect(
   }
 )
 
+TABLE_NAME = 'AccuLibs'
+
 cursor = connection.cursor()
-cursor.execute("SELECT name FROM AllLibs;")
+cursor.execute(f"SELECT name FROM {TABLE_NAME};")
 libnames = cursor.fetchall()
 
 cnt = 0
+start = True
 for entry in libnames:
     libname = entry[0]
     
-    cursor.execute(f"SELECT jsfiles FROM AllLibs WHERE name = '{libname}';")
-    json_str= cursor.fetchone()[0]
-    file_collection = json.loads(json_str)
+    if start:
+      cursor.execute(f"SELECT jsfiles, dev_jsfiles FROM {TABLE_NAME} WHERE name = '{libname}';")
+      res = cursor.fetchone()
+      file_collection = json.loads(res[0])
 
-    latest_files = []
-    for i in range(len(file_collection)-1, -1, -1):
-      files = file_collection[i][1]
-      if len(files) > 0:
-        latest_files = files
-        break
-    
-    sql = "UPDATE AllLibs SET latest_version_files = %s, latest_version_file_number = %s WHERE name = %s;"
-    val = (json.dumps(latest_files), len(latest_files), libname)
-    cursor.execute(sql, val)
-    connection.commit()
+      latest_files = []
+      latest_version = ''
+      # Iterate through versions larger than '1.0.0'
+      for i in range(len(file_collection)-1, -1, -1):
+        files = file_collection[i][1]
+        if len(files) > 0:
+          latest_version = file_collection[i][0]
+          latest_files = files
+          break
 
-    cnt += 1
-    print(f'{cnt}: {libname} updated.')
+      # Iterate through versions smaller than '1.0.0'
+      if len(latest_files) == 0 and res[1] != None:
+        dev_file_collection = json.loads(res[1])
+        for i in range(len(dev_file_collection)-1, -1, -1):
+          files = dev_file_collection[i][1]
+          if len(files) > 0:
+            latest_version = dev_file_collection[i][0]
+            latest_files = files
+            break
+
+      sql = f"UPDATE {TABLE_NAME} SET latest_version_files = %s, latest_version_file_number = %s, latest_version = %s WHERE name = %s;"
+      val = (json.dumps(latest_files), len(latest_files), latest_version, libname)
+      cursor.execute(sql, val)
+      connection.commit()
+
+      cnt += 1
+      print(f'{cnt}: {libname} updated.')
+
+    # if libname == 'echarts-gl':
+    #   start = True
     
 
 connection.close()
-# CREATE TABLE jslibs_lastest (
-# 	name VARCHAR(255) NOT NULL,
-# 	version VARCHAR(255),
-# 	file_num INT,
-# 	file_list JSON, 
-#   PRIMARY KEY (name)
-# );
+
+# CREATE TABLE `AllLibs` (
+# 	`name` varchar(255) NOT NULL,
+# 	`version_num` int,
+# 	`jsfile_num` int,
+# 	`description` varchar(512),
+# 	`jsfiles` json,
+# 	`url` varchar(255),
+# 	`latest_version_files` json,
+# 	`latest_version_file_number` int,
+# 	`github_star` int,
+# 	`dev_jsfiles` json,
+# 	`dev_jsfile_num` int,
+# 	`dev_version_num` int,
+# 	PRIMARY KEY (`name`)
+# )
