@@ -7,12 +7,15 @@ class CreditCalculator:
         self.depth_subtreesize_index = [0] * (max_depth + 1)  # the i-th element refers to the subtree size sum of all nodes at depth i
         self.D = 0  # Max depth of the current tree, start from 0
         self.credit_sum = 0     # Used to verify, the sum should equal to self.total_credit
+        self.true_max_depth = 0     # Record the true max depth for the input tree
 
 
     def __GetSubtreeSize(self, node, d):
         if (d >  self.max_depth):
             print('Tree depth exceeds MAX_DEPTH!')
             exit()
+        if (d >  self.true_max_depth):
+            self.true_max_depth = d
 
         subtree_size = 1
         node['depth'] = d
@@ -57,8 +60,10 @@ class CreditCalculator:
 
     def algorithm1(self, tree):
         self.__GetSubtreeSize(tree, 0)
+        tree_size = tree['subtree_size']
         self.__CalculateCredit(tree)
         self.__CleanMetaInfo(tree)
+        return tree_size, self.true_max_depth
 
 
     def minifyTreeSpace(self, node):

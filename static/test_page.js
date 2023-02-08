@@ -1,9 +1,9 @@
 function createObjectTree(depth_limit = 5, node_limit = 500, debug = false) {
 
     class TreeNode {
-        constructor(_name, _dict) {
+        constructor(_name) {
             this.name = _name
-            this.dict = _dict
+            this.dict = {}
             this.children = []
         }
     }
@@ -122,14 +122,14 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false) {
     //     }
     // }
 
-    function genPTree(global_v, node_limit, depth_limit) {
+    function genPTree(node_limit, depth_limit, blacklist) {
         // BFS
         let circle_num = 0
-        let node_num = 0
-        let root = new TreeNode(global_v, {})
+        let node_num = 1
+        var root = new TreeNode('window')
         let q = []      // Property Path Queue
         let qc = []     // Generated Property Tree Queue
-        q.push([global_v])
+        q.push([])
         qc.push(root)
 
         while (q.length) {
@@ -156,13 +156,17 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false) {
             }
 
             cur_node.dict = v_info.dict
+
+            // Remove global variables in blacklist
+            if (v_path.length == 0)
+                v_info['children'] = v_info['children'].filter(val => !blacklist.includes(val));
             
             if (v_path.length < depth_limit) {
                 for (let child of v_info['children']) {
                     if (node_num >= node_limit)
                         break
-
-                    let c_node = new TreeNode(child, {})    
+                        
+                    let c_node = new TreeNode(child)    
                     cur_node.children.push(c_node)
                     q.push([...v_path])              // shallow copy
                     q[q.length - 1].push(child)
@@ -176,7 +180,32 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false) {
     }
 
 
-    var tree = new TreeNode('window', { 'type': 'object' })
+    // var tree = new TreeNode('window', { 'type': 'object' })
+    // var vlist = Object.keys(window)
+
+
+    this.fetch(`../static/origin.json`)
+        .then((response) => response.json())
+        .then((origin_vlist) => {
+
+            let tree_info = genPTree(500, 5, origin_vlist)
+            let tree = tree_info[0]
+
+            if (debug) {
+                console.log(`Node number: ${tree_info[1]}   Circle number: ${tree_info[2]}`)
+                console.log(tree)
+            }
+            let circle_num_div = document.getElementById('circle-num');
+            circle_num_div.innerHTML = tree_info[2];
+
+            let json_str = JSON.stringify(tree);
+            let display_div = document.getElementById('obj-tree');
+            display_div.innerHTML = json_str.replace(/<|>/g, '_');
+        })
+}
+
+
+function getGlobalV() {
     var vlist = Object.keys(window)
 
 
@@ -184,36 +213,11 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false) {
         .then((response) => response.json())
         .then((origin_vlist) => {
             vlist = vlist.filter(val => !origin_vlist.includes(val));
-
-            // node_cnt = 0;
-            let total_node_num = 0
-            let total_circle_num = 0
-            for (let v of vlist) {
-                // generateTree(tree, 'window', v)
-                let subtree_info = genPTree(v, 500, 5)
-                tree.children.push(subtree_info[0])
-                total_node_num += subtree_info[1]
-                total_circle_num += subtree_info[2]
-            }
-            if (debug) {
-                console.log(`Node number: ${total_node_num}   Circle number: ${total_circle_num}`)
-                console.log(tree)
-            }
-
-            let json_str = JSON.stringify(tree);
-            let display_div = document.getElementById('obj-tree');
+            let json_str = JSON.stringify(vlist);
+            let display_div = document.getElementById('gloabl-v');
 
             // Replace '<' and '>' with '_' to prevent the conflict with web tag
             display_div.innerHTML = json_str.replace(/<|>/g, '_')
-
-            // // Store every 10000 chars in one <div/>
-            // let BLOCK_SIZE = 10000
-            // let div_num = Math.ceil(json_str.length / BLOCK_SIZE)
-            // for (let i = 0; i < div_num; i += 1) {
-            //     let newDiv = document.createElement('div')
-            //     newDiv.innerHTML = json_str.slice(BLOCK_SIZE * i, BLOCK_SIZE * (i+1))
-            //     display_div.appendChild(newDiv)
-            // }
         })
 }
 

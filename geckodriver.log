@@ -2839,3 +2839,470 @@ JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.esm-bund
 JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.runtime.esm-browser.min.js, line 9: SyntaxError: export declarations may only appear at top level of a module
 JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.runtime.esm-bundler.min.js, line 1: SyntaxError: import declarations may only appear at top level of a module
 1675559509480	Marionette	INFO	Stopped listening on port 37797
+1675720874588	geckodriver	INFO	Listening on 127.0.0.1:59233
+1675720875092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43461" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileu8LOfM"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.22126) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.22126) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.22197) [GFX1-]: glxtest: process failed (received signal 11)
+1675720876347	Marionette	INFO	Marionette enabled
+1675720876350	Marionette	INFO	Listening on port 45331
+Read port: 45331
+WebDriver BiDi listening on ws://127.0.0.1:43461
+1675720876472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu8LOfM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43461/devtools/browser/3dcba5df-cd69-4df5-a351-217e6f55143a
+1675720883786	Marionette	INFO	Stopped listening on port 45331
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1675721019687	geckodriver	INFO	Listening on 127.0.0.1:37493
+1675721020197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilea4Ip6H"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12014) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12014) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.12024) [GFX1-]: glxtest: process failed (received signal 11)
+1675721021337	Marionette	INFO	Marionette enabled
+1675721021339	Marionette	INFO	Listening on port 39069
+WebDriver BiDi listening on ws://127.0.0.1:56869
+Read port: 39069
+1675721021499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea4Ip6H/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56869/devtools/browser/19f4c40b-65d4-4f33-80a2-c4071d3b404e
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.request.min.js, line 10: ReferenceError: amplify is not defined
+1675721026499	Marionette	INFO	Stopped listening on port 39069
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1675721300064	geckodriver	INFO	Listening on 127.0.0.1:52923
+1675721300575	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46591" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3iJri8"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.1467) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.1467) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.14686) [GFX1-]: glxtest: process failed (received signal 11)
+1675721301751	Marionette	INFO	Marionette enabled
+1675721301754	Marionette	INFO	Listening on port 41085
+Read port: 41085
+WebDriver BiDi listening on ws://127.0.0.1:46591
+1675721301848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3iJri8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46591/devtools/browser/baf3b0be-db16-4b80-9f7b-ecfef6b8d5c5
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.request.min.js, line 10: ReferenceError: amplify is not defined
+1675721304057	Marionette	INFO	Stopped listening on port 41085
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1675721397492	geckodriver	INFO	Listening on 127.0.0.1:43581
+1675721397496	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58695" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9EhIZr"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12492) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12492) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.12506) [GFX1-]: glxtest: process failed (received signal 11)
+1675721398656	Marionette	INFO	Marionette enabled
+1675721398659	Marionette	INFO	Listening on port 32833
+Read port: 32833
+WebDriver BiDi listening on ws://127.0.0.1:58695
+1675721398750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9EhIZr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58695/devtools/browser/1d42605e-f54d-4131-8cca-66d922607827
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.request.min.js, line 10: ReferenceError: amplify is not defined
+1675721400877	Marionette	INFO	Stopped listening on port 32833
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1675721422742	geckodriver	INFO	Listening on 127.0.0.1:49391
+1675721422747	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVZyBmu"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.1324) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.1324) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.13256) [GFX1-]: glxtest: process failed (received signal 11)
+1675721423903	Marionette	INFO	Marionette enabled
+1675721423906	Marionette	INFO	Listening on port 40109
+Read port: 40109
+WebDriver BiDi listening on ws://127.0.0.1:55545
+1675721423993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVZyBmu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55545/devtools/browser/fe01254e-cbab-4fdf-bde4-f6e43f21d3e2
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.request.min.js, line 10: ReferenceError: amplify is not defined
+1675721425797	Marionette	INFO	Stopped listening on port 40109
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1675721885813	geckodriver	INFO	Listening on 127.0.0.1:34283
+1675721885820	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35633" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXtLXil"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13776) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13776) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.13789) [GFX1-]: glxtest: process failed (received signal 11)
+1675721886987	Marionette	INFO	Marionette enabled
+1675721886990	Marionette	INFO	Listening on port 45771
+Read port: 45771
+WebDriver BiDi listening on ws://127.0.0.1:35633
+1675721887080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXtLXil/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35633/devtools/browser/b0f7672b-9eae-4157-8189-f420ff2a148a
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.request.min.js, line 10: ReferenceError: amplify is not defined
+1675721889308	Marionette	INFO	Stopped listening on port 45771
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1675721977925	geckodriver	INFO	Listening on 127.0.0.1:49559
+1675721977930	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehhwWtD"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12223) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12223) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.12234) [GFX1-]: glxtest: process failed (received signal 11)
+1675721979070	Marionette	INFO	Marionette enabled
+1675721979073	Marionette	INFO	Listening on port 39513
+Read port: 39513
+WebDriver BiDi listening on ws://127.0.0.1:43717
+1675721979178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehhwWtD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43717/devtools/browser/fd87371f-a728-4ea7-9b61-3ae4b2fec811
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.request.min.js, line 10: ReferenceError: amplify is not defined
+1675721987452	Marionette	INFO	Stopped listening on port 39513
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1675722155211	geckodriver	INFO	Listening on 127.0.0.1:53403
+1675722155723	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55043" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileec1DSG"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13089) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13089) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.13099) [GFX1-]: glxtest: process failed (received signal 11)
+1675722156889	Marionette	INFO	Marionette enabled
+1675722156893	Marionette	INFO	Listening on port 40689
+Read port: 40689
+WebDriver BiDi listening on ws://127.0.0.1:55043
+1675722156997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileec1DSG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55043/devtools/browser/c790da08-b0cd-4c3f-801c-5faa64b4d299
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.request.min.js, line 10: ReferenceError: amplify is not defined
+1675722161092	Marionette	INFO	Stopped listening on port 40689
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1675722179712	geckodriver	INFO	Listening on 127.0.0.1:60649
+1675722179716	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51815" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelDkwHI"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.11933) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.11933) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.11946) [GFX1-]: glxtest: process failed (received signal 11)
+1675722180858	Marionette	INFO	Marionette enabled
+1675722180861	Marionette	INFO	Listening on port 41109
+WebDriver BiDi listening on ws://127.0.0.1:51815
+Read port: 41109
+1675722181001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelDkwHI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51815/devtools/browser/db1ffcfd-0fc1-4e6d-958c-3dbdfbf4ca05
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.request.min.js, line 10: ReferenceError: amplify is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/angular/12.2.17/core.umd.min.js, line 1: TypeError: e.rxjs is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.1/backbone.min.js, line 1: TypeError: b is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/dc/4.2.7/dc.min.js, line 20: TypeError: e is undefined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider.min.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.common.min.js, line 1: ReferenceError: module is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.esm.min.js, line 9: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.bar-min.js, line 19: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.dot-min.js, line 11: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.line-min.js, line 15: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.pie-min.js, line 13: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.raphael-min.js, line 7: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.amd.min.js, line 27: ReferenceError: define is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.runtime.amd.min.js, line 27: ReferenceError: define is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/autoload.min.js, line 1: ReferenceError: Ink is not defined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-ui.min.js, line 3: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-ui.min.js, line 4: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-ui.min.js, line 1: ReferenceError: Ink is not defined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js, line 3: TypeError: a is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js, line 6: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.core.min.js, line 17: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.data.min.js, line 17: TypeError: window.kendo is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/marionette/5.0.0-alpha.2/marionette.min.js, line 1: TypeError: t is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/marionette/5.0.0-alpha.2/marionette.umd.min.js, line 1: TypeError: l is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-utils.min.js, line 1: TypeError: n is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone.min.js, line 1: TypeError: i is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/polymer/3.5.1/polymer-element.min.js, line 1: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/preact/10.11.3/preact.module.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.no-deps.min.js, line 1: TypeError: t is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/cjs/react.production.min.js, line 19: ReferenceError: exports is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.6/sammy.min.js, line 5: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.min.js, line 1: uncaught exception: script.aculo.us requires the Prototype JavaScript framework >= 1.6.0.3
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.esm.min.js, line 6: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/three.js/0.149.0/three.module.min.js, line 186: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.amd.min.js, line 1: ReferenceError: define is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.cjs.min.js, line 1: ReferenceError: exports is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.esm.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/two.js/0.8.10/two.module.min.js, line 64: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-esm.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-node.mjs, line 6: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.ui.min.js, line 6: TypeError: undefined is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.cjs.min.js, line 1: ReferenceError: exports is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.esm-browser.min.js, line 16: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.esm-bundler.min.js, line 1: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.runtime.esm-browser.min.js, line 9: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.runtime.esm-bundler.min.js, line 1: SyntaxError: import declarations may only appear at top level of a module
+1675722297988	Marionette	INFO	Stopped listening on port 41109
+1675733966651	geckodriver	INFO	Listening on 127.0.0.1:40769
+1675733967153	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebVheHM"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17361) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17361) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.17383) [GFX1-]: glxtest: process failed (received signal 11)
+1675733968375	Marionette	INFO	Marionette enabled
+1675733968377	Marionette	INFO	Listening on port 46307
+WebDriver BiDi listening on ws://127.0.0.1:49431
+Read port: 46307
+1675733968512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebVheHM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49431/devtools/browser/cf2fd1f0-142a-49bb-98fe-47c55e4094fc
+1675733971917	Marionette	INFO	Stopped listening on port 46307
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1675735963938	geckodriver	INFO	Listening on 127.0.0.1:47635
+1675735964441	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33705" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWfOcff"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15583) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15583) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.15596) [GFX1-]: glxtest: process failed (received signal 11)
+1675735965631	Marionette	INFO	Marionette enabled
+1675735965633	Marionette	INFO	Listening on port 38105
+Read port: 38105
+WebDriver BiDi listening on ws://127.0.0.1:33705
+1675735965735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWfOcff/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33705/devtools/browser/6850b2a8-c2a9-4764-b1ab-9e4da3da95d8
+1675735967960	Marionette	INFO	Stopped listening on port 38105
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1675736406582	geckodriver	INFO	Listening on 127.0.0.1:45083
+1675736407088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34345" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1yMqUp"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.11775) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.11775) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.11785) [GFX1-]: glxtest: process failed (received signal 11)
+1675736408222	Marionette	INFO	Marionette enabled
+1675736408225	Marionette	INFO	Listening on port 42739
+WebDriver BiDi listening on ws://127.0.0.1:34345
+Read port: 42739
+1675736408393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1yMqUp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34345/devtools/browser/51dfdf2d-9896-4b8e-842b-569be93cb68f
+1675736410925	Marionette	INFO	Stopped listening on port 42739
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1675740578250	geckodriver	INFO	Listening on 127.0.0.1:46657
+1675740578750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60767" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSJHQuM"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19317) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19317) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.19421) [GFX1-]: glxtest: process failed (received signal 11)
+1675740580010	Marionette	INFO	Marionette enabled
+1675740580013	Marionette	INFO	Listening on port 45887
+Read port: 45887
+WebDriver BiDi listening on ws://127.0.0.1:60767
+1675740580195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSJHQuM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60767/devtools/browser/06f59159-b5a1-4ddd-a732-595327016b56
+1675740585013	Marionette	INFO	Stopped listening on port 45887
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1675741638702	geckodriver	INFO	Listening on 127.0.0.1:35557
+1675741638711	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54047" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEdTjjO"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.22942) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.22942) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.23049) [GFX1-]: glxtest: process failed (received signal 11)
+1675741639989	Marionette	INFO	Marionette enabled
+1675741639993	Marionette	INFO	Listening on port 39203
+Read port: 39203
+WebDriver BiDi listening on ws://127.0.0.1:54047
+1675741640094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEdTjjO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54047/devtools/browser/76d36614-9360-4f9e-8cad-ab827a3c91f3
+1675741644478	Marionette	INFO	Stopped listening on port 39203
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1675742256469	geckodriver	INFO	Listening on 127.0.0.1:39337
+1675742256475	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50927" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3OCPRN"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13186) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13186) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.13237) [GFX1-]: glxtest: process failed (received signal 11)
+1675742257645	Marionette	INFO	Marionette enabled
+1675742257648	Marionette	INFO	Listening on port 43741
+Read port: 43741
+WebDriver BiDi listening on ws://127.0.0.1:50927
+1675742257752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3OCPRN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50927/devtools/browser/ea4a3725-63f2-406e-b4d0-09262bbd2d63
+1675742260026	Marionette	INFO	Stopped listening on port 43741
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1675812998329	geckodriver	INFO	Listening on 127.0.0.1:52089
+1675812998831	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41145" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile49XiYL"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.24281) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.24281) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.2441) [GFX1-]: glxtest: process failed (received signal 11)
+1675813000125	Marionette	INFO	Marionette enabled
+1675813000127	Marionette	INFO	Listening on port 46773
+Read port: 46773
+WebDriver BiDi listening on ws://127.0.0.1:41145
+1675813000357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile49XiYL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41145/devtools/browser/5be39584-2149-4c2d-8c99-7f938f91f5f3
+1675813003330	Marionette	INFO	Stopped listening on port 46773
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1675821595047	geckodriver	INFO	Listening on 127.0.0.1:46943
+1675821595553	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57345" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilev49brq"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.26754) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.26754) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.26821) [GFX1-]: glxtest: process failed (received signal 11)
+1675821596866	Marionette	INFO	Marionette enabled
+1675821596869	Marionette	INFO	Listening on port 34733
+Read port: 34733
+WebDriver BiDi listening on ws://127.0.0.1:57345
+1675821597170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilev49brq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57345/devtools/browser/3339be88-4436-4ba1-8e61-ee66148e44e6
+JavaScript error: http://127.0.0.1:6543/static/test_page.js, line 199: TypeError: circle_num_div is null
+1675821632743	Marionette	INFO	Stopped listening on port 34733
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675821712997	geckodriver	INFO	Listening on 127.0.0.1:52241
+1675821713503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36605" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFOk72t"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13586) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13586) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.13596) [GFX1-]: glxtest: process failed (received signal 11)
+1675821714684	Marionette	INFO	Marionette enabled
+1675821714686	Marionette	INFO	Listening on port 39289
+Read port: 39289
+WebDriver BiDi listening on ws://127.0.0.1:36605
+1675821714799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFOk72t/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36605/devtools/browser/ccc3014b-706c-4050-acf5-639d799f82d7
+1675821788068	geckodriver	INFO	Listening on 127.0.0.1:39423
+1675821788578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40261" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileD0PGRX"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12888) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12888) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.12902) [GFX1-]: glxtest: process failed (received signal 11)
+1675821789734	Marionette	INFO	Marionette enabled
+1675821789737	Marionette	INFO	Listening on port 35129
+Read port: 35129
+WebDriver BiDi listening on ws://127.0.0.1:40261
+1675821789837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileD0PGRX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40261/devtools/browser/b877ea79-c49f-413b-a844-84104cc6d4f9
+1675821872180	geckodriver	INFO	Listening on 127.0.0.1:32825
+1675821872683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJ17BZC"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19294) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19294) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.19387) [GFX1-]: glxtest: process failed (received signal 11)
+1675821873928	Marionette	INFO	Marionette enabled
+1675821873931	Marionette	INFO	Listening on port 34205
+Read port: 34205
+WebDriver BiDi listening on ws://127.0.0.1:35141
+1675821874068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ17BZC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35141/devtools/browser/e9f7eab7-5bea-44d1-b034-46f3e5e27da5
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+1675821890027	Marionette	INFO	Stopped listening on port 34205
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675821919381	geckodriver	INFO	Listening on 127.0.0.1:42259
+1675821919388	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39559" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0YFWEF"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13989) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.13989) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.14052) [GFX1-]: glxtest: process failed (received signal 11)
+1675821920564	Marionette	INFO	Marionette enabled
+1675821920567	Marionette	INFO	Listening on port 38329
+Read port: 38329
+WebDriver BiDi listening on ws://127.0.0.1:39559
+1675821920663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0YFWEF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39559/devtools/browser/445c2660-eaf9-40e5-8dec-0be9d02d8977
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.request.min.js, line 10: ReferenceError: amplify is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/angular/12.2.17/core.umd.min.js, line 1: TypeError: e.rxjs is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.1/backbone.min.js, line 1: TypeError: b is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/dc/4.2.7/dc.min.js, line 20: TypeError: e is undefined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider.min.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.common.min.js, line 1: ReferenceError: module is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.esm.min.js, line 9: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.bar-min.js, line 19: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.dot-min.js, line 11: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.line-min.js, line 15: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.pie-min.js, line 13: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.raphael-min.js, line 7: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.amd.min.js, line 27: ReferenceError: define is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.runtime.amd.min.js, line 27: ReferenceError: define is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/autoload.min.js, line 1: ReferenceError: Ink is not defined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-ui.min.js, line 3: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-ui.min.js, line 4: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-ui.min.js, line 1: ReferenceError: Ink is not defined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js, line 3: TypeError: a is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js, line 6: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.core.min.js, line 17: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.data.min.js, line 17: TypeError: window.kendo is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/marionette/5.0.0-alpha.2/marionette.min.js, line 1: TypeError: t is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/marionette/5.0.0-alpha.2/marionette.umd.min.js, line 1: TypeError: l is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-utils.min.js, line 1: TypeError: n is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone.min.js, line 1: TypeError: i is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/polymer/3.5.1/polymer-element.min.js, line 1: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/preact/10.11.3/preact.module.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.no-deps.min.js, line 1: TypeError: t is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/cjs/react.production.min.js, line 19: ReferenceError: exports is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.6/sammy.min.js, line 5: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.min.js, line 1: uncaught exception: script.aculo.us requires the Prototype JavaScript framework >= 1.6.0.3
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.esm.min.js, line 6: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/three.js/0.149.0/three.module.min.js, line 186: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.amd.min.js, line 1: ReferenceError: define is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.cjs.min.js, line 1: ReferenceError: exports is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.esm.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/two.js/0.8.10/two.module.min.js, line 64: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-esm.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-node.mjs, line 6: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.ui.min.js, line 6: TypeError: undefined is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.cjs.min.js, line 1: ReferenceError: exports is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.esm-browser.min.js, line 16: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.esm-bundler.min.js, line 1: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.runtime.esm-browser.min.js, line 9: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.runtime.esm-bundler.min.js, line 1: SyntaxError: import declarations may only appear at top level of a module
+1675822058535	Marionette	INFO	Stopped listening on port 38329
+1675825088996	geckodriver	INFO	Listening on 127.0.0.1:52375
+1675825089500	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59767" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKruB88"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.16877) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.16877) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.1701) [GFX1-]: glxtest: process failed (received signal 11)
+1675825090716	Marionette	INFO	Marionette enabled
+1675825090720	Marionette	INFO	Listening on port 33585
+Read port: 33585
+WebDriver BiDi listening on ws://127.0.0.1:59767
+1675825090885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKruB88/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59767/devtools/browser/c334c826-2b0f-48e7-a03b-39117a86d912
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.request.min.js, line 10: ReferenceError: amplify is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/angular/12.2.17/core.umd.min.js, line 1: TypeError: e.rxjs is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.1/backbone.min.js, line 1: TypeError: b is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/dc/4.2.7/dc.min.js, line 20: TypeError: e is undefined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider.min.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.common.min.js, line 1: ReferenceError: module is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.esm.min.js, line 9: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.bar-min.js, line 19: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.dot-min.js, line 11: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.line-min.js, line 15: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.pie-min.js, line 13: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.raphael-min.js, line 7: ReferenceError: Raphael is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.amd.min.js, line 27: ReferenceError: define is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.runtime.amd.min.js, line 27: ReferenceError: define is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/autoload.min.js, line 1: ReferenceError: Ink is not defined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-ui.min.js, line 3: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-ui.min.js, line 4: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-ui.min.js, line 1: ReferenceError: Ink is not defined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js, line 3: TypeError: a is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js, line 6: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.core.min.js, line 17: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.data.min.js, line 17: TypeError: window.kendo is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/marionette/5.0.0-alpha.2/marionette.min.js, line 1: TypeError: t is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/marionette/5.0.0-alpha.2/marionette.umd.min.js, line 1: TypeError: l is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-utils.min.js, line 1: TypeError: n is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone.min.js, line 1: TypeError: i is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/polymer/3.5.1/polymer-element.min.js, line 1: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/preact/10.11.3/preact.module.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.no-deps.min.js, line 1: TypeError: t is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/cjs/react.production.min.js, line 19: ReferenceError: exports is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.6/sammy.min.js, line 5: ReferenceError: jQuery is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.min.js, line 1: uncaught exception: script.aculo.us requires the Prototype JavaScript framework >= 1.6.0.3
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.esm.min.js, line 6: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/three.js/0.149.0/three.module.min.js, line 186: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.amd.min.js, line 1: ReferenceError: define is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.cjs.min.js, line 1: ReferenceError: exports is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.esm.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/two.js/0.8.10/two.module.min.js, line 64: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-esm.min.js, line 1: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-node.mjs, line 6: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.ui.min.js, line 6: TypeError: undefined is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.cjs.min.js, line 1: ReferenceError: exports is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.esm-browser.min.js, line 16: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.esm-bundler.min.js, line 1: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.runtime.esm-browser.min.js, line 9: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.runtime.esm-bundler.min.js, line 1: SyntaxError: import declarations may only appear at top level of a module
+1675825194002	Marionette	INFO	Stopped listening on port 33585
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js, line 3: TypeError: a is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js, line 4: TypeError: a.event.props is undefined
+console.error: "Unable to find target with innerWindowId:4294967301"

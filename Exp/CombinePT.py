@@ -13,6 +13,7 @@ load_dotenv()
 import MySQLdb
 import json
 
+
 # Connect to PlantScale Database
 connection = MySQLdb.connect(
   host= 'us-east.connect.psdb.cloud',
@@ -27,6 +28,13 @@ connection = MySQLdb.connect(
 )
 cursor = connection.cursor()
 
+
+# DATABASE NAMEs
+SEP_TREE_BASE = 'SepPT1'
+COM_TREE_BASE = 'ComPT1'
+
+
+
 def SameDict(d1, d2):
     for k, v in d1.items():
         if not k in d2:
@@ -36,7 +44,7 @@ def SameDict(d1, d2):
     return True
 
 
-def combine (t, pt, lib_id, file_name):
+def combine (t, pt, file_id):
     # Combine t into exisiting pt
     if t == None or pt == None:
         return
@@ -58,11 +66,11 @@ def combine (t, pt, lib_id, file_name):
             if SameDict(d_item['d'], node_t['d']):
                 # Type and Value equal
                 find_d_item = True
-                d_item['Ls'].append({'L': lib_id, 'F': file_name, 'x': node_t['x']})
+                d_item['Ls'].append({'F': file_id, 'x': node_t['x']})
                 break                  
         
         if not find_d_item:
-            node_pt['d'].append({'d': node_t['d'], 'Ls': [{'L': lib_id, 'F': file_name, 'x': node_t['x']}]})
+            node_pt['d'].append({'d': node_t['d'], 'Ls': [{'F': file_id, 'x': node_t['x']}]})
         
         for child_t in node_t['c']:
             q.append(child_t)
@@ -78,101 +86,52 @@ def combine (t, pt, lib_id, file_name):
                 new_node = {'n': child_t['n'], 'd': [], 'c': []}
                 node_pt['c'].append(new_node)
                 qc.append(new_node)
+    
 
 
+def combineAll():
+    # First clear the COMP_TREE_BASE
+    cursor.execute(f"TRUNCATE TABLE {COM_TREE_BASE};")
+    connection.commit()
 
+    # Extract all pTree from SEP_TREE_BASE
+    cursor.execute(f"SELECT id, pTree FROM {SEP_TREE_BASE};")
+    res = cursor.fetchall()
 
-MAX_DEPTH=5
-MAX_NODE=500
-
-
-service = Service(executable_path="./bin/geckodriver")
-driver = webdriver.Firefox(service=service)
-
-
-cursor.execute("SELECT name, latest_version, latest_version_files, id FROM AccuLibs2;")
-res = cursor.fetchall()
-
-
-lib_cnt = 0
-
-for entry in res:
-    lib_name = entry[0]
-    version = entry[1]
-    jsfiles = json.loads(entry[2])
-    id = entry[3]
-    lib_cnt += 1
-
-    valid_files = []
-    for jsfile in jsfiles:
-
+    for entry in res:
+        id = entry[0]
+        tree = json.loads(entry[1])
         
-        jsfile_tag = f'{lib_name}@{version}@{jsfile}'.replace('/','@')
-
-        # if jsfile_tag == 'processing.js@1.6.6@processing.min.js':
-        #     start = True
-        # if not start:
-        #     continue
-        driver.get(f"http://127.0.0.1:6543/test/{jsfile_tag}")
-
-        error_div = driver.find_element(By.ID, 'js-errors')
-        if error_div.text:
-            # Failed to load the library
-            print(f"X {lib_cnt}: {jsfile_tag} >> {error_div.text}")
-            continue
-
-        # 127.0.0.1:6543/test/tween.js@18.6.4@tween.umd.min.js
-        vlist = driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
-        #"//div[@id='obj-tree'][1]"
-        WebDriverWait(driver, timeout=3).until(text_to_be_present_in_element((By.ID, "obj-tree"), '{'))
-        tree_json = driver.find_element(By.ID, 'obj-tree').text
-        tree = json.loads(tree_json)
-
-        CC = CreditCalculator(max_depth=MAX_DEPTH)
-        CC.algorithm1(tree)
-        CC.minifyTreeSpace(tree)
-
         for subtree in tree['c']:
             subtree_name = subtree['n']
-            cursor.execute(f"SELECT content FROM PTrees1 WHERE root_name = '{subtree_name}';")
+            cursor.execute(f"SELECT content FROM {COM_TREE_BASE} WHERE root_name = '{subtree_name}';")
             res = cursor.fetchone()
             
             if res:
                 pt = json.loads(res[0])
-                combine(subtree, pt, id, jsfile)
-                sql = "UPDATE PTrees1 SET content = %s WHERE root_name = %s;"
+                combine(subtree, pt, id)
+                sql = f"UPDATE {COM_TREE_BASE} SET content = %s WHERE root_name = %s;"
                 val = (json.dumps(pt), subtree_name)
                 cursor.execute(sql, val)
                 connection.commit()
             else:
                 pt = {'n': subtree_name, 'd': [], 'c': []}
-                combine(subtree, pt, id, jsfile)
-                sql = "INSERT INTO PTrees1 (root_name, content) VALUES (%s, %s);"
+                combine(subtree, pt, id)
+                sql = f"INSERT INTO {COM_TREE_BASE} (root_name, content) VALUES (%s, %s);"
                 val = (subtree_name, json.dumps(pt))
                 cursor.execute(sql, val)
                 connection.commit()
+        
+        print(f'{id}: combination finished.')
+        
 
-        print(f"{lib_cnt}: {jsfile_tag} updated.")
+            
 
-        valid_files.append(jsfile)
-    
-    sql = "UPDATE AccuLibs2 SET valid_files = %s WHERE name = %s;"
-    val = (json.dumps(valid_files), lib_name)
-    cursor.execute(sql, val)
-    connection.commit()
+            
 
-   
-
-
-    # except:
-    #    print(f"X {lib_cnt}: Library {lib['name']} error meets.")
-
-    
-
-
-
-driver.close()
-connection.close()
+if __name__ == '__main__':
+    combineAll()
+    connection.close()
 
 
 

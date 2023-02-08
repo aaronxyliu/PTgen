@@ -3,13 +3,15 @@
 <head>
     <title>Test Page</title>
     <script src="${request.static_path('static/test_page.js')}"></script>
-    <!-- <script src="${ request.static_path('static/a.js')}"></script> -->
 </head>
 <body>
     <h3>This is the test page.</h3>
     <h4>Library "${lib_path}" is loaded.</h4>
     <div id="js-errors"></div>
+    <button onclick="getGlobalV();">Get Global Variables</button>
     <button onclick="createObjectTree(5, 500, true);">Generate pTree</button>
+    <div id="circle-num"></div>
+    <div id="gloabl-v"></div>
     <div id="obj-tree"></div>
 </body>
 <script>
@@ -18,5 +20,13 @@
         error_div.innerHTML += msg;
     }
 </script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> -->
+<!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script> -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/${lib_path}"></script>
+
+<!-- <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+
 </html>
