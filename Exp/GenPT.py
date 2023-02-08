@@ -6,33 +6,19 @@ from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.expected_conditions import text_to_be_present_in_element
 import json
-from ete3 import Tree
+from PlanetscaleConn import connect_to_planetscale
 from TreeCredit import CreditCalculator
-from dotenv import load_dotenv
-load_dotenv()
-import MySQLdb
-import json
 
-# Connect to PlantScale Database
-connection = MySQLdb.connect(
-  host= 'us-east.connect.psdb.cloud',
-  user='yain51suytl8vm1cm4b2',
-  passwd= 'pscale_pw_pEiVDtydTJqIpuJ68NRKenF0ncp6jjYipJkfxFDIHDN',
-  db= 'js-lib-detect-trees',
-  ssl_mode = "VERIFY_IDENTITY",
-  ssl      = {
-    #"ca": "/etc/ssl/cert.pem"   # For Mac
-    "ca": "/etc/ssl/certs/ca-certificates.crt"  # For Linux
-  }
-)
+
+connection = connect_to_planetscale()
 cursor = connection.cursor()
 
 service = Service(executable_path="./bin/geckodriver")
 driver = webdriver.Firefox(service=service)
 
-# DATABASE NAMEs
-LIB_BASE = 'AccuLibs2'
-SEP_TREE_BASE = 'SepPT1'
+# TABLE NAMEs
+LIB_TABLE = 'AccuLibs2'
+SEP_TREE_TABLE = 'SepPT1'
 
 MAX_DEPTH=5
 MAX_NODE=500
@@ -78,10 +64,10 @@ def generatePT(jsfile_tag):
 
 
 def updateOne(lib_name, filename):
-    cursor.execute(f"SELECT latest_version, latest_version_files, id, valid_files FROM {LIB_BASE} WHERE name = '{lib_name}';")
+    cursor.execute(f"SELECT latest_version, latest_version_files, id, valid_files FROM {LIB_TABLE} WHERE name = '{lib_name}';")
     res = cursor.fetchone()
     if not res:
-        print(f"{lib_name} doesn't not exist in {LIB_BASE} database.")
+        print(f"{lib_name} doesn't not exist in {LIB_TABLE} dataTABLE.")
         return
     version = res[0]
     jsfiles = json.loads(res[1])
@@ -102,28 +88,28 @@ def updateOne(lib_name, filename):
     pt, size, depth, circle_num = generatePT(jsfile_tag)
 
     if pt:
-        # Add pt to SepTreeBase database
+        # Add pt to SepTreeTABLE dataTABLE
         globalV = []
         for subtree in pt['c']:
             globalV.append(subtree['n'])
 
         # If entry already exists, delete first
-        cursor.execute(f"SELECT size FROM {SEP_TREE_BASE} WHERE jsfile = '{jsfile_tag}';")
+        cursor.execute(f"SELECT size FROM {SEP_TREE_TABLE} WHERE jsfile = '{jsfile_tag}';")
         res = cursor.fetchone()
         if res:  
-            cursor.execute(f"DELETE FROM {SEP_TREE_BASE} WHERE jsfile = '{jsfile_tag}';")
+            cursor.execute(f"DELETE FROM {SEP_TREE_TABLE} WHERE jsfile = '{jsfile_tag}';")
             connection.commit()
 
-        # Create new entry in SEP_TREE_BASE
-        sql = f"INSERT INTO {SEP_TREE_BASE} (jsfile, pTree, size, depth, globalV, globalV_num, circle_num) VALUES (%s, %s, %s, %s, %s, %s, %s);"
+        # Create new entry in SEP_TREE_TABLE
+        sql = f"INSERT INTO {SEP_TREE_TABLE} (jsfile, pTree, size, depth, globalV, globalV_num, circle_num) VALUES (%s, %s, %s, %s, %s, %s, %s);"
         val = (jsfile_tag, json.dumps(pt), size, depth, json.dumps(globalV), len(globalV), circle_num)
         cursor.execute(sql, val)
         connection.commit()
-        print(f'    {jsfile_tag} entry added to {SEP_TREE_BASE}.')
+        print(f'    {jsfile_tag} entry added to {SEP_TREE_TABLE}.')
 
-        # Update valid_file field in LIB_BASE
+        # Update valid_file field in LIB_TABLE
         valid_files.append(filename)
-        sql = f"UPDATE {LIB_BASE} SET valid_files = %s WHERE name = %s;"
+        sql = f"UPDATE {LIB_TABLE} SET valid_files = %s WHERE name = %s;"
         val = (json.dumps(valid_files), lib_name)
         cursor.execute(sql, val)
         connection.commit()
@@ -132,7 +118,7 @@ def updateOne(lib_name, filename):
 
 def updateAll():
 
-    cursor.execute(f"SELECT name, latest_version_files FROM {LIB_BASE};")
+    cursor.execute(f"SELECT name, latest_version_files FROM {LIB_TABLE};")
     res = cursor.fetchall()
 
     cnt = 0
@@ -149,7 +135,7 @@ def updateAll():
 
 
 def resetValidFiles():
-    cursor.execute(f"UPDATE {LIB_BASE} SET valid_files = '[]'")
+    cursor.execute(f"UPDATE {LIB_TABLE} SET valid_files = '[]'")
     connection.commit()
         
 
