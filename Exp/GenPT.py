@@ -64,7 +64,7 @@ def generatePT(jsfile_tag):
 
 
 def updateOne(lib_name, filename):
-    cursor.execute(f"SELECT latest_version, latest_version_files, id, valid_files FROM {LIB_TABLE} WHERE name = '{lib_name}';")
+    cursor.execute(f"SELECT latest_version, latest_version_files, valid_files FROM {LIB_TABLE} WHERE name = '{lib_name}';")
     res = cursor.fetchone()
     if not res:
         print(f"{lib_name} doesn't not exist in {LIB_TABLE} dataTABLE.")
@@ -73,8 +73,8 @@ def updateOne(lib_name, filename):
     jsfiles = json.loads(res[1])
     # id = res[2]
     valid_files = []
-    if res[3]:
-        valid_files = json.loads(res[3])
+    if res[2]:
+        valid_files = json.loads(res[2])
 
     if filename not in jsfiles:
         print(f"    {filename} doesn't exist.")

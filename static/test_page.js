@@ -1,4 +1,4 @@
-function createObjectTree(depth_limit = 5, node_limit = 500, debug = false) {
+function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl = []) {  //bl: optional blacklist
 
     class TreeNode {
         constructor(_name) {
@@ -37,36 +37,6 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false) {
         return v_info
     }
 
-    // function hasSameAddr(prefix, v) {
-    //     // Prevent loop in the object tree
-    //     // Check whether v points to some parent variable
-    //     if (!prefix)
-    //         return false
-    //     let _v = `${prefix}["${v}"]`
-
-    //     if (eval(`typeof (${_v}) != 'object' && typeof (${_v}) != 'function'`)) 
-    //         return false
-    //     if (eval(`typeof (${prefix}) == 'object' || typeof (${prefix}) == 'function'`))
-    //         if (eval(`${prefix} == ${_v}`))
-    //             return true
-        
-    //     let needClose = true
-    //     for(let p = prefix.length - 1; p > 0; p -= 1) {        
-    //         if (needClose && prefix[p-1] == '"' && prefix[p] == ']') {
-    //             needClose = false
-    //             p-=1
-    //         }
-    //         else if (prefix[p-1] == '[' && prefix[p] == '"') {
-    //             needClose = true
-    //             let parent_v = prefix.slice(0, p-1)
-    //                 if (eval(`typeof (${parent_v}) == 'object' || typeof (${parent_v}) == 'function'`))
-    //                     if (eval(`${parent_v} == ${_v}`))
-    //                         return true
-    //         }
-    //     }
-
-    //     return false
-    // }
 
     function hasCircle(v_path) {
         // Prevent loop in the object tree
@@ -93,34 +63,6 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false) {
         return false
     }
     
-    // var node_cnt = 0;
-    // function generateTree(parent, prefix, v_name, depth = 1) {
-    //     if (depth > depth_limit) {
-    //         return
-    //     }
-    //     if (node_cnt >= node_limit) {
-    //         return
-    //     }
-
-    //     if (v_name == "\\") {
-    //         v_name += '\\'  // add slash for special name
-    //     }
-    //     if (hasSameAddr(prefix, v_name)) {
-    //         return
-    //     }
-        
-    //     let v_info = {}
-    //     if (debug)
-    //         console.log(`${prefix}["${v_name}"]   depth: ${depth}`)
-    //     eval(`v_info = analyzeVariable(${prefix}["${v_name}"]);`)
-    //     let node = new TreeNode(v_name, v_info.dict)
-    //     node_cnt += 1
-    //     parent.children.push(node)
-    
-    //     for (let child_v_name of v_info['children']) {
-    //         generateTree(node, `${prefix}["${v_name}"]`,child_v_name, depth + 1)
-    //     }
-    // }
 
     function genPTree(node_limit, depth_limit, blacklist) {
         // BFS
@@ -141,7 +83,7 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false) {
                 continue
             }
 
-            v_str = 'window'
+            let v_str = 'window'
             for (let v of v_path) {
                 v_str += `["${v}"]`
             }
@@ -188,7 +130,7 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false) {
         .then((response) => response.json())
         .then((origin_vlist) => {
 
-            let tree_info = genPTree(500, 5, origin_vlist)
+            let tree_info = genPTree(500, 5, [...origin_vlist, ...bl])
             let tree = tree_info[0]
 
             if (debug) {
