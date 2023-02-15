@@ -10,8 +10,8 @@ def connect_to_planetscale():
         db= 'js-lib-detect-trees',
         ssl_mode = "VERIFY_IDENTITY",
         ssl      = {
-            #"ca": "/etc/ssl/cert.pem"   # For Mac
-            "ca": "/etc/ssl/certs/ca-certificates.crt"  # For Linux
+            "ca": "/etc/ssl/cert.pem"   # For Mac
+            #"ca": "/etc/ssl/certs/ca-certificates.crt"  # For Linux
             }
     )
     return connection

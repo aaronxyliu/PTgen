@@ -8,8 +8,8 @@ connection = connect_to_planetscale()
 cursor = connection.cursor()
 
 # TABLE NAMEs
-SEP_TREE_TABLE = 'SepPT1'
-COM_TREE_TABLE = 'ComPT1'
+SEP_TREE_TABLE = 'SepPT'
+COM_TREE_TABLE = 'ComPT'
 
 
 def SameDict(d1, d2):
@@ -73,7 +73,7 @@ def combineAll():
     connection.commit()
 
     # Extract all pTree from SEP_TREE_TABLE
-    cursor.execute(f"SELECT id, pTree FROM {SEP_TREE_TABLE};")
+    cursor.execute(f"SELECT file_id, pTree FROM {SEP_TREE_TABLE};")
     res = cursor.fetchall()
 
     for entry in res:
