@@ -6,10 +6,10 @@
 </head>
 <body>
     <h3>This is the test page.</h3>
-    <h4>Library "${lib_path}" is loaded.</h4>
+    <h4>Library ${libname} (${version}) : ${filename} is loaded.</h4>
     <div id="js-errors"></div>
     <button onclick="getGlobalV();">Get Global Variables</button>
-    <button onclick="createObjectTree(5, 500, true);">Generate pTree</button>
+    <button onclick="createObjectTree(20, 2000, true);">Generate pTree</button>
     <div id="circle-num"></div>
     <div id="gloabl-v"></div>
     <div id="obj-tree"></div>
@@ -28,9 +28,8 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prototype/1.7.3/prototype.min.js"></script> -->
 
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script> -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/${lib_path}"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/2.12.1/mapbox-gl.js"></script>
+<!-- <script src="${url}"></script> -->
 
 
 </html>

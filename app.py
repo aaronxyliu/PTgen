@@ -4,8 +4,8 @@ from pyramid.view import view_config
 import json
 
 
-with open('data/cdnjs.json', 'r') as openfile:
-    lib_list = json.load(openfile)
+with open('data/DetectFile.json', 'r') as openfile:
+    file_list = json.load(openfile)
 
 
 # @view_config(route_name='lib_test', renderer='test_page.pt')
@@ -18,16 +18,20 @@ with open('data/cdnjs.json', 'r') as openfile:
 
 @view_config(route_name='lib_test', renderer='test_page.pt')
 def lib_testing(request):
-    path = request.matchdict['lib_path']
-    path = path.replace('@','/')
-    return dict(lib_path=path)
+    index = str(request.matchdict['file_index'])
+    print(index)
+    file_info = file_list[index]
+    return dict(libname = file_info['libname'], 
+                filename = file_info['filename'],
+                url = file_info['url'],
+                version = file_info['version'])
 
 
 
 
 if __name__ == '__main__':
     with Configurator() as config:
-        config.add_route('lib_test', '/test/{lib_path}')
+        config.add_route('lib_test', '/test/{file_index}')
         
         config.include('pyramid_chameleon')
 

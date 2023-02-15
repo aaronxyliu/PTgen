@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 load_dotenv()
 import MySQLdb
-import json
 
 
 connection = MySQLdb.connect(
@@ -11,8 +10,8 @@ connection = MySQLdb.connect(
   db= 'js-lib-detect-trees',
   ssl_mode = "VERIFY_IDENTITY",
   ssl      = {
-    "ca": "/etc/ssl/cert.pem"   # For Mac
-    #"ca": "/etc/ssl/certs/ca-certificates.crt"  # For Linux
+    #"ca": "/etc/ssl/cert.pem"   # For Mac
+    "ca": "/etc/ssl/certs/ca-certificates.crt"  # For Linux
   }
 )
 
@@ -36,8 +35,21 @@ def sum_lib_file_no():
     cnt += entry[0]
   print(cnt)
 
+def reset_id(table_name):
+  cursor.execute(f"SELECT filename, id FROM {table_name} ORDER BY libname;")
+  res = cursor.fetchall()
+  for entry in res:
+    cursor.execute(f"UPDATE {table_name} SET id = {entry[1] + 1000} where filename = '{entry[0]}';")
+    connection.commit()
+  cnt = 0
+  for entry in res:
+    cnt += 1
+    cursor.execute(f"UPDATE {table_name} SET id = {cnt} where filename = '{entry[0]}';")
+    connection.commit()
+  
+
 if __name__ == '__main__':
-  sum_lib_file_no()
+  reset_id('DetectFile')
 
 
 connection.close()

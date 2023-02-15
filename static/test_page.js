@@ -48,16 +48,25 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
         for (let v of v_path) {
             cur_v += `["${v}"]`
         }
-
-        if (eval(`typeof (${cur_v}) != 'object' && typeof (${cur_v}) != 'function'`)) 
+        try{
+            if (eval(`typeof (${cur_v}) != 'object' && typeof (${cur_v}) != 'function'`)) 
+                return false
+        }
+        catch{
             return false
+        }
 
         ancient_v = 'window'
         for (let i = 0; i < v_path.length - 1; i += 1) {
             ancient_v += `["${v_path[i]}"]`
-            if (eval(`typeof (${ancient_v}) == 'object' || typeof (${ancient_v}) == 'function'`))
-                if (eval(`${ancient_v} == ${cur_v}`))
-                    return true
+            try {
+                if (eval(`typeof (${ancient_v}) == 'object' || typeof (${ancient_v}) == 'function'`))
+                    if (eval(`${ancient_v} == ${cur_v}`))
+                        return true
+            }
+            catch {
+                continue
+            }
         }
 
         return false
@@ -85,7 +94,12 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
 
             let v_str = 'window'
             for (let v of v_path) {
-                v_str += `["${v}"]`
+                if (v == '"') {
+                    v_str += `['${v}']`
+                }
+                else {
+                    v_str += `["${v}"]`
+                }
             }
             
             if (debug)
@@ -130,7 +144,7 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
         .then((response) => response.json())
         .then((origin_vlist) => {
 
-            let tree_info = genPTree(500, 5, [...origin_vlist, ...bl])
+            let tree_info = genPTree(node_limit, depth_limit, [...origin_vlist, ...bl])
             let tree = tree_info[0]
 
             if (debug) {
