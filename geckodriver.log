@@ -3583,3 +3583,174 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:33009/devtools/browser/bdb40270-d7d4-49d8-babc-80a6496d4d60
 1676438495566	Marionette	INFO	Stopped listening on port 37405
 JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1676502067917	geckodriver	INFO	Listening on 127.0.0.1:54503
+1676502068421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43037" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAsDVGD"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18318) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18318) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.18382) [GFX1-]: glxtest: process failed (received signal 11)
+1676502069650	Marionette	INFO	Marionette enabled
+1676502069653	Marionette	INFO	Listening on port 34815
+Read port: 34815
+WebDriver BiDi listening on ws://127.0.0.1:43037
+1676502069779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAsDVGD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43037/devtools/browser/737afc51-1702-4faa-a184-b8de628f4a51
+1676502072881	Marionette	INFO	Stopped listening on port 34815
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1676503158162	geckodriver	INFO	Listening on 127.0.0.1:38109
+1676503158668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexIy0mq"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17924) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17924) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.17993) [GFX1-]: glxtest: process failed (received signal 11)
+1676503159900	Marionette	INFO	Marionette enabled
+1676503159902	Marionette	INFO	Listening on port 34353
+Read port: 34353
+WebDriver BiDi listening on ws://127.0.0.1:45683
+1676503160052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexIy0mq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45683/devtools/browser/ec659421-6e31-40fb-a18a-4406f2d01d22
+1676503187649	Marionette	INFO	Stopped listening on port 34353
+1676504368200	geckodriver	INFO	Listening on 127.0.0.1:39789
+1676504368709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAhk6WY"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19262) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.19262) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.19334) [GFX1-]: glxtest: process failed (received signal 11)
+1676504369946	Marionette	INFO	Marionette enabled
+1676504369949	Marionette	INFO	Listening on port 44761
+Read port: 44761
+WebDriver BiDi listening on ws://127.0.0.1:60055
+1676504370069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAhk6WY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60055/devtools/browser/68abfbcd-8b78-4038-9742-b70433894e8a
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1676504388455	Marionette	INFO	Stopped listening on port 33481
+1676504484367	geckodriver	INFO	Listening on 127.0.0.1:54697
+1676504484870	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "32993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileytiTWY"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15025) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15025) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.15102) [GFX1-]: glxtest: process failed (received signal 11)
+1676504486065	Marionette	INFO	Marionette enabled
+1676504486068	Marionette	INFO	Listening on port 37035
+Read port: 37035
+WebDriver BiDi listening on ws://127.0.0.1:32993
+1676504486187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileytiTWY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:32993/devtools/browser/013a1d97-8702-46a8-b6f3-fca19926cf06
+1676504488384	Marionette	INFO	Stopped listening on port 37035
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1676507464676	geckodriver	INFO	Listening on 127.0.0.1:35005
+1676507465181	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34713" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerkyCLp"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17155) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17155) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.17173) [GFX1-]: glxtest: process failed (received signal 11)
+1676507466394	Marionette	INFO	Marionette enabled
+1676507466397	Marionette	INFO	Listening on port 40401
+WebDriver BiDi listening on ws://127.0.0.1:34713
+Read port: 40401
+1676507466622	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerkyCLp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34713/devtools/browser/68a1f515-e6b1-4120-8c17-734ab4aa6999
+1676507468933	Marionette	INFO	Stopped listening on port 40401
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1676507512234	geckodriver	INFO	Listening on 127.0.0.1:49411
+1676507512743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33719" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLqWmBY"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.14159) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.14159) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.14289) [GFX1-]: glxtest: process failed (received signal 11)
+1676507513936	Marionette	INFO	Marionette enabled
+1676507513939	Marionette	INFO	Listening on port 41875
+Read port: 41875
+WebDriver BiDi listening on ws://127.0.0.1:33719
+1676507514030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLqWmBY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33719/devtools/browser/6362667f-a09f-4d23-97d6-0ffcb4f26beb
+1676507516926	Marionette	INFO	Stopped listening on port 41875
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1676516184643	geckodriver	INFO	Listening on 127.0.0.1:40425
+1676516185145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43705" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledJ1z5k"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.2366) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.2366) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.23714) [GFX1-]: glxtest: process failed (received signal 11)
+1676516186450	Marionette	INFO	Marionette enabled
+1676516186453	Marionette	INFO	Listening on port 35061
+Read port: 35061
+WebDriver BiDi listening on ws://127.0.0.1:43705
+1676516186848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledJ1z5k/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43705/devtools/browser/6e33324c-00ad-4578-abda-11989f078df0
+1676516189760	Marionette	INFO	Stopped listening on port 35061
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1676517743318	geckodriver	INFO	Listening on 127.0.0.1:48447
+1676517743819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJUHzF7"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17365) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17365) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.17383) [GFX1-]: glxtest: process failed (received signal 11)
+1676517745031	Marionette	INFO	Marionette enabled
+1676517745034	Marionette	INFO	Listening on port 32989
+WebDriver BiDi listening on ws://127.0.0.1:36585
+Read port: 32989
+1676517745212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJUHzF7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36585/devtools/browser/42fcdb6b-da2c-40d0-b1bd-22eac4965c84
+1676517748197	Marionette	INFO	Stopped listening on port 32989
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1676517856381	geckodriver	INFO	Listening on 127.0.0.1:42673
+1676517856387	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41705" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilep0GrXo"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12565) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12565) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.12581) [GFX1-]: glxtest: process failed (received signal 11)
+1676517857536	Marionette	INFO	Marionette enabled
+1676517857540	Marionette	INFO	Listening on port 43633
+Read port: 43633
+WebDriver BiDi listening on ws://127.0.0.1:41705
+1676517857638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilep0GrXo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41705/devtools/browser/1659b969-6098-4885-be11-432300827c66
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+1676517899067	Marionette	INFO	Stopped listening on port 43633
+1676518082424	geckodriver	INFO	Listening on 127.0.0.1:52797
+1676518082926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZAO2GW"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12514) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12514) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.12523) [GFX1-]: glxtest: process failed (received signal 11)
+1676518084084	Marionette	INFO	Marionette enabled
+1676518084087	Marionette	INFO	Listening on port 46241
+Read port: 46241
+WebDriver BiDi listening on ws://127.0.0.1:35131
+1676518084192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZAO2GW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35131/devtools/browser/d927c452-ac35-40d3-a7cb-98bb266bfc46
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+1676518130691	Marionette	INFO	Stopped listening on port 46241
+1676518250972	geckodriver	INFO	Listening on 127.0.0.1:48511
+1676518251477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33361" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6dqbG1"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.11183) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.11183) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.11193) [GFX1-]: glxtest: process failed (received signal 11)
+1676518252604	Marionette	INFO	Marionette enabled
+1676518252606	Marionette	INFO	Listening on port 37463
+WebDriver BiDi listening on ws://127.0.0.1:33361
+Read port: 37463
+1676518252780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6dqbG1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33361/devtools/browser/5865bfe9-368c-46fd-b681-92fe3a69f29d
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+1676518316582	Marionette	INFO	Stopped listening on port 37463
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1676518326389	geckodriver	INFO	Listening on 127.0.0.1:56311
+1676518326894	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36817" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIL6sy4"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12745) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.12745) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.12759) [GFX1-]: glxtest: process failed (received signal 11)
+1676518328058	Marionette	INFO	Marionette enabled
+1676518328061	Marionette	INFO	Listening on port 42031
+Read port: 42031
+WebDriver BiDi listening on ws://127.0.0.1:36817
+1676518328155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIL6sy4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36817/devtools/browser/1a4e0ba0-d882-4b2e-843c-3641f664f86e
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+1676518357412	Marionette	INFO	Stopped listening on port 42031

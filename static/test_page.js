@@ -23,10 +23,13 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
             v_info = { dict: { 'type': 'string', 'value': v.slice(0, 10) }, 'children': [] }
         }
         else if (typeof (v) == 'object') {
-            v_info = { dict: { 'type': 'object' }, 'children': Object.keys(v) }
+            let vlist = Object.getOwnPropertyNames(v)
+            v_info = { dict: { 'type': 'object' }, 'children': vlist }
         }
         else if (typeof (v) == 'function') {
-            v_info = { dict: { 'type': 'function' }, 'children': Object.keys(v) }
+            let vlist = Object.getOwnPropertyNames(v)
+            vlist = vlist.filter(val => !["prototype", "length", "name"].includes(val));
+            v_info = { dict: { 'type': 'function' }, 'children': vlist }
         }
         else if (typeof (v) == 'number') {
             v_info = { dict: { 'type': 'number', 'value': v.toFixed(2)}, 'children': [] }
@@ -136,11 +139,7 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
     }
 
 
-    // var tree = new TreeNode('window', { 'type': 'object' })
-    // var vlist = Object.keys(window)
-
-
-    this.fetch(`../static/origin.json`)
+    this.fetch(`../static/blacklist.json`)
         .then((response) => response.json())
         .then((origin_vlist) => {
 
@@ -162,10 +161,11 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
 
 
 function getGlobalV() {
-    var vlist = Object.keys(window)
+    // var vlist = Object.keys(window)
+    var vlist = Object.getOwnPropertyNames(window)
 
 
-    this.fetch(`../static/origin.json`)
+    this.fetch(`../static/blacklist.json`)
         .then((response) => response.json())
         .then((origin_vlist) => {
             vlist = vlist.filter(val => !origin_vlist.includes(val));

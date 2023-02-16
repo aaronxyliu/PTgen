@@ -8,8 +8,8 @@ connection = connect_to_planetscale()
 cursor = connection.cursor()
 
 # TABLE NAMEs
-SEP_TREE_TABLE = 'SepPT'
-COM_TREE_TABLE = 'ComPT'
+SEP_TREE_TABLE = 'SepPT_5_50'
+COM_TREE_TABLE = 'ComPT_5_50'
 
 
 def SameDict(d1, d2):

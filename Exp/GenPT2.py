@@ -18,7 +18,7 @@ driver = webdriver.Firefox(service=service)
 
 # TABLE NAMEs
 LIB_TABLE = 'DetectFile'
-SEP_TREE_TABLE = 'SepPT'
+SEP_TREE_TABLE = 'SepPT_full'
 
 MAX_DEPTH=100
 MAX_NODE=10000
@@ -106,15 +106,14 @@ def updateAll(start_id = 0):
         file_name = file_list[file_index]['filename']
 
         print(f'  \033[1;32m{file_index} {lib_name} {file_name}:\033[0m')
-        updateOne(file_index)        
+        updateOne(file_index)
 
             
 
             
 
 if __name__ == '__main__':
-    updateOne(54)
-    # updateAll(41)
+    updateAll(41)
     driver.close()
     connection.close()
 

@@ -7,8 +7,8 @@ connection = connect_to_planetscale()
 cursor = connection.cursor()
 
 # TABLE NAMEs
-SEP_TREE_TABLE = 'SepPT1'
-COM_TREE_TABLE = 'ComPT1'
+# SEP_TREE_TABLE = 'SepPT_5_50'
+COM_TREE_TABLE = 'ComPT_5_50'
 FILE_TABLE = 'DetectFile'
 
 def toJson1():
@@ -18,18 +18,18 @@ def toJson1():
     pt_dict = {}
     for entry in res:
         pt_dict[entry[0]] = json.loads(entry[1])
-    with open('data/pt.json', "w") as outfile:
+    with open('data/pts.json', "w") as outfile:
         outfile.write(json.dumps(pt_dict))
 
 
-    cursor.execute(f"SELECT jsfile FROM {SEP_TREE_TABLE} ORDER BY id ASC;")
-    res = cursor.fetchall()
+    # cursor.execute(f"SELECT jsfile FROM {SEP_TREE_TABLE} ORDER BY id ASC;")
+    # res = cursor.fetchall()
 
-    jsfile_list = []
-    for entry in res:
-        jsfile_list.append(entry[0])
-    with open('data/jsfile_list.json', "w") as outfile:
-        outfile.write(json.dumps(jsfile_list))
+    # jsfile_list = []
+    # for entry in res:
+    #     jsfile_list.append(entry[0])
+    # with open('data/jsfile_list.json', "w") as outfile:
+    #     outfile.write(json.dumps(jsfile_list))
 
 def toJson2():
     cursor.execute(f"SELECT libname, filename, url, version, deps, comment, id FROM {FILE_TABLE};")
@@ -50,6 +50,7 @@ def toJson2():
     with open('data/DetectFile.json', "w") as outfile:
         outfile.write(json.dumps(file_dict))
 
-
-toJson2()
+if __name__ == '__main__':
+    toJson1()
+    print('Complete')
     

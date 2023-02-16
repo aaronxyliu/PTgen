@@ -16,7 +16,7 @@ connection = MySQLdb.connect(
   }
 )
 
-TABLE_NAME = 'SepPT'
+TABLE_NAME = 'SepPT_full'
 
 cursor = connection.cursor()
 
@@ -33,11 +33,12 @@ def get_stat():
     depth_list.append(entry[2])
     circle_num_list.append(entry[3])
 
-  print('MEAN , MEDIAN, MAX, MIN')
-  print(f'globalV_num: {round(np.mean(globalV_num_list),1)}    {np.median(globalV_num_list)}    {max(globalV_num_list)}    {min(globalV_num_list)}')
+  print('MEAN, MEDIAN, MAX, MIN')
   print(f'size:        {round(np.mean(size_list),1)}    {np.median(size_list)}    {max(size_list)}    {min(size_list)}')
   print(f'deth:        {round(np.mean(depth_list),1)}    {np.median(depth_list)}    {max(depth_list)}    {min(depth_list)}')
   print(f'circle_num:  {round(np.mean(circle_num_list),1)}    {np.median(circle_num_list)}    {max(circle_num_list)}    {min(circle_num_list)}')
+  print(f'globalV_num: {round(np.mean(globalV_num_list),1)}    {np.median(globalV_num_list)}    {max(globalV_num_list)}    {min(globalV_num_list)}')
+
 
 
 if __name__ == '__main__':
