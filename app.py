@@ -8,23 +8,31 @@ with open('data/DetectFile.json', 'r') as openfile:
     file_list = json.load(openfile)
 
 
-# @view_config(route_name='lib_test', renderer='test_page.pt')
-# def lib_testing(request):
-#     index = int(request.matchdict['lib_index'])
-#     lib_info = lib_list['results'][index]
-#     lib_name = lib_info['name']
-#     lib_path = lib_info['latest']
-#     return dict(lib_name=lib_name, lib_path=lib_path)
-
+## Page Template Language (PTL) Reference:
+##    Chamelon language reference: chameleon.readthedocs.io/en/latest/reference.html
+##    Blog: majornetwork.net/2021/03/templating-your-python-output-with-chameleon
 @view_config(route_name='lib_test', renderer='test_page.pt')
 def lib_testing(request):
     index = str(request.matchdict['file_index'])
-    print(index)
+
     file_info = file_list[index]
+    lib_list = file_info['out_deps'][:]
+    lib_list.append(file_info['url'])
     return dict(libname = file_info['libname'], 
                 filename = file_info['filename'],
-                url = file_info['url'],
-                version = file_info['version'])
+                version = file_info['version'],
+                libs = lib_list)
+
+@view_config(route_name='only_deps', renderer='test_page.pt')
+def dep_testing(request):
+    index = str(request.matchdict['file_index'])
+    
+    file_info = file_list[index]
+    lib_list = file_info['out_deps'] + file_info['in_deps']
+    return dict(libname = file_info['libname'], 
+                filename = file_info['filename'],
+                version = file_info['version'],
+                libs = lib_list)
 
 
 
@@ -32,6 +40,7 @@ def lib_testing(request):
 if __name__ == '__main__':
     with Configurator() as config:
         config.add_route('lib_test', '/test/{file_index}')
+        config.add_route('only_deps', '/deps/{file_index}')
         
         config.include('pyramid_chameleon')
 

@@ -32,25 +32,27 @@ def toJson1():
     #     outfile.write(json.dumps(jsfile_list))
 
 def toJson2():
-    cursor.execute(f"SELECT libname, filename, url, version, deps, comment, id FROM {FILE_TABLE};")
+    cursor.execute(f"SELECT libname, filename, url, version, in_deps, out_deps, comment, id FROM {FILE_TABLE};")
     res = cursor.fetchall()
 
     file_dict = {}
     for entry in res:
-        if entry[4] or entry[5]:
-            # Skip deps and module
+        if entry[6]:
+            # Skip module
             continue
-        file_dict[entry[6]] = {
+        file_dict[entry[7]] = {
             'libname': entry[0],
             'filename': entry[1],
             'url': entry[2],
             'version': entry[3],
+            'in_deps': json.loads(entry[4]) if entry[4] else [],
+            'out_deps': json.loads(entry[5]) if entry[5] else [],
         }
     
     with open('data/DetectFile.json', "w") as outfile:
         outfile.write(json.dumps(file_dict))
 
 if __name__ == '__main__':
-    toJson1()
+    toJson2()
     print('Complete')
     

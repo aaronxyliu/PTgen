@@ -24,6 +24,7 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
         }
         else if (typeof (v) == 'object') {
             let vlist = Object.getOwnPropertyNames(v)
+            vlist = vlist.filter(val => !["prototype"].includes(val));
             v_info = { dict: { 'type': 'object' }, 'children': vlist }
         }
         else if (typeof (v) == 'function') {
@@ -110,7 +111,7 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
             
             let v_info = {}
             eval(`v_info = analyzeVariable(${v_str});`)
-            if (cur_node.name != v_path[v_path.length - 1]) {
+            if (v_path.length > 0 && cur_node.name != v_path[v_path.length - 1]) {
                 console.log('ERROR: UNMATACHED NODES.')
             }
 
@@ -161,7 +162,6 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
 
 
 function getGlobalV() {
-    // var vlist = Object.keys(window)
     var vlist = Object.getOwnPropertyNames(window)
 
 

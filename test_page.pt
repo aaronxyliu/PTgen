@@ -21,16 +21,8 @@
     }
 </script>
 
-<!-- <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> -->
-<!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> -->
-<!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js"></script> -->
-<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prototype/1.7.3/prototype.min.js"></script> -->
-
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.0/velocity.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.ui.js"></script> -->
-<script src="${url}"></script>
-
+<tal:block tal:repeat="lib libs">
+    <script src="${lib}"></script>
+</tal:block>
 
 </html>
