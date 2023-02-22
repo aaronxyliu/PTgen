@@ -151,6 +151,9 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
                 console.log(`Node number: ${tree_info[1]}   Circle number: ${tree_info[2]}`)
                 console.log(tree)
             }
+            let tree_size_div = document.getElementById('tree-size');
+            tree_size_div.innerHTML = tree_info[1];
+
             let circle_num_div = document.getElementById('circle-num');
             circle_num_div.innerHTML = tree_info[2];
 

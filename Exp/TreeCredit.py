@@ -1,22 +1,16 @@
 class CreditCalculator:
     # Every time calculate a new tree, should initilaize a new instance
 
-    def __init__(self, max_depth=5, total_credit=100):
-        self.max_depth = max_depth
+    def __init__(self, max_depth=5, max_size=500, total_credit=100):
         self.total_credit = total_credit
         self.depth_subtreesize_index = [0] * (max_depth + 1)  # the i-th element refers to the subtree size sum of all nodes at depth i
         self.D = 0  # Max depth of the current tree, start from 0
         self.credit_sum = 0     # Used to verify, the sum should equal to self.total_credit
-        self.true_max_depth = 0     # Record the true max depth for the input tree
+        self.max_depth = max_depth
+        self.max_size = max_size
 
 
     def __GetSubtreeSize(self, node, d):
-        if (d >  self.max_depth):
-            print('Tree depth exceeds MAX_DEPTH!')
-            exit()
-        if (d >  self.true_max_depth):
-            self.true_max_depth = d
-
         subtree_size = 1
         node['depth'] = d
 
@@ -42,13 +36,13 @@ class CreditCalculator:
             self.__CalculateCredit(child)
 
     
-    def __CleanMetaInfo(self, node):
-        if 'depth' in node:
-            del node['depth']
-        if 'subtree_size' in node:
-            del node['subtree_size']
-        for child in node['children']:
-            self.__CleanMetaInfo(child)
+    # def __CleanMetaInfo(self, node):
+    #     if 'depth' in node:
+    #         del node['depth']
+    #     if 'subtree_size' in node:
+    #         del node['subtree_size']
+    #     for child in node['children']:
+    #         self.__CleanMetaInfo(child)
 
 
     def verify (self, node):
@@ -56,14 +50,68 @@ class CreditCalculator:
             self.credit_sum += node['credit']
         for child in node['children']:
             self.verify(child)
+    
+
+    def trim(self, tree):
+        node_num = 1
+        max_d = 0   # Max depth of the tree
+        q = []
+        q_depth = [0]
+        q.append(tree)
+        while len(q):
+            node = q.pop(0)
+            depth = q_depth.pop(0)
+            max_d = depth
+            if depth >= self.max_depth:
+                node['children'] = []
+
+            for i in range(len(node['children'])):
+                if node_num >= self.max_size:
+                    node['children'] = node['children'][:i]
+                    break
+                else:
+                    q.append(node['children'][i])
+                    q_depth.append(depth + 1)
+                    node_num += 1
+        return node_num, max_d      # Return the size and depth of the tree
+
+
+    def __findChildByName(self, node, name):
+        for i in range(len(node['children'])):
+            if node['children'][i]['name'] == name:
+                return i
+        return -1
+
+    
+    def expand(self, tree):
+        exp_tree = {'name': 'window', 'dict': {}, 'children': []}
+        for node in tree['children']:
+            if 'path' not in node.keys():
+                print('All child of the root should have the "path" attribute.')
+                exit()
+                # for i in range(len(node['path'])-1, -1, -1):
+                #     # From back to front, insert node in order
+                #     new_node = {'name': node['path'][i], 'dict': {'type': 'object'}, 'children': [node], 'credit': 0}
+                #     node = new_node
+            ptr = exp_tree
+            for v_name in node['path']:
+                index = self.__findChildByName(ptr, v_name)
+                if index != -1:
+                    ptr = ptr['children'][index]
+                else:
+                    new_node = {'name': v_name, 'dict': {'type': 'object'}, 'children': [], 'credit': 0}
+                    ptr['children'].append(new_node)
+                    ptr = new_node
+            ptr['children'].append(node)
+        return exp_tree
+
+
 
 
     def algorithm1(self, tree):
         self.__GetSubtreeSize(tree, 0)
-        tree_size = tree['subtree_size']
         self.__CalculateCredit(tree)
-        self.__CleanMetaInfo(tree)
-        return tree_size, self.true_max_depth
+        # self.__CleanMetaInfo(tree)
 
 
     def minifyTreeSpace(self, node):
@@ -90,6 +138,8 @@ class CreditCalculator:
                         node_dict['t'] = 6
                     case 'number':
                         node_dict['t'] = 7
+                    case 'boolean':
+                        node_dict['t'] = 8
             if 'value' in node_dict:
                 node_dict['v'] = node_dict.pop('value')
         if 'children' in node:
@@ -97,5 +147,13 @@ class CreditCalculator:
         if 'credit' in node:
             node['x'] = node.pop('credit')
         
+        # Remove other attributes
+        del_attrs = []
+        for attr in node:
+            if attr != 'n' and attr != 'd' and attr != 'c' and attr != 'x':
+                del_attrs.append(attr)
+        for attr in del_attrs:
+            del node[attr]
+
         for child in node['c']:
             self.minifyTreeSpace(child)

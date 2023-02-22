@@ -53,6 +53,6 @@ def toJson2():
         outfile.write(json.dumps(file_dict))
 
 if __name__ == '__main__':
-    toJson2()
+    toJson1()
     print('Complete')
     
