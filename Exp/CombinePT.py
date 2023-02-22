@@ -41,7 +41,7 @@ def combine (t, pt, file_id):
         if node_t['x'] > 0:
             # Omit all 0 score nodes (generated from TreeCredit.expand())
             find_d_item = False
-            file_tag_obj = {'F': file_id - 1, 'x': node_t['x']}   # Serial id starts from 1
+            file_tag_obj = {'F': file_id      , 'x': node_t['x']}   # Serial id starts from 1
             for d_item in node_pt['d']:
                 if SameDict(d_item['d'], node_t['d']):
                     # Type and Value equal
