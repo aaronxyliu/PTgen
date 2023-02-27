@@ -20,8 +20,8 @@ driver = webdriver.Firefox(service=service)
 LIB_TABLE = 'DetectFile'
 SEP_TREE_TABLE = 'SepPT_5_50'
 
-MAX_DEPTH=10
-MAX_NODE=100
+MAX_DEPTH=100
+MAX_NODE=10000
 
 BLACK_LIST = []
 
@@ -38,8 +38,11 @@ def generatePT(file_index, route):
         # Failed to load the library
         print(f"    {errMsg(f'{file_index} >> {error_div.text}')}")
         return None, 0, 0
+    if int(file_index) == 39 or int(file_index) == 40:
+        driver.execute_script(f'createObjectTree({MAX_DEPTH}, 500, false);')
+    else:
+        driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
 
-    driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
     WebDriverWait(driver, timeout=10).until(text_to_be_present_in_element((By.ID, "obj-tree"), '{'))
     tree_json = driver.find_element(By.ID, 'obj-tree').text
     tree = json.loads(tree_json)
@@ -152,9 +155,8 @@ def updateOne(file_index):
     if pt1 and pt2 and pt3:
         pt_stable, random_num = elimRandom(pt2, pt3)
         pt = treeDiff(pt1, pt_stable)
-        CC = CreditCalculator(5, 50)
-        size, depth = CC.trim(pt)
-        CC.algorithm1(pt)
+        CC = CreditCalculator(5, 50, MAX_DEPTH)
+        size, depth = CC.algorithm1(pt)
         pt = CC.expand(pt)
         CC.minifyTreeSpace(pt)
 
@@ -204,7 +206,7 @@ def updateAll(start_id = 0):
             
 
 if __name__ == '__main__':
-    updateOne(40)
+    updateAll()
     driver.close()
     connection.close()
 

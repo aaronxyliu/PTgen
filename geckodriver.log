@@ -7212,3 +7212,245 @@ JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all
 JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
 1677087275802	Marionette	INFO	Stopped listening on port 39051
 JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1677170922925	geckodriver	INFO	Listening on 127.0.0.1:47153
+1677170923429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56801" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFp12m2"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.24752) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.24752) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.25103) [GFX1-]: glxtest: process failed (received signal 11)
+1677170924849	Marionette	INFO	Marionette enabled
+1677170924857	Marionette	INFO	Listening on port 41277
+Read port: 41277
+WebDriver BiDi listening on ws://127.0.0.1:56801
+1677170925348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFp12m2/search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+DevTools listening on ws://127.0.0.1:56801/devtools/browser/82e0027d-aad2-45c8-9067-81c72e03fa05
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+1677171018372	Marionette	INFO	Stopped listening on port 41277
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1677171042018	geckodriver	INFO	Listening on 127.0.0.1:52405
+1677171042522	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44175" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiznP69"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.35415) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.35415) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.35476) [GFX1-]: glxtest: process failed (received signal 11)
+1677171043946	Marionette	INFO	Marionette enabled
+1677171043950	Marionette	INFO	Listening on port 36205
+Read port: 36205
+WebDriver BiDi listening on ws://127.0.0.1:44175
+1677171044141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiznP69/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44175/devtools/browser/84425187-e36c-4d91-99c6-31546ef5e67b
+1677171105517	Marionette	INFO	Stopped listening on port 36205
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1677171287417	geckodriver	INFO	Listening on 127.0.0.1:45139
+1677171287917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4VdXyx"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15196) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15196) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.15241) [GFX1-]: glxtest: process failed (received signal 11)
+1677171289099	Marionette	INFO	Marionette enabled
+1677171289102	Marionette	INFO	Listening on port 43897
+Read port: 43897
+WebDriver BiDi listening on ws://127.0.0.1:37869
+1677171289254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4VdXyx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37869/devtools/browser/d6a2c65b-4f79-4e19-9a13-d5c413cfa2f7
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+1677171871326	Marionette	INFO	Stopped listening on port 43897
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1677171942888	geckodriver	INFO	Listening on 127.0.0.1:58703
+1677171943396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33931" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebt0N5F"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17753) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.17753) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.17831) [GFX1-]: glxtest: process failed (received signal 11)
+1677171944622	Marionette	INFO	Marionette enabled
+1677171944625	Marionette	INFO	Listening on port 35773
+Read port: 35773
+WebDriver BiDi listening on ws://127.0.0.1:33931
+1677171944741	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebt0N5F/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33931/devtools/browser/4183ac19-b0b9-4bf3-b993-0ec854c9e788
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/modules/PageThumbUtils.jsm, line 351: TypeError: ChromeUtils.getClassName: Argument 1 is not an object.
+1677172376709	Marionette	INFO	Stopped listening on port 35773
+1677172460624	geckodriver	INFO	Listening on 127.0.0.1:53449
+1677172460633	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehPoEiw"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.16098) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.16098) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.16122) [GFX1-]: glxtest: process failed (received signal 11)
+1677172461833	Marionette	INFO	Marionette enabled
+1677172461837	Marionette	INFO	Listening on port 38243
+Read port: 38243
+WebDriver BiDi listening on ws://127.0.0.1:36159
+1677172461993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehPoEiw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36159/devtools/browser/5ed78275-25b6-40a0-9cb4-9f24973934a4
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+1677172472713	Marionette	INFO	Stopped listening on port 38243
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1677172483194	geckodriver	INFO	Listening on 127.0.0.1:45277
+1677172483699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53497" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewAwa6g"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15489) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15489) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.1563) [GFX1-]: glxtest: process failed (received signal 11)
+1677172484898	Marionette	INFO	Marionette enabled
+1677172484902	Marionette	INFO	Listening on port 40803
+Read port: 40803
+WebDriver BiDi listening on ws://127.0.0.1:53497
+1677172485023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewAwa6g/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53497/devtools/browser/0ebac66e-f91a-4cdc-898e-673cfd5d9384
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+1677172503232	Marionette	INFO	Stopped listening on port 40803
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1677173038221	geckodriver	INFO	Listening on 127.0.0.1:33191
+1677173038726	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60599" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileODsJHX"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.29549) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.29549) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.29608) [GFX1-]: glxtest: process failed (received signal 11)
+1677173040059	Marionette	INFO	Marionette enabled
+1677173040062	Marionette	INFO	Listening on port 34779
+WebDriver BiDi listening on ws://127.0.0.1:60599
+Read port: 34779
+1677173040173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileODsJHX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60599/devtools/browser/dd6c4e46-a89b-42b9-b5ff-30b74d35cb3b
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/modules/PageThumbUtils.jsm, line 351: TypeError: ChromeUtils.getClassName: Argument 1 is not an object.
+1677173850236	Marionette	INFO	Stopped listening on port 34779
+1677451064201	geckodriver	INFO	Listening on 127.0.0.1:34133
+1677451064702	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqo1C4i"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.32715) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.32715) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.33194) [GFX1-]: glxtest: process failed (received signal 11)
+1677451066284	Marionette	INFO	Marionette enabled
+1677451066288	Marionette	INFO	Listening on port 39403
+Read port: 39403
+WebDriver BiDi listening on ws://127.0.0.1:38119
+1677451066562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+1677451095046	geckodriver	INFO	Listening on 127.0.0.1:53249
+1677451095547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36067" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8mIBwp"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.29651) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.29651) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.30193) [GFX1-]: glxtest: process failed (received signal 11)
+1677451097060	Marionette	INFO	Marionette enabled
+1677451097069	Marionette	INFO	Listening on port 42841
+Read port: 42841
+WebDriver BiDi listening on ws://127.0.0.1:36067
+1677451097574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8mIBwp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36067/devtools/browser/fb01deaa-b018-401c-b365-eb295b85f563
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1677451227884	Marionette	INFO	Stopped listening on port 42841
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+console.error: services.settings: 
+  main/quicksuggest Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+1677451826535	geckodriver	INFO	Listening on 127.0.0.1:40163
+1677451827039	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38177" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUnuihh"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.14538) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.14538) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.14647) [GFX1-]: glxtest: process failed (received signal 11)
+1677451828216	Marionette	INFO	Marionette enabled
+1677451828219	Marionette	INFO	Listening on port 35565
+Read port: 35565
+WebDriver BiDi listening on ws://127.0.0.1:38177
+1677451828326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUnuihh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38177/devtools/browser/824f94ea-706c-4e80-819c-56e8ecc5d988
+1677451837472	Marionette	INFO	Stopped listening on port 35565
+1677452175420	geckodriver	INFO	Listening on 127.0.0.1:39421
+1677452175922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57657" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileY0nhtw"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.14445) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.14445) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.14508) [GFX1-]: glxtest: process failed (received signal 11)
+1677452177097	Marionette	INFO	Marionette enabled
+1677452177101	Marionette	INFO	Listening on port 39797
+Read port: 39797
+WebDriver BiDi listening on ws://127.0.0.1:57657
+1677452177191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileY0nhtw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57657/devtools/browser/5da675d2-9922-49a1-9e62-48ace59adf6b
+1677452182099	Marionette	INFO	Stopped listening on port 39797
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1677453710002	geckodriver	INFO	Listening on 127.0.0.1:41239
+1677453710510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42925" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekKwLaG"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15584) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.15584) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.15676) [GFX1-]: glxtest: process failed (received signal 11)
+1677453711699	Marionette	INFO	Marionette enabled
+1677453711702	Marionette	INFO	Listening on port 40275
+Read port: 40275
+WebDriver BiDi listening on ws://127.0.0.1:42925
+1677453711801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekKwLaG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42925/devtools/browser/317fa05f-1896-4cfe-8083-05b62f1ccfb2
+1677453716072	Marionette	INFO	Stopped listening on port 40275
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1677453812672	geckodriver	INFO	Listening on 127.0.0.1:59421
+1677453813179	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39169" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMoWMav"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.1265) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.1265) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.1266) [GFX1-]: glxtest: process failed (received signal 11)
+1677453814333	Marionette	INFO	Marionette enabled
+1677453814336	Marionette	INFO	Listening on port 38847
+Read port: 38847
+WebDriver BiDi listening on ws://127.0.0.1:39169
+1677453814445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMoWMav/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39169/devtools/browser/7392a1fc-340a-40d9-b59c-284fe2329f3d
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js, line 22: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 5: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 7: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/js/ink-all.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js, line 1: unreachable code after return statement
+1677453916998	Marionette	INFO	Stopped listening on port 38847
