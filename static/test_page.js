@@ -45,7 +45,7 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
     function hasCircle(v_path) {
         // Prevent loop in the object tree
         // Check whether v points to some parent variable
-        if (v_path.length <= 1) 
+        if (v_path.length < 1) 
             return false
 
         cur_v = 'window'
@@ -61,6 +61,8 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
         }
 
         ancient_v = 'window'
+        if (eval(`${ancient_v} == ${cur_v}`))
+            return true
         for (let i = 0; i < v_path.length - 1; i += 1) {
             ancient_v += `["${v_path[i]}"]`
             try {
