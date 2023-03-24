@@ -24,6 +24,7 @@
 </script>
 
 
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.0.0/core.js"></script> -->
 <tal:block tal:repeat="lib libs">
     <script src="${lib}"></script>
 </tal:block>

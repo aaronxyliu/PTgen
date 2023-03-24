@@ -9,7 +9,8 @@ cursor = connection.cursor()
 # TABLE NAMEs
 # SEP_TREE_TABLE = 'SepPT_5_50'
 COM_TREE_TABLE = 'ComPT_5_50'
-FILE_TABLE = 'DetectFile'
+# FILE_TABLE = 'DetectFile'
+FILE_TABLE = 'Lodash'
 
 def toJson1():
     cursor.execute(f"SELECT root_name, content FROM {COM_TREE_TABLE};")
@@ -53,6 +54,6 @@ def toJson2():
         outfile.write(json.dumps(file_dict))
 
 if __name__ == '__main__':
-    toJson1()
+    toJson2()
     print('Complete')
     

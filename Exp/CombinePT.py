@@ -8,8 +8,8 @@ connection = connect_to_planetscale()
 cursor = connection.cursor()
 
 # TABLE NAMEs
-SEP_TREE_TABLE = 'SepPT_5_50'
-COM_TREE_TABLE = 'ComPT_5_50'
+SEP_TREE_TABLE = 'SepPT_lodash'
+COM_TREE_TABLE = 'ComPT_lodash'
 
 
 def SameDict(d1, d2):
@@ -34,6 +34,7 @@ def combine (t, pt, file_id):
         node_t = q.pop(0)
         node_pt = qc.pop(0)
 
+
         if node_t['n'] != node_pt['n']:
             print('Error when BFS.')
             exit(0)
@@ -52,7 +53,7 @@ def combine (t, pt, file_id):
             if not find_d_item:
                 node_pt['d'].append({'d': node_t['d'], 'Ls': [file_tag_obj]})
         
-        for child_t in node_t['c']:
+        for child_t in node_t['c']: 
             q.append(child_t)
             find_same_child = False
 
@@ -105,12 +106,22 @@ def combineAll():
         print(f'{id}: combination finished.')
         
 
-            
+
+def toJson1():
+    cursor.execute(f"SELECT root_name, content FROM {COM_TREE_TABLE};")
+    res = cursor.fetchall()
+
+    pt_dict = {}
+    for entry in res:
+        pt_dict[entry[0]] = json.loads(entry[1])
+    with open('extension/pts.json', "w") as outfile:
+        outfile.write(json.dumps(pt_dict))      
 
             
 
 if __name__ == '__main__':
     combineAll()
+    toJson1()
     connection.close()
 
 

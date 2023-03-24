@@ -17,13 +17,16 @@ service = Service(executable_path="./bin/geckodriver")
 driver = webdriver.Firefox(service=service)
 
 # TABLE NAMEs
-LIB_TABLE = 'DetectFile'
-SEP_TREE_TABLE = 'SepPT_5_50'
+LIB_TABLE = 'Lodash'
+SEP_TREE_TABLE = 'SepPT_lodash'
 
 MAX_DEPTH=100
 MAX_NODE=10000
 
-BLACK_LIST = []
+TRIM_DEPTH = 100
+TRIM_NODE = 10000
+
+BLACK_LIST = ["$"]
 
 
 def errMsg(msg):
@@ -50,15 +53,15 @@ def generatePT(file_index, route):
     size = int(driver.find_element(By.ID, 'tree-size').text)
     # depth = int(driver.find_element(By.ID, 'tree-depth').text)
 
-    # # Remove Global Varabile in Blacklist
-    # del_index = []
-    # for i in range(len(tree['children'])):
-    #     if tree['children'][i]['name'] in BLACK_LIST:
-    #         del_index.append(i)
-    # offset = 0
-    # for index in del_index:
-    #     del tree['children'][index - offset]
-    #     offset += 1
+    # Remove Global Varabile in Blacklist
+    del_index = []
+    for i in range(len(tree['children'])):
+        if tree['children'][i]['name'] in BLACK_LIST:
+            del_index.append(i)
+    offset = 0
+    for index in del_index:
+        del tree['children'][index - offset]
+        offset += 1
 
 
     return tree, size, circle_num
@@ -144,18 +147,27 @@ def elimRandom(tree1, tree2):
                 elim_num += 1
     
     return ret_tree, elim_num
+
+def limitGlobalV(tree, vlist):
+    ret_tree = {'name': 'window', 'dict': {}, 'children': []}
+    for child in tree['children']:
+        if child['name'] in vlist:
+            ret_tree['children'].append(child)
+    return ret_tree
     
 
 
-def updateOne(file_index):
+def updateOne(file_index, limit_globalV=[]):
     pt1, size1, circle_num1 = generatePT(file_index, 'deps')
     pt2, size2, circle_num2 = generatePT(file_index, 'test')
     pt3, size3, circle_num3 = generatePT(file_index, 'test')
 
     if pt1 and pt2 and pt3:
         pt_stable, random_num = elimRandom(pt2, pt3)
+        if limit_globalV != None and len(limit_globalV) > 0:
+            pt_stable = limitGlobalV(pt_stable, limit_globalV)
         pt = treeDiff(pt1, pt_stable)
-        CC = CreditCalculator(5, 50, MAX_DEPTH)
+        CC = CreditCalculator(TRIM_DEPTH, TRIM_NODE, MAX_DEPTH)
         size, depth = CC.algorithm1(pt)
         pt = CC.expand(pt)
         CC.minifyTreeSpace(pt)

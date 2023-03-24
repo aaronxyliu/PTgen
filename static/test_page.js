@@ -7,6 +7,13 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
             this.children = []
         }
     }
+
+    function isArraySetMap(v) {
+        if (Array.isArray(v))   return true;
+        if (Object.getPrototypeOf(v) === Set.prototype)   return true;
+        if (Object.getPrototypeOf(v) === Map.prototype)   return true;
+        return false;
+    }
     
     function analyzeVariable(v) {
         let v_info = {}
@@ -16,7 +23,7 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
         else if (v == null) {
             v_info = { dict: { 'type': 'null' }, 'children': [] }
         }
-        else if (Array.isArray(v)) {
+        else if (isArraySetMap(v)) {
             v_info = { dict: { 'type': 'array', 'value': v.length }, 'children': [] }
         }
         else if (typeof (v) == 'string') {
@@ -24,7 +31,7 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
         }
         else if (typeof (v) == 'object') {
             let vlist = Object.getOwnPropertyNames(v)
-            vlist = vlist.filter(val => !["prototype"].includes(val));
+            vlist = vlist.filter(val => !["prototype"].includes(val));  // Remove name "prototype"
             v_info = { dict: { 'type': 'object' }, 'children': vlist }
         }
         else if (typeof (v) == 'function') {
