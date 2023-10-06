@@ -9,7 +9,7 @@
     <h4>Library ${libname} (${version}) : ${filename} is loaded.</h4>
     <div id="js-errors"></div>
     <button onclick="getGlobalV();">Get Global Variables</button>
-    <button onclick="createObjectTree(20, 2000, true);">Generate pTree</button>
+    <button onclick="createObjectTree(5, 500, true);">Generate pTree</button>
     <div id="tree-size"></div>
     <!-- <div id="tree-depth"></div> -->
     <div id="circle-num"></div>

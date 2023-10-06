@@ -6,40 +6,32 @@ from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.expected_conditions import text_to_be_present_in_element
 import json
-from PlanetscaleConn import connect_to_planetscale
+from database_conn import connect_to_planetscale
 from TreeCredit import CreditCalculator
 
+
+### =================
+### Username: oxc4nocsf36d3y3n66t5
+### Password: pscale_pw_tR7bje9m71xCckmZLy9q4eoQAdd2hYzgVqBB2sI4rCr
 
 connection = connect_to_planetscale()
 cursor = connection.cursor()
 
-service = Service(executable_path="./bin/geckodriver")
-driver = webdriver.Firefox(service=service)
+service = Service(executable_path="./bin/chromedriver")
+driver = webdriver.Chrome()
+# driver = webdriver.Chrome(service=service)
 
 # TABLE NAMEs
-LIB_TABLE = 'Lodash'
-SEP_TREE_TABLE = 'SepPT_lodash'
+SEP_TREE_TABLE = 'jq_version'
 
-# CREATE TABLE `SepPT_lodash` (
-# 	`pTree` json,
-# 	`globalV_num` int,
-# 	`globalV` json,
-# 	`size` int,
-# 	`circle_num` int,
-# 	`depth` int,
-# 	`file_id` bigint unsigned NOT NULL,
-# 	`random_num` int,
-# 	UNIQUE KEY `id` (`file_id`)
-# );
+MAX_DEPTH=5
+MAX_NODE=1000
 
-MAX_DEPTH=100
-MAX_NODE=10000
+TRIM_DEPTH = 5
+TRIM_NODE = 200
 
-TRIM_DEPTH = 100
-TRIM_NODE = 10000
-
-BLACK_LIST = ["$"]
-
+BLACK_LIST = []
+# password: ain-2023-10-05-f4fczz
 
 def errMsg(msg):
     return f'\033[1;31mERROR: {msg}\033[0m'
@@ -53,10 +45,11 @@ def generatePT(file_index, route):
         # Failed to load the library
         print(f"    {errMsg(f'{file_index} >> {error_div.text}')}")
         return None, 0, 0
-    if int(file_index) == 39 or int(file_index) == 40:
-        driver.execute_script(f'createObjectTree({MAX_DEPTH}, 500, false);')
-    else:
-        driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
+    # if int(file_index) == 39 or int(file_index) == 40:
+    #     driver.execute_script(f'createObjectTree({MAX_DEPTH}, 500, false);')
+    # else:
+    #     driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
+    driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
 
     WebDriverWait(driver, timeout=10).until(text_to_be_present_in_element((By.ID, "obj-tree"), '{'))
     tree_json = driver.find_element(By.ID, 'obj-tree').text
@@ -230,6 +223,7 @@ def updateAll(start_id = 0):
             
 
 if __name__ == '__main__':
+    # updateOne(81)
     updateAll()
     driver.close()
     connection.close()

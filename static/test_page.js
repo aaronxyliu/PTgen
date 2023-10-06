@@ -1,4 +1,4 @@
-function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl = []) {  //bl: optional blacklist
+function createObjectTree(depth_limit = 5, node_limit = 50, debug = false, bl = []) {  //bl: optional blacklist
 
     class TreeNode {
         constructor(_name) {
@@ -149,10 +149,12 @@ function createObjectTree(depth_limit = 5, node_limit = 500, debug = false, bl =
     }
 
 
-    this.fetch(`../static/blacklist.json`)
+    this.fetch(`../static/blacklist.json`, {
+        cache: 'no-store'
+    })
         .then((response) => response.json())
         .then((origin_vlist) => {
-
+            console.log(origin_vlist)
             let tree_info = genPTree(node_limit, depth_limit, [...origin_vlist, ...bl])
             let tree = tree_info[0]
 
