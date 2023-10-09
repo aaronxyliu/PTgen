@@ -7,6 +7,7 @@
 <body>
     <h3>This is the test page.</h3>
     <h4>Library ${libname} (${version}) : ${filename} is loaded.</h4>
+    <div id="version">${version}</div>
     <div id="js-errors"></div>
     <button onclick="getGlobalV();">Get Global Variables</button>
     <button onclick="createObjectTree(5, 500, true);">Generate pTree</button>

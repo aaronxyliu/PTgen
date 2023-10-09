@@ -52,6 +52,7 @@ def generatePT(file_index, route):
     driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
 
     WebDriverWait(driver, timeout=10).until(text_to_be_present_in_element((By.ID, "obj-tree"), '{'))
+    version = driver.find_element(By.ID, 'version').text
     tree_json = driver.find_element(By.ID, 'obj-tree').text
     tree = json.loads(tree_json)
     circle_num = int(driver.find_element(By.ID, 'circle-num').text)
@@ -69,7 +70,7 @@ def generatePT(file_index, route):
         offset += 1
 
 
-    return tree, size, circle_num
+    return tree, size, circle_num, version
 
 
 def treeDiff(tree1, tree2):
@@ -163,9 +164,9 @@ def limitGlobalV(tree, vlist):
 
 
 def updateOne(file_index, limit_globalV=[]):
-    pt1, size1, circle_num1 = generatePT(file_index, 'deps')
-    pt2, size2, circle_num2 = generatePT(file_index, 'test')
-    pt3, size3, circle_num3 = generatePT(file_index, 'test')
+    pt1, size1, circle_num1, version = generatePT(file_index, 'deps')
+    pt2, size2, circle_num2, _ = generatePT(file_index, 'test')
+    pt3, size3, circle_num3, _ = generatePT(file_index, 'test')
 
     if pt1 and pt2 and pt3:
         pt_stable, random_num = elimRandom(pt2, pt3)
@@ -191,9 +192,9 @@ def updateOne(file_index, limit_globalV=[]):
 
         # Create new entry in SEP_TREE_TABLE
         sql = f'''INSERT INTO {SEP_TREE_TABLE} 
-                (pTree, size, depth, globalV, globalV_num, circle_num, file_id, random_num) 
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s);'''
-        val = (json.dumps(pt), size, depth, json.dumps(globalV), len(globalV), circle_num2 - circle_num1, int(file_index), random_num)
+                (pTree, size, depth, globalV, globalV_num, circle_num, file_id, random_num, version) 
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);'''
+        val = (json.dumps(pt), size, depth, json.dumps(globalV), len(globalV), circle_num2 - circle_num1, int(file_index), random_num, str(version))
         cursor.execute(sql, val)
         connection.commit()
         print(f'    {file_index} entry added to {SEP_TREE_TABLE}.')

@@ -3,6 +3,7 @@
 from tree import *
 import json
 from database_conn import connect_to_planetscale
+import time
 
 # TABLE NAMEs
 INPUT_TABLE = 'jq_version'
@@ -63,15 +64,15 @@ def LT2Json(root, par_v=None):
 
 if __name__ == '__main__':
     G = Gamma()
-    cursor.execute(f"SELECT `pTree`, `file_id` FROM {INPUT_TABLE};")
+    cursor.execute(f"SELECT `pTree`, `version` FROM {INPUT_TABLE};")
     res = cursor.fetchall()
 
     # Read pTrees from dataset
     for entry in res:
         pTree = Json2LT(json.loads(entry[0]))
-        file_id = entry[1]
-        G.addt(LabeledTree(pTree, str(file_id)))
+        G.addt(LabeledTree(pTree, str(entry[1])))
 
+    T1 = time.time()    # Timer starts
 
     # Minification
     G.get_equivalence()
@@ -85,6 +86,7 @@ if __name__ == '__main__':
     print('Tree size reduction finished.')
 
     G.strict_supertree_set_minify()
+    T2 = time.time()    # Timer ends
 
     print('Strict supertree set minification finished.')
 
@@ -94,13 +96,16 @@ if __name__ == '__main__':
         mTree = G.mtrees[i].root
         version = G.mtrees[i].name
         Sm = G.trees[i].Sm
+        version_list = G.trees[i].eq_name_list
 
         mTree = LT2Json(mTree)
 
         sql = f'''INSERT INTO {OUTPUT_TABLE} 
-                (pTree, size, depth, version, file_id, Sm) 
-                VALUES (%s, %s, %s, %s, %s, %s);'''
-        val = (json.dumps(mTree), 0, 0, version, i + 1, json.dumps(list(Sm)))
+                (pTree, size, depth, version, file_id, Sm, version_list) 
+                VALUES (%s, %s, %s, %s, %s, %s, %s);'''
+        val = (json.dumps(mTree), 0, 0, version, i + 1, json.dumps(list(Sm)), json.dumps(version_list))
         cursor.execute(sql, val)
         connection.commit()
         print(f'   Version {version} entry added to {OUTPUT_TABLE}.')
+    
+    print(f'Tree minification completed. Time spent: {(T2 - T1)} seconds.')

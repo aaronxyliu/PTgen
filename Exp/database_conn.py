@@ -8,15 +8,15 @@ import MySQLdb
 def connect_to_planetscale():
     # Connect to the database
     connection = MySQLdb.connect(
-    host=os.getenv("DATABASE_HOST"),
-    user=os.getenv("DATABASE_USERNAME"),
-    passwd=os.getenv("DATABASE_PASSWORD"),
-    db=os.getenv("DATABASE"),
-    autocommit=True,
-    ssl_mode="VERIFY_IDENTITY",
-    # See https://planetscale.com/docs/concepts/secure-connections#ca-root-configuration
-    # to determine the path to your operating systems certificate file.
-    ssl={ "ca": "/etc/ssl/cert.pem" }
+        host=os.getenv("DB_HOST"),
+        user=os.getenv("DB_USERNAME"),
+        passwd=os.getenv("DB_PASSWORD"),
+        db=os.getenv("DB_NAME"),
+        autocommit=True,
+        ssl_mode="VERIFY_IDENTITY",
+        # See https://planetscale.com/docs/concepts/secure-connections#ca-root-configuration
+        # to determine the path to your operating systems certificate file.
+        ssl={ "ca": "/etc/ssl/cert.pem" }
     )
     return connection
 

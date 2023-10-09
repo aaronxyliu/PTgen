@@ -240,7 +240,10 @@ class Gamma:
             eq_list = sorted(list(eq[i]))
             new_name = ''
             sec_start = -1
+            eq_name_list = []    # Equivalence Class Tree Names List
+
             for j in range(len(eq_list)):
+                eq_name_list.append(self.trees[eq_list[j]].name)
                 if sec_start == -1: 
                     # start a new section
                     sec_start = eq_list[j]
@@ -253,10 +256,12 @@ class Gamma:
                     if eq_list[j] - sec_start == 1:
                         new_name += ', ' + self.trees[eq_list[j]].name
                     elif eq_list[j] - sec_start > 1:
-                        new_name += ' - ' + self.trees[eq_list[j]].name
+                        new_name += ' ~ ' + self.trees[eq_list[j]].name
                     sec_start = -1
 
             self.trees[i].name = new_name
+            self.trees[i].eq_name_list = eq_name_list
+
             new_trees.append(self.trees[i])
         self.trees = new_trees
 

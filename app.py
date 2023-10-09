@@ -48,6 +48,7 @@ if __name__ == '__main__':
         config.add_static_view(name='static', path='static')
         app = config.make_wsgi_app()
     server = make_server('127.0.0.1', 6543, app)
+    print('Website is hold on 127.0.0.1:6543')
     server.serve_forever()
 
 
