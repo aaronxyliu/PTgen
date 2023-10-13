@@ -84,6 +84,15 @@ function createObjectTree(depth_limit = 5, node_limit = 50, debug = false, bl = 
 
         return false
     }
+
+    // Check whether the property name meet the standard
+    function Sanitazer(str) {
+        if (str.includes('"'))
+            return false
+        if (str.length > 15)
+            return false
+        return true
+    }
     
 
     function genPTree(node_limit, depth_limit, blacklist) {
@@ -134,7 +143,8 @@ function createObjectTree(depth_limit = 5, node_limit = 50, debug = false, bl = 
                 for (let child of v_info['children']) {
                     if (node_num >= node_limit)
                         break
-                        
+                    if (!Sanitazer(child))
+                        continue    
                     let c_node = new TreeNode(child)    
                     cur_node.children.push(c_node)
                     q.push([...v_path])              // shallow copy

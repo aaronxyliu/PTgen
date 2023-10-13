@@ -4,13 +4,14 @@ from urllib.request import urlopen
 import json
 import pickle
 
+LIB_NAME = 'jqueryui'
 
-res1 = urlopen('https://api.cdnjs.com/libraries/jquery')
+res1 = urlopen(f'https://api.cdnjs.com/libraries/{LIB_NAME}')
 jq_info = json.loads(res1.read())
 
 file_list = []
 for version in jq_info['versions']:
-    res2 = urlopen(f'https://api.cdnjs.com/libraries/jquery/{version}')
+    res2 = urlopen(f'https://api.cdnjs.com/libraries/{LIB_NAME}/{version}')
     v_info = json.loads(res2.read())
     file_list.append({
         'version': version,

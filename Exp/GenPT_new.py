@@ -22,13 +22,13 @@ driver = webdriver.Chrome()
 # driver = webdriver.Chrome(service=service)
 
 # TABLE NAMEs
-SEP_TREE_TABLE = 'jq_version'
+SEP_TREE_TABLE = 'jqueryui_version'
 
-MAX_DEPTH=5
+MAX_DEPTH=4
 MAX_NODE=1000
 
-TRIM_DEPTH = 5
-TRIM_NODE = 200
+TRIM_DEPTH = MAX_DEPTH                                                                          
+TRIM_NODE = MAX_NODE
 
 BLACK_LIST = []
 # password: ain-2023-10-05-f4fczz
@@ -44,14 +44,12 @@ def generatePT(file_index, route):
     if error_div.text:
         # Failed to load the library
         print(f"    {errMsg(f'{file_index} >> {error_div.text}')}")
-        return None, 0, 0
-    # if int(file_index) == 39 or int(file_index) == 40:
-    #     driver.execute_script(f'createObjectTree({MAX_DEPTH}, 500, false);')
-    # else:
-    #     driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
-    driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, false);')
+        return None, 0, 0, ''
+        
 
-    WebDriverWait(driver, timeout=10).until(text_to_be_present_in_element((By.ID, "obj-tree"), '{'))
+    driver.execute_script(f'createObjectTree({MAX_DEPTH}, {MAX_NODE}, true);')
+
+    WebDriverWait(driver, timeout=20).until(text_to_be_present_in_element((By.ID, "obj-tree"), '{'))
     version = driver.find_element(By.ID, 'version').text
     tree_json = driver.find_element(By.ID, 'obj-tree').text
     tree = json.loads(tree_json)
@@ -182,6 +180,23 @@ def updateOne(file_index, limit_globalV=[]):
         globalV = []
         for subtree in pt['c']:
             globalV.append(subtree['n'])
+        
+
+        # Create table if not exist
+        cursor.execute(f'''CREATE TABLE IF NOT EXISTS `{SEP_TREE_TABLE}` (
+            `pTree` json DEFAULT NULL,
+            `globalV_num` int DEFAULT NULL,
+            `globalV` json DEFAULT NULL,
+            `size` int DEFAULT NULL,
+            `circle_num` int DEFAULT NULL,
+            `depth` int DEFAULT NULL,
+            `file_id` bigint unsigned NOT NULL,
+            `random_num` int DEFAULT NULL,
+            `version` varchar(100) DEFAULT NULL,
+            UNIQUE KEY `id` (`file_id`)
+            );''')
+        connection.commit()
+
 
         # If entry already exists, delete first
         cursor.execute(f"SELECT size FROM {SEP_TREE_TABLE} WHERE file_id = '{file_index}';")
@@ -224,7 +239,7 @@ def updateAll(start_id = 0):
             
 
 if __name__ == '__main__':
-    # updateOne(81)
+    # updateOne(17)
     updateAll()
     driver.close()
     connection.close()

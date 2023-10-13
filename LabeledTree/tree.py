@@ -60,13 +60,36 @@ class LabeledTree:
         q2 = []
         q1.append(self.root)
         q2.append(x.root)
+        if self.root != x.root:
+            return False
+
         while len(q1):
             v1 = q1.pop(0)
             v2 = q2.pop(0)
+            mask = [1] * len(v2.children)
             for c1 in v1.children:
                 found_same_vertex = False
-                for c2 in v2.children:
+                for c2_i in range(len(v2.children)):
+                    c2 = v2.children[c2_i]
                     if c1 == c2:
+                        # print(f'x: {c1.name}')
+                        mask[c2_i] = 0
+                        found_same_vertex = True
+                        q1.append(c1)
+                        q2.append(c2)
+                        break
+                if not found_same_vertex:
+                    return False
+                
+            for c2_i in range(len(v2.children)):
+                if mask[c2_i] == 0:
+                    continue
+                c2 = v2.children[c2_i]
+                found_same_vertex = False
+                for c1 in v1.children:
+                    if c1 == c2:
+                        # print(f'y: {c1.name}')
+                        mask[c2_i] = 0
                         found_same_vertex = True
                         q1.append(c1)
                         q2.append(c2)
@@ -206,7 +229,7 @@ class Gamma:
             self.trees
         """
         r = 0
-        eq = []
+        eq = []    # eq[i] = {1, 3, 5} means 1, 3, 5 belong to a equivalence class
         n = len(self.trees)
         for i in range(n):
             eq.append({i})
@@ -216,11 +239,12 @@ class Gamma:
         while True:
             r += 1
             for i in range(n):
-                J = U - (eq[i] | neq[i])
-                if len(J):
-                    j = J.pop()
+                # Find the next j if any, starting from i + 1, wrapped around after n if necessary, such that j /∈ eq(i) ∪ neq(i).
+                jRange = U - (eq[i] | neq[i])
+                for j in jRange:
                     if self.trees[i] == self.trees[j]:
-                        for x in eq[i] | eq[j]:
+                        xRange = eq[i] | eq[j]
+                        for x in xRange:
                             eq[x] = eq[i] | eq[j]
                             neq[x] = neq[i] | neq[j]
                             if len(eq[x]) > max_eq_size:
@@ -234,6 +258,7 @@ class Gamma:
                 break
 
         new_trees = []
+        print(eq)
         while len(U):
             i = U.pop()
             U -= eq[i]
@@ -277,6 +302,7 @@ class Gamma:
 
         Returns:
             <LabeledTree>.Omega - the path coloring collection for each tree
+            <LabeledTree>.S - the supertree set of each tree
         """
         self.mtrees = []
         for t in self.trees:
